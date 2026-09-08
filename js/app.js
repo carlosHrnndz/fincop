@@ -584,6 +584,10 @@ class FinanzasQuizApp {
             this.ui.progressBar.style.width = `${pct}%`;
         }
 
+        // Reset scroll position
+        const layout = document.querySelector('.quiz-content-layout');
+        if (layout) layout.scrollTop = 0;
+
         // Question text
         if (this.ui.questionText) {
             this.ui.questionText.innerHTML = `${q.numero}. ${q.pregunta}`;
@@ -593,7 +597,9 @@ class FinanzasQuizApp {
         // Mark pin state
         const isMarked = (this.modeData.quiz.pendingQuestions || []).includes(q.id);
         if (this.ui.btnMark) {
-            this.ui.btnMark.textContent = isMarked ? '📌 Marcada' : '📌';
+            this.ui.btnMark.innerHTML = isMarked
+                ? '<span class="btn-mark-icon">📌</span><span class="btn-mark-text"> Marcada</span>'
+                : '<span class="btn-mark-icon">📌</span><span class="btn-mark-text"></span>';
             this.ui.btnMark.classList.toggle('active', isMarked);
         }
 
@@ -725,6 +731,13 @@ class FinanzasQuizApp {
         }
         this.ui.explanationText.innerHTML = expText;
         this.renderMath(this.ui.explanationText);
+
+        // Auto-scroll to feedback on mobile / small screens
+        if (window.innerWidth <= 1024 && this.ui.feedbackArea) {
+            setTimeout(() => {
+                this.ui.feedbackArea.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }, 120);
+        }
     }
 
     nextQuestion() {

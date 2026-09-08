@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>Test Interactivo - Finanzas Corporativas</title>
     
     <!-- Google Fonts -->
@@ -162,23 +162,31 @@
         <!-- Header -->
         <header class="app-header">
             <div class="header-left">
-                <button id="btn-home" class="icon-btn" title="Menú Principal (Esc)">🏠</button>
-                <button id="btn-theme" class="icon-btn" title="Cambiar Tema">🌙</button>
-                <button id="btn-search" class="icon-btn" title="Buscar Pregunta (F)">🔍</button>
-                <button id="btn-calc" class="icon-btn" title="Calculadora Financiera (C)">🧮</button>
-                <button id="btn-tts" class="icon-btn" title="Lectura por voz">🔊</button>
-                <span id="question-counter">-- / --</span>
-                <span id="unit-badge" class="badge">Unidad --</span>
+                <button id="btn-home" class="icon-btn" title="Menú Principal (Esc)" aria-label="Menú Principal">🏠</button>
+                <button id="btn-theme" class="icon-btn" title="Cambiar Tema" aria-label="Cambiar Tema">🌙</button>
+                <button id="btn-search" class="icon-btn" title="Buscar Pregunta (F)" aria-label="Buscar Pregunta">🔍</button>
+                <button id="btn-calc" class="icon-btn" title="Calculadora Financiera (C)" aria-label="Calculadora">🧮</button>
+                <button id="btn-tts" class="icon-btn" title="Lectura por voz" aria-label="Lectura por voz">🔊</button>
             </div>
             <div class="header-right">
-                <div class="score-pill">
-                    <span>Aciertos</span>
+                <div class="score-pill" title="Aciertos en la sesión actual">
+                    <span class="score-icon">🎯</span>
+                    <span class="score-label">Aciertos</span>
                     <span id="score-val">0</span>
                 </div>
-                <button id="btn-mode-toggle" class="icon-btn" title="Cambiar Modo">🎓</button>
-                <button id="btn-new-exam" class="icon-btn" title="Nuevo Examen" style="display:none;">🆕</button>
+                <button id="btn-mode-toggle" class="icon-btn" title="Cambiar Modo" aria-label="Cambiar Modo">🎓</button>
+                <button id="btn-new-exam" class="icon-btn" title="Nuevo Examen" style="display:none;" aria-label="Nuevo Examen">🆕</button>
             </div>
         </header>
+
+        <!-- Quiz Meta Bar (Question counter + Unit Badge) -->
+        <div class="quiz-meta-bar">
+            <div class="meta-counter-box">
+                <span class="meta-counter-lbl">Pregunta</span>
+                <span id="question-counter" class="meta-counter-num">-- / --</span>
+            </div>
+            <span id="unit-badge" class="badge">Unidad --</span>
+        </div>
 
         <!-- Main Question Area with Desktop Split Layout -->
         <main class="question-area">
@@ -226,24 +234,28 @@
 
         <!-- Footer / Navigation -->
         <footer class="app-footer">
-            <button id="btn-prev" class="nav-btn secondary" title="Anterior (←)">
-                <span>❮ Anterior</span>
+            <button id="btn-prev" class="nav-btn secondary" title="Anterior (←)" aria-label="Pregunta anterior">
+                <span class="btn-prev-icon">❮</span>
+                <span class="btn-prev-text">Anterior</span>
             </button>
 
-            <button id="btn-wrong" class="nav-btn wrong-btn" title="Ver preguntas falladas">
-                ❌ <span class="btn-count" id="wrong-count">0</span>
+            <button id="btn-wrong" class="nav-btn wrong-btn" title="Ver preguntas falladas" aria-label="Preguntas falladas">
+                <span class="btn-icon">❌</span>
+                <span class="btn-count" id="wrong-count">0</span>
             </button>
 
-            <button id="btn-mark" class="nav-btn secondary" title="Marcar pregunta (M)">
-                📌
+            <button id="btn-mark" class="nav-btn secondary" title="Marcar pregunta (M)" aria-label="Marcar con chincheta">
+                <span class="btn-mark-icon">📌</span>
+                <span class="btn-mark-text"></span>
             </button>
 
-            <button id="btn-list-marked" class="nav-btn secondary" title="Ver preguntas marcadas">
-                📝 <span class="btn-count" id="pending-count">0</span>
+            <button id="btn-list-marked" class="nav-btn secondary" title="Ver preguntas marcadas" aria-label="Preguntas marcadas">
+                <span class="btn-icon">📝</span>
+                <span class="btn-count" id="pending-count">0</span>
             </button>
 
-            <button id="btn-next" class="nav-btn primary" title="Siguiente (→)">
-                <span>Siguiente ❯</span>
+            <button id="btn-next" class="nav-btn primary" title="Siguiente (→)" aria-label="Siguiente pregunta">
+                <span class="btn-next-text">Siguiente ❯</span>
             </button>
         </footer>
     </div>
