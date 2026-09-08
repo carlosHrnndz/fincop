@@ -1,0 +1,126 @@
+{
+  "unidad": 14,
+  "titulo": "Autoevaluación Unidad 14 - Fondos e Instituciones de Inversión Colectiva (IIC)",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "Los fondos de inversión son:",
+      "opciones": {
+        "a": "Instituciones   de   inversión   colectiva   configuradas   como   patrimonios separados con personalidad jurídica propia.",
+        "b": "Instituciones   de   inversión   colectiva   configuradas   como   patrimonios separados sin personalidad jurídica.",
+        "c": "Sociedades  Anónimas  configuradas  como  patrimonios  separados  sin  personalidad jurídica.",
+        "d": "Entidades bancarias dedicadas a la inversión."
+      },
+      "explicacion": "Desde la perspectiva jurídica española y europea, un Fondo de Inversión es un patrimonio colectivo separado, perteneciente a una pluralidad de inversores (partícipes), que carece de personalidad jurídica propia y cuya administración y representación legal corresponde exclusivamente a una Sociedad Gestora autorizada.\n\n**Ejemplo práctico:** A diferencia de una empresa o una SICAV que son sociedades mercantiles con NIF societario y consejo, el Fondo de Inversión es un mero patrimonio indiviso gestionado por una gestora profesional y custodiado por un banco depositario.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "La Sociedad Gestora:",
+      "opciones": {
+        "a": "Invierte  el  dinero  aportado  por  los  partícipes  en  distintos  activos  que  constituyen el patrimonio del fondo.",
+        "b": "Invierte en títulos de renta fija.",
+        "c": "Custodia el dinero aportado por los partícipes que constituye el patrimonio del fondo.",
+        "d": "Es la propietaria del fondo."
+      },
+      "explicacion": "La Sociedad Gestora de Instituciones de Inversión Colectiva (SGIIC) es la entidad mercantil profesional encargada de la dirección, administración, selección de activos y decisiones de inversión de los fondos aportados por los partícipes, buscando optimizar la rentabilidad de acuerdo con la política del folleto.\n\n**Ejemplo práctico:** Cuando contratas el 'Fondo Santander Acciones Españolas', el equipo de analistas y gestores de Santander Asset Management SGIIC es quien decide diariamente qué acciones comprar o vender con el patrimonio conjunto.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "pregunta": "La unidad de inversión en un fondo es:",
+      "opciones": {
+        "a": "La acción.",
+        "b": "La participación.",
+        "c": "El valor liquidativo.",
+        "d": "El patrimonio."
+      },
+      "explicacion": "El patrimonio de un fondo de inversión se encuentra dividido en partes alícuotas e indivisibles denominadas 'participaciones'. El precio o valor de cada participación en una fecha determinada se denomina 'valor liquidativo'.\n\n**Ejemplo práctico:** Si inviertes 3.000 € en un fondo y el valor liquidativo de la participación es de 15 €, la gestora te adjudica exactamente 200 participaciones del fondo (3.000 / 15).",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 4,
+      "pregunta": "Una de las principales ventajas de los fondos es:",
+      "opciones": {
+        "a": "La diversificación.",
+        "b": "La agregación.",
+        "c": "La gestión.",
+        "d": "El patrimonio."
+      },
+      "explicacion": "Una de las ventajas patrimoniales fundamentales de los fondos de inversión frente a la inversión directa individual es la diversificación: al agregar el dinero de miles de partícipes, el fondo puede comprar cientos de activos de distintas empresas, países y sectores, reduciendo de manera drástica el riesgo específico de la cartera.\n\n**Ejemplo práctico:** Con solo 100 €, en lugar de poder comprar una sola acción de una empresa, adquieres participaciones de un fondo que invierte en más de 500 multinacionales mundiales simultáneamente.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 5,
+      "pregunta": "Un fondo de reparto es:",
+      "opciones": {
+        "a": "Acumulativo.",
+        "b": "De distribución de beneficios.",
+        "c": "Monetario.",
+        "d": "De renta variable."
+      },
+      "explicacion": "En función del destino de los rendimientos periódicos (dividendos e intereses), los fondos se clasifican en: fondos de acumulación (reinvierten todos los rendimientos dentro del patrimonio del fondo) y fondos de reparto o distribución (abonan periódicamente los beneficios e ingresos cobrados en la cuenta corriente de los partícipes).\n\n**Ejemplo práctico:** Un jubilado que busca complementar su pensión suele preferir un fondo de reparto para recibir trimestralmente en su cuenta bancaria los dividendos generados por el fondo.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 6,
+      "pregunta": "Una Sociedad de Inversión:",
+      "opciones": {
+        "a": "Tiene personalidad jurídica.",
+        "b": "No tiene personalidad jurídica.",
+        "c": "Reparte siempre dividendos.",
+        "d": "Invierte sólo en renta variable."
+      },
+      "explicacion": "A diferencia de los fondos de inversión (que son patrimonios sin personalidad jurídica), las Sociedades de Inversión (como las SICAV en España o las SICAV luxemburguesas) son verdaderas Sociedades Anónimas con personalidad jurídica propia, consejo de administración y capital social dividido en acciones.\n\n**Ejemplo práctico:** Mientras que en un fondo de inversión tú tienes 'participaciones', en una SICAV adquieres formalmente 'acciones' de una sociedad mercantil constituida.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 7,
+      "pregunta": "La entidad depositaria:",
+      "opciones": {
+        "a": "Es la encargada de la custodia de la tesorería.",
+        "b": "Es la figura encargada de la supervisión del fondo.",
+        "c": "Es la figura encargada de la gestión de la tesorería del fondo.",
+        "d": "Es la figura encargada de la custodia de los valores del fondo y la tesorería."
+      },
+      "explicacion": "La entidad depositaria (un banco o caja debidamente inscrito en la CNMV) tiene como misión preceptiva e independiente la custodia de los valores negociables y del efectivo que integran el patrimonio del fondo, así como la vigilancia y supervisión de que la sociedad gestora cumple la legalidad vigente.\n\n**Ejemplo práctico:** Si la gestora quebrara, el dinero de los partícipes no se pierde porque los títulos y los fondos monetarios están resguardados y custodiados de forma separada en la entidad depositaria.",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Los  denominados  fondos  de  inversión  en  activos  monetarios  son fondos:",
+      "opciones": {
+        "a": "Que invierten en divisas.",
+        "b": "Que invierten en títulos de renta fija con cupón variable con vencimiento superior a doce meses, siempre que la revisión del cupón se referencie a tipos con vencimiento inferior a un año.",
+        "c": "Que invierte en renta variable.",
+        "d": "Invierten al menos el 90% en renta fija admitida a negociación en mercados secundarios oficiales."
+      },
+      "explicacion": "De acuerdo con la clasificación tradicional de la CNMV para los Fondos de Inversión en Activos del Mercado Monetario (FIAMM) y de renta fija a muy corto plazo, la cartera debe componerse de al menos un 90% en activos de renta fija negociados en mercados organizados con vencimientos muy reducidos y alta liquidez.\n\n**Ejemplo práctico:** Un fondo monetario invierte masivamente en Letras del Tesoro, pagarés bancarios solventes y depósitos interbancarios, ofreciendo a empresas y particulares una rentabilidad vinculada al tipo oficial del dinero con nula volatilidad.",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Los Fondos Mixtos:",
+      "opciones": {
+        "a": "Invierten en distintos tipos de renta variable.",
+        "b": "Invierten en distintos tipos de renta fija.",
+        "c": "Invierten en renta variable y renta fija.",
+        "d": "Invierten en derivados."
+      },
+      "explicacion": "Los fondos de inversión mixtos son aquellos que combinan en su cartera tanto activos de renta fija (deuda pública y bonos corporativos) como activos de renta variable (acciones), modulando su perfil de riesgo (mixtos conservadores, moderados o agresivos) según el porcentaje asignado a la bolsa.\n\n**Ejemplo práctico:** Un fondo mixto moderado mantiene típicamente un 60% en bonos de alta calidad para preservar el capital y un 40% en acciones globales para capturar el crecimiento económico.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 10,
+      "pregunta": "Los fondos garantizados:",
+      "opciones": {
+        "a": "Aseguran al partícipe la recuperación parcial de la inversión inicial en un determinado período de tiempo.",
+        "b": "Aseguran al partícipe la recuperación total de la inversión inicial, en un determinado período de tiempo.",
+        "c": "Aseguran al partícipe la obtención de una rentabilidad, en un determinado  período de tiempo.",
+        "d": "Todas las respuestas son correctas."
+      },
+      "explicacion": "Los fondos garantizados ofrecen una garantía formal externa que asegura al partícipe, en una fecha determinada (horizonte de la garantía), la recuperación total o parcial del capital inicial invertido y/o la obtención de un rendimiento o rentabilidad prefijada adicional. Por tanto, todas esas modalidades existen bajo el paraguas de los garantizados.\n\n**Ejemplo práctico:** Un banco comercializa un fondo garantizado que promete devolverte el 100% de tu dinero dentro de 3 años más el 50% de la subida que experimente el Eurostoxx 50, garantizando que nunca perderás tus ahorros iniciales si mantienes la inversión hasta la fecha pactada.",
+      "respuesta_correcta": "d"
+    }
+  ]
+}

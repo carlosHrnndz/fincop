@@ -1,0 +1,126 @@
+{
+  "unidad": 7,
+  "titulo": "Autoevaluación Unidad 7 - Operaciones de Préstamo y Amortización I",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "El préstamo es:",
+      "opciones": {
+        "a": "Una operación de compra.",
+        "b": "Una operación inversa a la de capitalización.",
+        "c": "Una operación financiera de prestación única y contraprestación múltiple.",
+        "d": "Una amortización."
+      },
+      "explicacion": "Desde la teoría de la matemática de las operaciones financieras, el préstamo es una operación de prestación única (el prestamista entrega la totalidad del capital al inicio de la operación) y contraprestación múltiple (el prestatario devuelve dicho capital junto con los intereses devengados mediante una serie de pagos periódicos diferidos en el tiempo).\n\n**Ejemplo práctico:** Cuando un banco te concede un préstamo de 20.000 € hoy (prestación única), tú te comprometes a devolverlo a lo largo de 48 meses mediante 48 cuotas mensuales sucesivas (contraprestación múltiple).",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 2,
+      "pregunta": "El sistema americano de préstamos amortizables mediante reembolso único del principal al final de la operación:",
+      "opciones": {
+        "a": "No tiene capital inicial.",
+        "b": "Implica pago mensual de intereses.",
+        "c": "Implica pago periódico de intereses.",
+        "d": "Implica pago único de intereses."
+      },
+      "explicacion": "En el sistema de amortización americano (o de reembolso al vencimiento), el prestatario abona periódicamente únicamente los intereses devengados por el capital vivo a lo largo de la vida de la operación, y devuelve la totalidad del principal prestado de una sola vez al final del plazo acordado.\n\n**Ejemplo práctico:** Pides 100.000 € al 5% anual a 5 años bajo el método americano: durante los años 1 al 4 pagas solo 5.000 € de intereses al año, y en el año 5 pagas 105.000 € (los 5.000 € de intereses más los 100.000 € del principal).",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 3,
+      "pregunta": "Un cuadro de amortización de préstamos recoge:",
+      "opciones": {
+        "a": "La cuota.",
+        "b": "El importe de intereses.",
+        "c": "El saldo vivo del préstamo.",
+        "d": "Todas las respuestas son válidas."
+      },
+      "explicacion": "El cuadro de amortización de un préstamo es un documento contable y financiero completo que desglosa para cada periodo: el término amortizativo o cuota total a pagar, la cuota de interés devengada, la cuota de amortización del principal y el capital vivo o saldo pendiente tras cada pago.\n\n**Ejemplo práctico:** Cada vez que contratas un préstamo bancario, el banco te adjunta una tabla detallada con todas las mensualidades, mostrando cuánto de cada pago se destina a reducir la deuda y cuánto son intereses bancarios.",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "pregunta": "En el préstamo de reembolso único:",
+      "opciones": {
+        "a": "La devolución del capital y de los intereses devengados tiene lugar al final de la operación, pagando todo conjuntamente de una sola vez.",
+        "b": "La devolución  del capital  y de  los  intereses  devengados  tiene  lugar  al principio de la operación.",
+        "c": "La devolución del capital y de los intereses devengados se produce a la  mitad de la duración de al operación.",
+        "d": "No existe este concepto de préstamo."
+      },
+      "explicacion": "En el préstamo con reembolso único y acumulación de intereses (sistema simple sin cuotas intermedias), no se abona ninguna cantidad durante la vida de la operación; tanto el capital original prestado como la totalidad de los intereses acumulados se liquidan conjuntamente de una sola vez al vencimiento.\n\n**Ejemplo práctico:** Un pagaré financiero o un crédito puente donde se reciben 10.000 € hoy y dentro de 18 meses se devuelve una suma única de 10.900 €, sin haber abonado mensualidades intermedias.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 5,
+      "pregunta": "En el método francés de amortización:",
+      "opciones": {
+        "a": "Al principio, la mayor parte de la cuota son intereses.",
+        "b": "Al principio, la mayor parte de la cuota es el importe principal.",
+        "c": "Al principio, la mayor parte de la cuota es fija.",
+        "d": "La cuota varia al final del préstamo."
+      },
+      "explicacion": "En el método de amortización francés (el más utilizado en préstamos hipotecarios y personales), las cuotas periódicas son constantes. Dado que al principio el capital pendiente es máximo, la mayor parte de la cuota se destina al pago de intereses y una porción reducida a amortizar capital; con el tiempo, esta relación se invierte progresivamente.\n\n**Ejemplo práctico:** En los primeros años de una hipoteca a 30 años, de una cuota de 800 €, tal vez 600 € correspondan a intereses bancarios y solo 200 € a amortización real de la vivienda.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "El término amortizativo se refiere a:",
+      "opciones": {
+        "a": "Los capitales iniciales del préstamo.",
+        "b": "Los capitales finales del préstamo.",
+        "c": "La cantidad a pagar en cada momento.",
+        "d": "Los intereses a pagar en cada momento."
+      },
+      "explicacion": "El término amortizativo (representado habitualmente como $a$ o cuota periódica) es la cantidad total de dinero que el prestatario entrega en cada vencimiento, y está compuesto por la suma de la cuota de amortización del principal ($A_k$) más la cuota de intereses del periodo ($I_k$): $a_k = A_k + I_k$.\n\n**Ejemplo práctico:** Si la letra mensual de tu préstamo es de 350 €, ese importe es el término amortizativo que abonas cada mes en el banco.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 7,
+      "pregunta": "La ley de recurrencia es:",
+      "opciones": {
+        "a": "El término de la cuota.",
+        "b": "La relación en la que se encuentran dos términos consecutivos, en este caso, las cuotas de amortización.",
+        "c": "La relación en la que se encuentran las cuotas de intereses.",
+        "d": "Lla relación de las cuotas de amortización."
+      },
+      "explicacion": "La ley de recurrencia en un préstamo es la relación matemática que vincula dos términos consecutivos de la operación financiera (típicamente las cuotas de amortización del principal: $A_{k+1} = A_k \\cdot (1 + i)$ en el método francés), permitiendo calcular cualquier cuota a partir de la anterior sin necesidad de reconstruir todo el cuadro.\n\n**Ejemplo práctico:** Si en el mes 1 amortizaste 100 € de capital y el tipo mensual es del 1%, la ley de recurrencia te dice inmediatamente que en el mes 2 amortizarás exactamente 100 * 1,01 = 101 € de capital.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Cuál  sería  el  término  amortizativo  anual  para  un  préstamo  de 50.000 €, 5 años de duración y un tipo del 3,5% anual?",
+      "opciones": {
+        "a": "12.375,14 €.",
+        "b": "10.000,00 €.",
+        "c": "11.074,07 €.",
+        "d": "No es posible calcularlo."
+      },
+      "explicacion": "En el sistema francés con cuota anual constante: $a = C_0 / a_{n\\urcorner i} = C_0 \\cdot \\frac{i}{1 - (1+i)^{-n}}$. Con $C_0 = 50.000$, $n = 5$ y $i = 0,035$: $a = 50.000 \\cdot \\frac{0,035}{1 - (1,035)^{-5}} = 50.000 \\cdot \\frac{0,035}{1 - 0,841973} = 50.000 \\cdot \\frac{0,035}{0,158027} = 11.074,07\\ €$.\n\n**Ejemplo práctico:** Para devolver un préstamo de 50.000 € en 5 pagos anuales al 3,5% de interés fijo, deberás abonar religiosamente una cuota anual constante de 11.074,07 €.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Cuál sería el capital vivo de un préstamo de 50.000 €, 5 años de duración y un tipo del 3,5% anual al término del primer año?",
+      "opciones": {
+        "a": "40.675,93 €.",
+        "b": "42.004,67 €.",
+        "c": "38.075,93 €.",
+        "d": "No es posible calcularlo con la información disponible."
+      },
+      "explicacion": "Al término del primer año, los intereses son $I_1 = C_0 \\cdot i = 50.000 \\cdot 0,035 = 1.750\\ €$. Siendo la cuota constante $a = 11.074,07\\ €$, la cuota de amortización de principal es $A_1 = a - I_1 = 11.074,07 - 1.750 = 9.324,07\\ €$. El capital vivo pendiente es $C_1 = C_0 - A_1 = 50.000 - 9.324,07 = 40.675,93\\ €$.\n\n**Ejemplo práctico:** Tras pagar la primera cuota anual de 11.074,07 €, la deuda con el banco disminuye de 50.000 € a 40.675,93 € porque 1.750 € se consumieron en intereses.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Cuál sería el saldo vivo de un préstamo de 50.000 €, 5 años de duración y un tipo del 3,5% anual al término del quinto año?",
+      "opciones": {
+        "a": "1.522,33 €.",
+        "b": "2.031,74 €.",
+        "c": "0,00 €.",
+        "d": "No es posible calcularlo con la información disponible."
+      },
+      "explicacion": "Por definición de amortización de préstamos, al abonar la última cuota pactada (en este caso al finalizar el quinto y último año), la totalidad del capital prestado y de los intereses devengados queda saldada, por lo que el capital vivo o saldo pendiente es estrictamente de 0,00 €.\n\n**Ejemplo práctico:** Tras efectuar el quinto y último pago de la hipoteca o préstamo, la entidad emite el certificado de saldo cero y la deuda queda formalmente extinguida.",
+      "respuesta_correcta": "c"
+    }
+  ]
+}

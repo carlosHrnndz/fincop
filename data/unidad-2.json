@@ -1,0 +1,126 @@
+{
+  "unidad": 2,
+  "titulo": "Autoevaluación Unidad 2 - Productividad, Eficiencia y Análisis de Costes",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "La productividad es:",
+      "opciones": {
+        "a": "La planificación de la actividad económica.",
+        "b": "La eficiencia.",
+        "c": "La capacidad relativa de producción de un determinado factor. .",
+        "d": "La eficacia."
+      },
+      "explicacion": "La productividad es el cociente que mide la capacidad relativa de producción de un factor determinado (o conjunto de factores), calculándose como el volumen o valor de producción obtenida dividido entre la cantidad de factor productivo utilizado (mano de obra, maquinaria, materias primas) en un periodo de tiempo.\n\n**Ejemplo práctico:** Si una planta de montaje con 10 trabajadores produce 500 unidades al día, la productividad de la mano de obra es de 500 / 10 = 50 unidades por operario al día.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 2,
+      "pregunta": "La falta de productividad puede tener su origen en:",
+      "opciones": {
+        "a": "La eficacia.",
+        "b": "El factor trabajo.",
+        "c": "El factor tiempo.",
+        "d": "La tesorería."
+      },
+      "explicacion": "Una baja productividad en la empresa suele tener su raíz directa en deficiencias asociadas al factor trabajo, tales como falta de cualificación y formación de la plantilla, desmotivación, absentismo laboral, inadecuada asignación de tareas o deficiente clima organizativo.\n\n**Ejemplo práctico:** Si un equipo de atención telefónica carece de formación en el software de gestión de incidencias, tardará el doble de tiempo en resolver cada consulta, reduciendo drásticamente el número de casos resueltos por hora debido al factor trabajo.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 3,
+      "pregunta": "La producción marginal es:",
+      "opciones": {
+        "a": "La producción obtenida, en la unidad de tiempo, en relación a los factores empleados para ello.",
+        "b": "Mínima.",
+        "c": "El aumento de producción debido a la disminución en una unidad de la cantidad de factor empleado.",
+        "d": "El  aumento  de  producción  debido  al  incremento  en  una  unidad  de  la cantidad de factor empleado."
+      },
+      "explicacion": "El producto marginal (o producción marginal) mide la variación en la producción total que se produce al añadir una unidad adicional de un determinado factor productivo (por ejemplo, un trabajador más o una máquina más), manteniendo todos los demás factores constantes ($PMg = \\Delta Q / \\Delta L$).\n\n**Ejemplo práctico:** Si un taller de carpintería con 4 operarios fabrica 40 mesas a la semana y al contratar a un 5.º operario pasa a fabricar 48 mesas, la producción marginal de ese 5.º trabajador es de 8 mesas semanales.",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "pregunta": "La rentabilidad del capital invertido viene medida:",
+      "opciones": {
+        "a": "Por la relación existente entre el beneficio obtenido y el capital necesario para obtenerlo.",
+        "b": "Por la relación existente entre el activo obtenido y la deuda necesaria para  obtenerlo.",
+        "c": "Por la inversión.",
+        "d": "Por la eficiencia."
+      },
+      "explicacion": "La rentabilidad del capital invertido (frecuentemente expresada a través de ratios como el ROI o ROIC) cuantifica la eficiencia financiera mediante el cociente entre el beneficio generado durante el ejercicio y la cuantía de capital o fondos necesarios que se tuvieron que comprometer para generarlo (Beneficio / Inversión).\n\n**Ejemplo práctico:** Si inviertes 100.000 € en renovar una línea de envasado automático y gracias a ello obtienes un beneficio neto anual atribuible de 15.000 €, la rentabilidad del capital invertido es del 15% (15.000 / 100.000).",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 5,
+      "pregunta": "El punto muerto en la empresa es:",
+      "opciones": {
+        "a": "El punto de rentabilidad mínima.",
+        "b": "Una técnica de gestión.",
+        "c": "Una teoría de inversiones.",
+        "d": "El volumen mínimo de ventas que permite absorber el importe total de los costes generados por la empresa."
+      },
+      "explicacion": "El punto muerto (umbral de rentabilidad o break-even point) es el volumen de actividad o cifra de ventas para el cual los ingresos totales se igualan exactamente con la totalidad de los costes (fijos más variables), de modo que el beneficio empresarial es cero ($B = 0$). Por debajo de este volumen hay pérdidas y por encima beneficios.\n\n**Ejemplo práctico:** Si una academia tiene unos costes fijos mensuales de 4.000 € (alquiler, luz, nóminas base) y cada curso aporta un margen neto de 200 €, su punto muerto es de 20 alumnos (4.000 / 200). Con 19 alumnos pierde dinero; a partir del alumno 21 comienza a generar beneficio neto.",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 6,
+      "pregunta": "La economicidad puede ser entendida como:",
+      "opciones": {
+        "a": "Un instrumento de medida de la eficiencia de las decisiones económicas.",
+        "b": "Un instrumento de medida de la eficiencia de las decisiones financieras.",
+        "c": "Una medida de la eficacia.",
+        "d": "Un sistema de gestión."
+      },
+      "explicacion": "La economicidad es un principio regulador y medida de eficiencia económica que relaciona los resultados o ingresos obtenidos con los costes o gastos monetarios incurridos para su consecución (Ingresos / Costes). Evalúa si las decisiones tomadas optimizan el uso de los recursos económicos en términos de valor monetario.\n\n**Ejemplo práctico:** Si para prestar un servicio que se factura en 1.200 € la empresa gasta 800 €, el coeficiente de economicidad es de 1,5 (1.200 / 800), reflejando que cada euro de coste invertido genera 1,50 € de valor económico.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 7,
+      "pregunta": "La productividad tiene un carácter esencialmente:",
+      "opciones": {
+        "a": "Cuantitativo.",
+        "b": "Cualitativo.",
+        "c": "Normativo.",
+        "d": "Técnico."
+      },
+      "explicacion": "La productividad posee una naturaleza esencialmente cuantitativa, ya que se expresa numéricamente como una relación matemática entre magnitudes medibles: unidades producidas, horas de trabajo empleadas, kilogramos de materia prima o valor monetario del output versus input.\n\n**Ejemplo práctico:** Decir que un robot de soldadura produce '24 piezas por hora' es una métrica estrictamente cuantitativa que permite comparar objetivamente el rendimiento entre distintos turnos o modelos de máquina.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 8,
+      "pregunta": "El  cumplimiento  de  los  objetivos  del  subsistema  empresarial  de producción ha de centrarse:",
+      "opciones": {
+        "a": "En los beneficios.",
+        "b": "En la gestión.",
+        "c": "En términos de volúmenes de producto, coste, calidad.",
+        "d": "En el análisis de la eficiencia en general."
+      },
+      "explicacion": "El subsistema productivo u operativo de la empresa se encarga de la transformación física de los inputs en outputs. Por ello, sus objetivos esenciales se miden en parámetros tangibles de producción: alcanzar las cantidades o volúmenes programados, controlar y reducir el coste unitario, y garantizar los estándares de calidad comprometidos con el cliente.\n\n**Ejemplo práctico:** En una planta de componentes electrónicos, el director de producción es evaluado por fabricar 10.000 microchips a la semana con un coste inferior a 2 € por unidad y una tasa de defectos por debajo del 0,1%.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 9,
+      "pregunta": "La recuperación de actividades subcontratadas es conocida como:",
+      "opciones": {
+        "a": "Insourcing.",
+        "b": "Outsourcing.",
+        "c": "Desourcing.",
+        "d": "Externalización."
+      },
+      "explicacion": "El insourcing (internalización o reintegración de procesos) es la estrategia empresarial contraria al outsourcing; consiste en reincorporar dentro de la propia organización y con recursos propios actividades o servicios que previamente se habían encomendado a proveedores externos.\n\n**Ejemplo práctico:** Una empresa tecnológica que tenía externalizado su soporte al cliente en un call-center externo decide contratar un equipo propio interno de atención al cliente para controlar directamente la calidad y el trato con los usuarios.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 10,
+      "pregunta": "La rentabilidad supone:",
+      "opciones": {
+        "a": "Que siempre hay beneficios.",
+        "b": "Que se obtienen resultados.",
+        "c": "Que la empresa está orientada a la consecución de beneficios.",
+        "d": "Un criterio de gestión eficiente."
+      },
+      "explicacion": "En economía de la empresa, el principio de rentabilidad implica que la actividad y los recursos están dirigidos a generar una ganancia neta o excedente sobre los costes. Es el principio teleológico que orienta la toma de decisiones hacia la obtención sostenible de beneficios.\n\n**Ejemplo práctico:** Cuando una cadena hotelera evalúa abrir una nueva sede o reformar habitaciones existentes, analiza si los ingresos proyectados superarán con holgura los costes operativos y de capital, guiando sus recursos hacia aquellas inversiones que incrementen el beneficio global.",
+      "respuesta_correcta": "c"
+    }
+  ]
+}

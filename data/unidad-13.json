@@ -1,0 +1,126 @@
+{
+  "unidad": 13,
+  "titulo": "Autoevaluación Unidad 13 - Índices Bursátiles y Operativa Bursátil",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "Los índices bursátiles:",
+      "opciones": {
+        "a": "Reflejan títulos de propiedad de las sociedades admitidas a cotización.",
+        "b": "Son indicadores que resumen, de forma agregada, el movimiento de los  precios en los mercados.",
+        "c": "Son siempre constantes.",
+        "d": "No recogen una ponderación."
+      },
+      "explicacion": "Un índice bursátil no es un título que represente capital propio, sino un indicador estadístico ponderado que refleja el comportamiento medio, la tendencia global y la evolución temporal de los precios de un conjunto representativo de acciones negociadas en un mercado de valores.\n\n**Ejemplo práctico:** Si el IBEX 35 sube un 1,5% hoy, no significa que todas las empresas hayan subido exactamente eso, sino que el valor medio conjunto de las 35 principales compañías cotizadas españolas se ha revalorizado un 1,5% en la jornada.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "Los índices sectoriales:",
+      "opciones": {
+        "a": "Incorporan los valores de un determinado país.",
+        "b": "Incorporan los valores de una determinada región.",
+        "c": "Incorporan los valores de un determinado grupo o sector económico.",
+        "d": "Incorporan los valores de empresas no cotizadas."
+      },
+      "explicacion": "El índice Dow Jones Industrial Average (DJIA), creado a finales del siglo XIX por Charles Dow, es históricamente el índice bursátil más longevo, emblemático y conocido a nivel mundial para seguir la evolución del parqué estadounidense.\n\n**Ejemplo práctico:** Cada vez que los informativos de televisión anuncian la apertura o cierre de Wall Street, hacen mención primordial a los puntos que ha subido o bajado el Dow Jones.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 3,
+      "pregunta": "El principal índice norteamericano es:",
+      "opciones": {
+        "a": "S&P 500.",
+        "b": "Nasdaq.",
+        "c": "FTSE.",
+        "d": "Dow Jones."
+      },
+      "explicacion": "Históricamente, en el lenguaje financiero y periodístico tradicional de los mercados norteamericanos, el Dow Jones Industrial Average es el índice de referencia más icónico y representativo de Wall Street (junto con el S&P 500 y el Nasdaq).\n\n**Ejemplo práctico:** Cuando un inversor pregunta '¿cómo cerró hoy Wall Street?', la respuesta estándar de los operadores financieros suele citar los puntos del índice Dow Jones.",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "pregunta": "El índice Ibex-35 es un índice:",
+      "opciones": {
+        "a": "Sectorial.",
+        "b": "De rendimientos.",
+        "c": "De capitalización bursátil.",
+        "d": "Corto."
+      },
+      "explicacion": "El índice IBEX-35 es un índice selectivo ponderado por capitalización bursátil ajustada por capital flotante (free float). Esto significa que el peso relativo de cada una de las 35 compañías en el cálculo del índice depende del valor total de mercado de sus acciones en circulación.\n\n**Ejemplo práctico:** Una variación del 2% en una empresa gigantesca como Inditex o Iberdrola mueve muchos más puntos del IBEX 35 que la misma variación del 2% en una empresa pequeña del índice con menor capitalización.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "Un contrato de futuros es:",
+      "opciones": {
+        "a": "Un contrato mediante el cual dos partes se comprometen a comprar o vender un activo determinado en una fecha futura a un precio prefijado.",
+        "b": "Un contrato mediante el cual dos partes se comprometen a comprar o vender un activo determinado en una fecha pasada.",
+        "c": "Un contrato mediante el cual dos partes se comprometen   a comprar o   vender un activo determinado en una fecha futura a un precio no definido.",
+        "d": "Un contrato que ofrece derechos pero no obligaciones a las partes."
+      },
+      "explicacion": "Un contrato de futuros financieros es un instrumento derivado estandarizado y negociado en un mercado organizado por el cual dos partes se comprometen legalmente a comprar o vender un activo subyacente concreto a un precio acordado de antemano en una fecha futura predeterminada.\n\n**Ejemplo práctico:** Una aerolínea firma hoy un contrato de futuros para comprar 100.000 barriles de combustible dentro de 6 meses a un precio fijo de 75 $ el barril, blindando sus costes contra eventuales subidas del petróleo.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "Una opción obliga:",
+      "opciones": {
+        "a": "A ambas partes.",
+        "b": "A la parte compradora.",
+        "c": "A la parte vendedora.",
+        "d": "A ninguna de las partes."
+      },
+      "explicacion": "En un contrato de opciones financieras existe una asimetría esencial: el comprador adquiere un derecho que puede ejercer o no libremente, mientras que el vendedor (emisor de la opción) asume una obligación incondicional frente al comprador si este decide ejercitar la opción, a cambio de haber cobrado la prima inicial.\n\n**Ejemplo práctico:** Si vendes una opción a otro inversor y cobras una prima de 200 €, quedas obligado legalmente a venderle o comprarle las acciones al precio pactado en cuanto él decida ejercer su derecho.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Las opciones call:",
+      "opciones": {
+        "a": "Son opciones de futuros.",
+        "b": "Son opciones de compra y venta.",
+        "c": "Son opciones de venta.",
+        "d": "Son opciones de compra."
+      },
+      "explicacion": "Una opción CALL es una opción de compra. Otorga a su comprador el derecho (pero no la obligación) de adquirir un activo subyacente a un precio fijado (precio de ejercicio o strike) antes o en una fecha de vencimiento determinada.\n\n**Ejemplo práctico:** Si compras una opción CALL sobre acciones de Apple con strike de 180 $ pagando una prima de 5 $, y la acción sube a 210 $, ejerces tu opción para comprar a 180 $ y vender en el mercado a 210 $, obteniendo un notable beneficio.",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "pregunta": "La venta de una opción put:",
+      "opciones": {
+        "a": "Proporciona la obligación al vendedor a vender un determinado subyacente a un precio prefijado y en una determinada fecha futura.",
+        "b": "Proporciona   la   obligación   al   vendedor   a   comprar   un   determinado subyacente a un precio prefijado y en una determinada fecha futura.",
+        "c": "Proporciona el derecho al vendedor a comprar un determinado subyacente  a un precio prefijado y en una determinada fecha futura.",
+        "d": "No crea derechos ni obligaciones."
+      },
+      "explicacion": "En una opción PUT (opción de venta), el comprador tiene el derecho de vender. Por consiguiente, quien se sitúa en la parte vendedora de una opción put asume la obligación estricta de comprar el activo subyacente al comprador al precio de ejercicio prefijado si este decide ejercitar su derecho.\n\n**Ejemplo práctico:** Si vendes un PUT sobre una acción a 50 € cobrando una prima de 3 €, si la acción se desploma a 35 €, el comprador te obligará a comprarle sus acciones a 50 €, teniendo que asumir la compra forzosa.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Las opciones de tipo europeo:",
+      "opciones": {
+        "a": "Son más caras que la opciones americanas.",
+        "b": "Pueden ser ejercitadas por el comprador en cualquier momento de la vida  de la opción",
+        "c": "No tienen validez contractual.",
+        "d": "Solamente  pueden  ser  ejercitadas  por  el  comprador  de  una  opción  a vencimiento."
+      },
+      "explicacion": "Las opciones financieras se clasifican por su estilo de ejercicio en: opciones americanas (que pueden ser ejercidas por el comprador en cualquier momento durante la vida de la opción hasta su vencimiento) y opciones europeas (que solamente pueden ser ejercitadas en la fecha exacta de vencimiento).\n\n**Ejemplo práctico:** La mayoría de las opciones sobre índices bursátiles como el IBEX 35 son de tipo europeo, lo que implica que la liquidación se calcula exclusivamente con el precio de cierre oficial del día de vencimiento estipulado.",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "pregunta": "En las opciones dentro del dinero:",
+      "opciones": {
+        "a": "Su valor intrínseco es mayor que cero.",
+        "b": "Su valor intrínseco es siempre uno.",
+        "c": "Su valor intrínseco es igual a cero.",
+        "d": "Su valor intrínseco es menor que cero."
+      },
+      "explicacion": "Se dice que una opción está 'dentro del dinero' (in the money o ITM) cuando, si se ejercitase de forma inmediata, generaría un resultado intrínseco positivo para su poseedor; por tanto, su valor intrínseco es estrictamente mayor que cero ($VI > 0$).\n\n**Ejemplo práctico:** Una opción CALL con strike de 20 € sobre una acción que cotiza hoy en el mercado a 25 € está dentro del dinero, porque su valor intrínseco es de 5 € por acción (25 € - 20 €).",
+      "respuesta_correcta": "a"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "unidad": 17,
+  "titulo": "Autoevaluación Unidad 17 - Fuentes de Financiación y Estructura de Deuda",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "Entendemos por deuda:",
+      "opciones": {
+        "a": "Financiación sin coste explícito o intereses a pagar.",
+        "b": "Financiación con coste explícito o intereses a pagar.",
+        "c": "Financiación con costes fijos.",
+        "d": "El riesgo."
+      },
+      "explicacion": "En estructura financiera y contabilidad corporativa, se entiende por deuda financiera aquellos pasivos o fondos ajenos captados de terceros (bancos, obligacionistas) que llevan aparejado un coste financiero explícito, es decir, el pago periódico y contractual de intereses en función del tipo pactado y el plazo acordado.\n\n**Ejemplo práctico:** Un préstamo bancario a 5 años al 4% anual o una línea de crédito son deuda financiera con coste explícito; en cambio, las deudas comerciales con proveedores a 30 días sin intereses suelen considerarse financiación de funcionamiento sin coste explícito.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "El TIR de los flujos de caja producidos por la deuda:",
+      "opciones": {
+        "a": "Es el coste de la deuda.",
+        "b": "Son métodos de analizar el VAN.",
+        "c": "Son métodos de análisis de inversiones.",
+        "d": "Todas las respuestas son correctas."
+      },
+      "explicacion": "Desde la perspectiva del emisor o prestatario, el coste efectivo de la deuda ($K_d$) se calcula como la Tasa Interna de Rendimiento (TIR) de la corriente de flujos de caja reales generados por la operación: el importe neto efectivamente recibido en el origen igualado a la serie de cuotas de intereses, comisiones y amortización de principal a pagar en el futuro.\n\n**Ejemplo práctico:** Si pides un crédito de 100.000 € pero el banco te descuenta 2.000 € de comisiones de apertura y te cobra cuotas de 23.000 € al año durante 5 años, la TIR de esa corriente de pagos determina el coste real de la deuda para la empresa.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "pregunta": "La tasa libre de riesgo unido a la prima de riesgo es:",
+      "opciones": {
+        "a": "Los gastos que se van a generar en un futuro descontados, al momento actual.",
+        "b": "El tipo de interés pagado por la empresa al banco.",
+        "c": "El riesgo que asume la empresa en sus inversiones.",
+        "d": "El tipo de interés de mercado."
+      },
+      "explicacion": "El tipo de interés que una entidad bancaria exige a una empresa por un préstamo se compone de la tasa libre de riesgo (el tipo base de los títulos soberanos o de política monetaria del BCE) más un diferencial o prima de riesgo ligada al perfil de solvencia y riesgo de impago particular de dicha compañía.\n\n**Ejemplo práctico:** Si el tipo libre de riesgo de referencia está en el 3% y el banco asigna a tu pyme un diferencial de crédito por riesgo del 2,5%, el tipo de interés final que tendrás que pagar en las cuotas de tu préstamo será del 5,5% anual.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 4,
+      "pregunta": "Uno de los efectos de la deuda es:",
+      "opciones": {
+        "a": "Disminuir la rentabilidad sobre los fondos propios.",
+        "b": "Incrementar la rentabilidad sobre los activos.",
+        "c": "Incrementar la rentabilidad sobre los pasivos.",
+        "d": "Incrementar la rentabilidad sobre los fondos propios."
+      },
+      "explicacion": "El apalancamiento financiero positivo tiene lugar cuando la empresa financia parte de sus activos con deuda a un coste inferior a la rentabilidad económica que generan dichos activos ($ROI > K_d$). En estas circunstancias, el uso de la deuda amplifica e incrementa la rentabilidad sobre los fondos propios (ROE) de los accionistas.\n\n**Ejemplo práctico:** Si un negocio rinde un 12% sobre sus activos y pide prestado al banco al 5% para expandirse, el excedente del 7% va a parar directamente a los accionistas, disparando el rendimiento porcentual de su capital propio.",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 5,
+      "pregunta": "Existe una relación directa entre:",
+      "opciones": {
+        "a": "El coste de la deuda y el apalancamiento.",
+        "b": "El tipo de interés y el apalancamiento.",
+        "c": "Los activos y el apalancamiento.",
+        "d": "El apalancamiento y la rentabilidad de la empresa."
+      },
+      "explicacion": "A medida que una empresa eleva su nivel de apalancamiento financiero (mayor porcentaje de deuda sobre fondos propios), los acreedores perciben una mayor probabilidad de insolvencia y dificultades de pago, por lo que exigen mayores diferenciales de crédito y primas por riesgo, encareciendo directamente el coste de las nuevas emisiones de deuda ($K_d$).\n\n**Ejemplo práctico:** Una empresa sin deudas puede conseguir un préstamo al 3,5%, pero si ya tiene comprometido el 80% de sus activos con acreedores, el banco le exigirá un 8% o un 9% de interés si desea endeudarse más.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "En general, el coste de los recursos propios es:",
+      "opciones": {
+        "a": "Menor que el coste de la deuda.",
+        "b": "Mayor que el coste de la deuda.",
+        "c": "Igual que el coste de la deuda.",
+        "d": "No tiene relación con el coste de la deuda."
+      },
+      "explicacion": "En teoría financiera corporativa, el coste de los recursos propios ($K_e$) es siempre superior al coste de la deuda ($K_d$). Esto se debe a dos razones estructurales: 1) los accionistas asumen el máximo riesgo al cobrar los últimos tras los acreedores si la empresa tiene problemas; 2) los intereses de la deuda son deducibles de impuestos (escudo fiscal), mientras que los dividendos no lo son.\n\n**Ejemplo práctico:** Si el banco le presta a una corporación al 4%, los accionistas de esa misma corporación exigirán al menos un 9% o 10% de rentabilidad esperada a sus acciones para compensar el mayor riesgo asumido.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 7,
+      "pregunta": "El límite máximo de deuda a usar viene marcado por:",
+      "opciones": {
+        "a": "Los ingresos generados por la inversión realizada.",
+        "b": "La capacidad de pagar los dividendos.",
+        "c": "La capacidad de pagar los intereses.",
+        "d": "Todas las respuestas son incorrectas."
+      },
+      "explicacion": "En la práctica financiera real, el límite máximo prudencial de endeudamiento que una empresa puede soportar de manera viable no depende del volumen de activos fijos teóricos que posea, sino de su capacidad recurrente de generación de caja operativa para atender con holgura el pago puntual de los intereses y gastos financieros de la deuda (ratio de cobertura de intereses).\n\n**Ejemplo práctico:** Una empresa puede tener edificios valorados en millones de euros, pero si su negocio no genera ingresos en efectivo suficientes para pagar los 20.000 € de intereses mensuales al banco, entrará inevitablemente en concurso de acreedores.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Si  no  se  quiere  ningún  tipo  de  incertidumbre  sobre  los  gastos financieros a pagar:",
+      "opciones": {
+        "a": "Habría que escoger un tipo variable.",
+        "b": "Habría que escoger un tipo fijo.",
+        "c": "No se debe pedir un préstamo.",
+        "d": "No se deben pagar dividendos."
+      },
+      "explicacion": "Para eliminar totalmente la incertidumbre y volatilidad sobre las salidas de tesorería por gastos financieros ante eventuales fluctuaciones del mercado, la empresa debe contratar financiación a tipo de interés fijo, asegurando una cuota constante e invariable durante toda la vigencia del contrato.\n\n**Ejemplo práctico:** Si financias la compra de una maquinaria a 7 años a un tipo fijo del 4%, sabes con absoluta certeza desde el día 1 cuánto pagarás exactamente en cada cuota mensual, con total inmunidad si el Euríbor se dispara en el futuro.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "pregunta": "La curva de tipos proporciona información sobre:",
+      "opciones": {
+        "a": "Las rentabilidades de mercado predominantes para cada vencimiento entre 1 día y 1 año.",
+        "b": "Las rentabilidades de empresas con deuda entre 1 día y 30 años.",
+        "c": "Las rentabilidades de mercado predominantes para cada vencimiento entre 1 día y 30 años.",
+        "d": "Las rentabilidades de medias ponderadas según el riesgo."
+      },
+      "explicacion": "La curva de tipos de interés (o curva de rendimientos de la deuda soberana) dibuja gráficamente la estructura temporal de los tipos de interés, reflejando el rendimiento exigido por el mercado para los títulos de deuda pública a lo largo de todo el espectro de vencimientos disponibles, que abarca convencionalmente desde 1 día (operaciones a muy corto plazo) hasta 30 años (obligaciones a muy largo plazo).\n\n**Ejemplo práctico:** Consultar la curva de tipos soberana permite a un director financiero observar de un vistazo si el mercado espera que los tipos de interés suban o bajen en los próximos 10, 20 o 30 años.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 10,
+      "pregunta": "El banco normalmente se enfoca en analizar:",
+      "opciones": {
+        "a": "Cuenta de resultados y balances de los últimos dos o tres años.",
+        "b": "Historial de pagos de la compañía.",
+        "c": "Destino del préstamo.",
+        "d": "Todas las respuestas son correctas."
+      },
+      "explicacion": "Al evaluar una solicitud de préstamo corporativo, el departamento de riesgos del banco realiza un examen exhaustivo de solvencia que incluye: balances y cuentas de resultados auditados de los últimos ejercicios, historial de morosidad y CIRBE (cumplimiento en pagos previos) y el destino específico de la financiación solicitada. Todas estas variables son esenciales para la concesión.\n\n**Ejemplo práctico:** Para financiar la compra de una nave, el banco te pedirá el modelo de impuestos, las cuentas anuales de los dos últimos años, comprobará que no tienes deudas impagadas y revisará el presupuesto de compra del inmueble.",
+      "respuesta_correcta": "d"
+    }
+  ]
+}

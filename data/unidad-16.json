@@ -1,0 +1,126 @@
+{
+  "unidad": 16,
+  "titulo": "Autoevaluación Unidad 16 - Criterios de Selección de Inversiones (VAN, TIR y Payback)",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "El pay-back es un criterio que en el que predomina:",
+      "opciones": {
+        "a": "La rentabilidad.",
+        "b": "La liquidez.",
+        "c": "La temporalidad.",
+        "d": "El riesgo."
+      },
+      "explicacion": "El criterio del Payback (plazo de recuperación) es esencialmente una medida de liquidez y velocidad de retorno de los fondos, no de rentabilidad total. Prioriza la rapidez con la que el dinero regresa a la caja de la empresa para poder ser reutilizado, ignorando los beneficios que se generen con posterioridad a esa fecha.\n\n**Ejemplo práctico:** Una startup con poco colchón financiero en caja prefiere un proyecto que le devuelva los 50.000 € invertidos en 6 meses antes que otro que tarde 4 años en devolver el dinero, aunque este último prometa mayores beneficios a largo plazo.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "El VAN y el TIR:",
+      "opciones": {
+        "a": "Son lo mismo.",
+        "b": "Son métodos de analizar el PNB.",
+        "c": "Son métodos de análisis de inversiones.",
+        "d": "Todas las respuestas son correctas."
+      },
+      "explicacion": "El Valor Actual Neto (VAN) y la Tasa Interna de Rentabilidad (TIR) son los dos métodos cuantitativos dinámicos de análisis y selección de inversiones más importantes de las finanzas corporativas, ya que homogeneizan y tienen en cuenta el valor del dinero en el tiempo.\n\n**Ejemplo práctico:** Cuando una corporación multinacional evalúa abrir una nueva fábrica o comprar un competidor, sus comités de inversión exigen siempre un análisis detallado del VAN y la TIR esperados para autorizar el proyecto.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 3,
+      "pregunta": "El Valor Actual Neto (VAN) es un criterio de aceptación de inversiones fundamentado en:",
+      "opciones": {
+        "a": "Los gastos e ingresos que se van a generar en un futuro descontados, al momento actual, a una tasa que debe ser al menos la inflación.",
+        "b": "Los cobros y pagos que se van a generar en un futuro descontados siempre a la tasa de inflación.",
+        "c": "Los cobros y pagos que se van a generar en un futuro descontados, al  momento actual, a una tasa que refleje el riesgo de esa inversión.",
+        "d": "Los activos y pasivos de la empresa."
+      },
+      "explicacion": "El Valor Actual Neto (VAN) consiste en actualizar al momento presente todos los cobros y pagos esperados de una inversión (flujos netos de caja) utilizando una tasa de descuento ($k$) que refleje adecuadamente el coste de capital y el riesgo específico del proyecto, restando el desembolso inicial: $VAN = -A + \\sum CF_t / (1+k)^t$.\n\n**Ejemplo práctico:** Si un proyecto cuesta 100.000 € hoy y promete generar 60.000 € el año 1 y 60.000 € el año 2, actualizados a una tasa de descuento del 10% acorde a su riesgo dan un valor actual de flujos de 104.132 €. El VAN es de +4.132 €, indicando que el proyecto genera valor por encima de lo exigido.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 4,
+      "pregunta": "La regla de decisión para el pay-back es que:",
+      "opciones": {
+        "a": "Son preferibles aquellos proyectos en los cuales se recuperen más tarde los desembolsos iniciales.",
+        "b": "Son preferibles aquellos proyectos en los cuales se recuperen antes los desembolsos iniciales.",
+        "c": "Son preferibles aquellos proyectos en los cuales la rentabilidad sea más alta.",
+        "d": "Son preferibles aquellos proyectos en los cuales se minimice el riesgo."
+      },
+      "explicacion": "La regla clásica de decisión del criterio del Payback establece que, entre varios proyectos de inversión viables y alternativos, deben preferirse aquellos que permitan recuperar antes los desembolsos monetarios iniciales acometidos.\n\n**Ejemplo práctico:** Si la opción A recupera la inversión en 18 meses y la opción B tarda 36 meses, según el Payback se elegirá la opción A para minimizar el periodo de vulnerabilidad de la tesorería.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 5,
+      "pregunta": "El cash-flow de una empresa:",
+      "opciones": {
+        "a": "Son ingresos menos gastos.",
+        "b": "No tiene en cuenta ni la amortización ni las ventas al contado.",
+        "c": "No consideran las amortizaciones ya que es un gasto sin salida de caja, aunque sí las tiene en cuenta solamente en el sentido que afectan a los  impuestos y ahí sí se produce una salida de caja.",
+        "d": "Es similar a los beneficios."
+      },
+      "explicacion": "En el cálculo financiero del Cash Flow operativo, las amortizaciones técnicas se reintegran al beneficio neto contable porque no constituyen una salida física de tesorería del banco; no obstante, tienen un impacto crucial en caja a través del 'escudo fiscal' (tax shield), ya que al ser un gasto deducible reducen el beneficio antes de impuestos y disminuyen el pago real de impuestos a Hacienda.\n\n**Ejemplo práctico:** Si una empresa adquiere una máquina y dota 20.000 € de amortización, ningún euro sale de su cuenta bancaria por ese concepto hoy, pero ahorra un 25% en el Impuesto de Sociedades (5.000 € de menor salida de caja en tributos).",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "pregunta": "El TIR es un criterio para analizar inversiones que:",
+      "opciones": {
+        "a": "Iguala el VAN a 0 y si la TIR es menor que la tasa de descuento nos indica que aceptemos la inversión.",
+        "b": "Iguala el VAN a 0 y si la TIR es mayor que la tasa de descuento nos indica  que aceptemos la inversión.",
+        "c": "No iguala el VAN a 0.",
+        "d": "Superan el VAN."
+      },
+      "explicacion": "La Tasa Interna de Rentabilidad (TIR) es la tasa de descuento que hace que el Valor Actual Neto de un proyecto sea exactamente igual a cero ($VAN(TIR) = 0$). La regla de decisión financiera dicta que el proyecto debe aceptarse si su TIR es superior a la tasa de descuento o coste de oportunidad del capital ($TIR > k$), lo que garantiza que el proyecto rinde más de lo que cuesta financiarlo.\n\n**Ejemplo práctico:** Si el coste de financiar un proyecto es del 7% anual y el cálculo de la TIR arroja una rentabilidad interna del 12%, el proyecto se aprueba con entusiasmo porque ofrece 5 puntos porcentuales de margen sobre el coste de capital.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 7,
+      "pregunta": "El coste de oportunidad de los recursos financieros o rentabilidad dela mejor inversión alternativa que se podría obtener a un plazo similar es:",
+      "opciones": {
+        "a": "Los ingresos y gastos generados por la inversión realizada.",
+        "b": "El tipo de descuento o tasa de actualización.",
+        "c": "El cálculo de los flujos de caja que puede generar.",
+        "d": "Todas las respuestas son incorrectas."
+      },
+      "explicacion": "El coste de oportunidad de los recursos financieros representa la rentabilidad que los inversores o la empresa podrían obtener invirtiendo en el mercado de capitales en activos alternativos de similar riesgo y duración. Esta tasa es exactamente la que debe utilizarse como tasa de descuento o actualización ($k$) al calcular el VAN de un proyecto.\n\n**Ejemplo práctico:** Si el accionista puede obtener un 8% anual invirtiendo en empresas comparables de su mismo sector, ese 8% es la tasa de actualización que exigirá al proyecto propio; cualquier proyecto que descuente a un tipo inferior destruiría valor para él.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Si una empresa lleva a cabo proyectos con un VAN positivo:",
+      "opciones": {
+        "a": "Aumentará su liquidez.",
+        "b": "Cada inversión contribuirá a disminuir su valor.",
+        "c": "Cada inversión no afectará a su valor.",
+        "d": "Cada inversión contribuirá a aumentar su valor."
+      },
+      "explicacion": "El VAN mide en unidades monetarias absolutas el incremento neto de riqueza que un proyecto aporta a la empresa. Por tanto, si una compañía emprende proyectos de inversión cuyo VAN es positivo ($VAN > 0$), cada uno de esos proyectos contribuye de forma directa y acumulativa a aumentar el valor total de la empresa en el mercado.\n\n**Ejemplo práctico:** Si una empresa con una valoración de 10 millones de euros acomete un proyecto con un VAN de 1,5 millones de euros, el valor intrínseco de la compañía se eleva de inmediato a 11,5 millones de euros.",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 9,
+      "pregunta": "El TIR debe:",
+      "opciones": {
+        "a": "Compararse con el coste de la financiación.",
+        "b": "Superar el coste de la inversión.",
+        "c": "Ser inferior al coste de la financiación.",
+        "d": "Compararse con el coste de la producción."
+      },
+      "explicacion": "Para determinar si una inversión es financieramente viable mediante la TIR, es obligatorio contrastarla con el coste de la financiación o coste de capital de la empresa ($k$). Una TIR alta carece de valor si el coste de pedir el dinero prestado para ejecutar el proyecto es aún mayor.\n\n**Ejemplo práctico:** Si un negocio tiene una TIR estimada del 10%, solo será rentable y viable si la empresa consigue financiarse con el banco o los accionistas a un coste medio inferior al 10% (por ejemplo, al 6%).",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 10,
+      "pregunta": "El VAN y el TIR:",
+      "opciones": {
+        "a": "Son métodos incompatibles en la evaluación de proyectos.",
+        "b": "Solo son útiles en proyectos de construcción.",
+        "c": "Tienen serias deficiencias en sus planteamientos.",
+        "d": "Son métodos complementarios en la evaluación de proyectos."
+      },
+      "explicacion": "El VAN y la TIR no son métodos excluyentes ni opuestos, sino herramientas complementarias que los directores financieros analizan conjuntamente: el VAN aporta la magnitud absoluta del valor generado en euros, mientras que la TIR expresa la rentabilidad relativa porcentual del proyecto por cada euro invertido.\n\n**Ejemplo práctico:** En un comité de dirección se presenta un proyecto indicando: 'Invertimos 500.000 € para obtener una TIR del 15% anual, lo que genera un incremento neto de valor de 85.000 € de VAN a nuestra empresa'.",
+      "respuesta_correcta": "d"
+    }
+  ]
+}

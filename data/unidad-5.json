@@ -1,0 +1,126 @@
+{
+  "unidad": 5,
+  "titulo": "Autoevaluación Unidad 5 - Operaciones de Descuento (Racional y Comercial)",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "El descuento compuesto:",
+      "opciones": {
+        "a": "Los intereses son mensuales.",
+        "b": "Es una operación inversa a la de capitalización.",
+        "c": "El capital final se va acumulando al capital inicial.",
+        "d": "El interés es simple."
+      },
+      "explicacion": "El descuento compuesto es la operación financiera inversa a la capitalización compuesta: consiste en adelantar o calcular el valor actual ($C_0$) de un capital disponible en una fecha futura ($C_n$) mediante la deducción de los intereses compuestos correspondientes al tiempo que se anticipa el vencimiento.\n\n**Ejemplo práctico:** Si mientras capitalizar consiste en calcular cuánto valdrán 10.000 € de hoy dentro de 5 años, descontar consiste en calcular cuánto vale hoy la promesa en firme de recibir 10.000 € dentro de 5 años.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "El descuento racional significa que:",
+      "opciones": {
+        "a": "Se disminuye el capital inicial.",
+        "b": "A medida que se generan, se acumulan al capital  inicial para producir nuevos intereses en los períodos siguientes.",
+        "c": "Para anticipar el vencimiento del capital futuro, se considera generador de los intereses de un período el capital al inicio de dicho período.",
+        "d": "Para anticipar el vencimiento del capital inicial se considera generador de los intereses de un período el capital final de dicho período."
+      },
+      "explicacion": "En el descuento racional o matemático, la base sobre la que se calculan los intereses de anticipación en cada periodo es el capital al inicio de dicho periodo (es decir, el capital efectivo o valor actual), resultando matemáticamente coherente con las leyes de capitalización.\n\n**Ejemplo práctico:** Si vas a anticipar un pago, el descuento racional calcula el coste financiero considerando la cantidad real prestada o adelantada hoy, sin gravar intereses sobre un dinero que el deudor aún no ha recibido.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 3,
+      "pregunta": "El descuento comercial significa que:",
+      "opciones": {
+        "a": "Se considera generador de los intereses de un período el capital al principio de dicho período .",
+        "b": "Se considera generador de los intereses de un período el capital al final de dicho período.",
+        "c": "Se consideran sólo los intereses de un período para el capital final.",
+        "d": "Se consideran sólo los intereses de un período para el capital inicial."
+      },
+      "explicacion": "En el régimen de descuento comercial o bancario, los intereses de la operación se calculan directamente sobre el valor nominal o capital al final del periodo ($C_n$). Esta práctica financiera beneficia a la entidad prestamista, ya que aplica el tipo de descuento sobre el importe mayor futuro en lugar del importe efectivo menor adelantado.\n\n**Ejemplo práctico:** Si descuentas un pagaré con un valor nominal futuro de 10.000 € al 5%, el banco calcula el 5% sobre los 10.000 € completos (500 € de descuento), en lugar de aplicarlo sobre el dinero neto que realmente te transfiere.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 4,
+      "pregunta": "Se desea anticipar el pago de una deuda de 20.000 € que vence dentro de 3 años y el pago se hace en el momento actual, ¿qué cantidad tendremos que entregar asumiendo un descuento racional al 4%?",
+      "opciones": {
+        "a": "17.779,92 €.",
+        "b": "17.694,72 €.",
+        "c": "21.587,71 €.",
+        "d": "20.584,22 €."
+      },
+      "explicacion": "El descuento racional compuesto utiliza la fórmula de actualización: $C_0 = C_n / (1 + i)^n$. Con $C_3 = 20.000$, $i = 0,04$ y $n = 3$: $C_0 = 20.000 / (1,04)^3 = 20.000 / 1,124864 = 17.779,92\\ €$.\n\n**Ejemplo práctico:** Para cancelar hoy de forma matemáticamente equitativa una deuda que vence en 3 años por 20.000 € a un tipo de interés efectivo del 4%, se debe pagar exactamente 17.779,92 €.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 5,
+      "pregunta": "Se desea anticipar el pago de una deuda de 20.000 € que vence dentrode 3 años y el pago se hace en el momento actual, ¿qué cantidad tendremos que entregar asumiendo un descuento comercial al 4%?",
+      "opciones": {
+        "a": "11,256,89 €.",
+        "b": "25,256,58 €.",
+        "c": "17.694,72 €.",
+        "d": "55,698,85€."
+      },
+      "explicacion": "El descuento comercial compuesto aplica la fórmula de deducción sobre el nominal: $C_0 = C_n \\cdot (1 - d)^n$. Con $C_3 = 20.000$, $d = 0,04$ y $n = 3$: $C_0 = 20.000 \\cdot (1 - 0,04)^3 = 20.000 \\cdot (0,96)^3 = 20.000 \\cdot 0,884736 = 17.694,72\\ €$.\n\n**Ejemplo práctico:** Obsérvese que al aplicar descuento comercial el valor efectivo entregado (17.694,72 €) es inferior al del descuento racional (17.779,92 €), lo que demuestra que el descuento comercial resulta más costoso para el cliente.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "pregunta": "La equivalencia financiera entre capitales consiste en:",
+      "opciones": {
+        "a": "Buscar capitales similares en el tiempo.",
+        "b": "Comparar dos o más capitales situados en el mismo momento, observando si tienen el mismo valor.",
+        "c": "Comparar dos o más capitales situados en distintos momentos y, para un tipo dado, observando si tienen el mismo valor en el momento en que se comparan.",
+        "d": "Calcular el tipo de interés equivalente para dos importes idénticos."
+      },
+      "explicacion": "El principio de equivalencia financiera establece que dos o más capitales situados en momentos temporales distintos son equivalentes cuando, una vez valorados en un mismo punto temporal de referencia mediante una determinada ley financiera y tipo de interés, tienen idéntica cuantía económica.\n\n**Ejemplo práctico:** Cobrar 1.000 € hoy o 1.050 € dentro de un año son dos opciones financieramente equivalentes si el tipo de interés del mercado es del 5% anual, ya que 1.000 € invertidos hoy al 5% generarán exactamente 1.050 €.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Dos  capitales,  C1    y  C2,  que  vencen  en  los  momentos  t1    y  t2 respectivamente:",
+      "opciones": {
+        "a": "Son equivalentes cuando, valorados en un mismo momento de tiempo, tienen la misma cuantía.",
+        "b": "Son  equivalentes  cuando,  valorados  en  distintos  momentos  de  tiempo, tienen la misma cuantía.",
+        "c": "Son  equivalentes  cuando,  valorados  en  un  mismo momento  de  tiempo pasado, tienen la misma cuantía.",
+        "d": "Son equivalentes cuando, valorados en un mismo momento de tiempo, tienen distinta cuantía."
+      },
+      "explicacion": "Dos capitales $C_1$ y $C_2$ con vencimientos en $t_1$ y $t_2$ se consideran equivalentes financieramente si, tras proyectarlos o actualizarlos a un mismo instante temporal $t_0$, su valor monetario resultante es idéntico ($V(C_1, t_0) = V(C_2, t_0)$).\n\n**Ejemplo práctico:** Una promesa de pago de 5.250 € a 1 año y otra de 5.512,50 € a 2 años son equivalentes a un tipo del 5% anual, porque ambas tienen un valor actualizado de exactamente 5.000 € en el día de hoy.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Si dos o más capitales se dice que son equivalentes:",
+      "opciones": {
+        "a": "Serán idénticos.",
+        "b": "Habrá uno sobre el que tendremos preferencia.",
+        "c": "Resultará  indiferente  cualquiera  de  ellos,  no  habiendo  preferencia  por  ninguno en particular.",
+        "d": "Valdrán lo mismo en el futuro."
+      },
+      "explicacion": "Si dos capitales situados en diferentes fechas son declarados financieramente equivalentes para una determinada tasa de interés, para el decisor económico resulta indiferente recibir cualquiera de ellos, no existiendo preferencia racional hacia ninguna de las dos alternativas.\n\n**Ejemplo práctico:** Si a un proveedor le da igual cobrar 10.000 € hoy al contado o 10.600 € a 12 meses porque el tipo del 6% cubre exactamente su coste de oportunidad, ambas alternativas le resultan rigurosamente indiferentes.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Para ver si dos alternativas son financieramente equivalentes:",
+      "opciones": {
+        "a": "El cobro de los intereses será por anticipado.",
+        "b": "Se  tendrán que valorar en distintos momentos de tiempo y obligar a que tengan las mismas cuantías.",
+        "c": "Se tendrán que valorar en un mismo momento de tiempo y obligar a que tengan distintas cuantías.",
+        "d": "Se tendrán que valorar en un mismo momento de tiempo y obligar a que tengan las mismas cuantías."
+      },
+      "explicacion": "Para verificar empíricamente si dos alternativas o flujos de cobros/pagos son financieramente equivalentes, es obligatorio trasladar todos sus importes a una fecha focal o momento común de valoración y comprobar que la suma de sus valores en dicho instante es exactamente igual.\n\n**Ejemplo práctico:** Al renegociar las cuotas de un leasing, se descuentan todos los pagos antiguos al momento actual y se igualan a la suma descontada del nuevo calendario de pagos para garantizar que ninguna de las dos partes pierda valor.",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "pregunta": "Para plantear una sustitución de capitales, el acreedor y el deudor han de estar de acuerdo en:",
+      "opciones": {
+        "a": "Momento en el cual se realiza la equivalencia, teniendo en cuenta que al variar este dato varía el resultado del problema.",
+        "b": "Momento de tiempo a partir del cual se computan los vencimientos.",
+        "c": "Tanto de valoración de la operación.",
+        "d": "Todas las respuestas son correctas."
+      },
+      "explicacion": "Para sustituir válidamente un conjunto de capitales por uno o varios capitales nuevos, acreedor y deudor deben pactar de común acuerdo: la ley financiera aplicable, el momento focal de equivalencia (puesto que en regímenes simples el resultado varía según el momento elegido), el punto inicial para computar los plazos y el tipo de interés o descuento.\n\n**Ejemplo práctico:** Al refinanciar y unificar varios préstamos en uno solo, banco y cliente deben acordar formalmente la fecha de inicio del nuevo contrato, el tipo de interés a aplicar y el momento en que se calcula la deuda consolidada.",
+      "respuesta_correcta": "d"
+    }
+  ]
+}

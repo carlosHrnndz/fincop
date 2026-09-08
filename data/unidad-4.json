@@ -1,0 +1,126 @@
+{
+  "unidad": 4,
+  "titulo": "Autoevaluación Unidad 4 - Matemática Financiera: Capitalización Compuesta",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "En la capitalización compuesta:",
+      "opciones": {
+        "a": "Los intereses no se acumulan.",
+        "b": "El capital inicial se va formando por la acumulación al capital final.",
+        "c": "El capital final se va formando por la acumulación al capital inicial.",
+        "d": "El interés es más alto."
+      },
+      "explicacion": "En el régimen de capitalización compuesta, los intereses devengados al final de cada periodo se añaden al capital existente, pasando a formar parte del nuevo capital base sobre el que se liquidarán los intereses del periodo siguiente. Por tanto, el capital final se forma por la acumulación continua de intereses sobre el capital inicial.\n\n**Ejemplo práctico:** Si inviertes 1.000 € al 10% compuesto anual, al final del año 1 tienes 1.100 €. En el año 2, el 10% se calcula sobre 1.100 €, generando 110 € de interés en lugar de 100 €, alcanzando un saldo final de 1.210 €.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 2,
+      "pregunta": "Que los intereses son productivos significa que:",
+      "opciones": {
+        "a": "Se detraen del capital inicial.",
+        "b": "A medida que se generan, se acumulan al capital inicial para producir nuevos intereses en los períodos siguientes.",
+        "c": "Disminuyen a medida que pasa el tiempo.",
+        "d": "Se incrementan con el paso del tiempo."
+      },
+      "explicacion": "La productividad de los intereses en capitalización compuesta significa que los intereses generados no se retiran ni quedan estériles, sino que se integran en el principal para producir nuevos intereses en los ejercicios sucesivos (fenómeno de interés sobre interés).\n\n**Ejemplo práctico:** Es el efecto bola de nieve: si reinviertes automáticamente los rendimientos de un fondo de inversión, cada euro ganado empieza inmediatamente a generar sus propios céntimos de rendimiento.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 3,
+      "pregunta": "El montante obtenido al invertir 100 euros al 3% anual durante 5 años en régimen de capitalización compuesta es:",
+      "opciones": {
+        "a": "115,93 €.",
+        "b": "115,00 €.",
+        "c": "103,05 €.",
+        "d": "112,98 €."
+      },
+      "explicacion": "La fórmula del montante en capitalización compuesta es $C_n = C_0 \\cdot (1 + i)^n$. Con $C_0 = 100$, $i = 0,03$ y $n = 5$: $C_5 = 100 \\cdot (1 + 0,03)^5 = 100 \\cdot 1,159274 = 115,93\\ €$.\n\n**Ejemplo práctico:** A interés simple 100 € al 3% darían exactamente 115,00 € en 5 años (15 € de intereses). En compuesta, gracias a la reinversión anual, se obtienen 115,93 €.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Cuánto deberé invertir hoy si quiero disponer dentro de 4 años de 7.500 €, si me aseguran un 6% de interés anual compuesto para ese plazo?",
+      "opciones": {
+        "a": "5.324,85 €.",
+        "b": "6.540,00 €.",
+        "c": "5.940,70 €.",
+        "d": "7.250,00 €."
+      },
+      "explicacion": "Para conocer el capital que debemos invertir hoy ($C_0$) utilizamos la fórmula de actualización compuesta: $C_0 = C_n \\cdot (1 + i)^{-n}$. Con $C_4 = 7.500$, $i = 0,06$ y $n = 4$: $C_0 = 7.500 / (1,06)^4 = 7.500 / 1,262477 = 5.940,70\\ €$.\n\n**Ejemplo práctico:** Si una empresa debe abonar un pago de 7.500 € a un proveedor dentro de 4 años y dispone de una inversión segura al 6% anual, solo necesita inmovilizar 5.940,70 € hoy para atender la factura en su fecha.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Qué intereses producirán 1.500 € invertidos 3 años al 5% compuesto anual?",
+      "opciones": {
+        "a": "Ninguno.",
+        "b": "1.658,56 €.",
+        "c": "250,00 €.",
+        "d": "236,44 €."
+      },
+      "explicacion": "El montante final es $C_3 = C_0 \\cdot (1 + i)^n = 1.500 \\cdot (1 + 0,05)^3 = 1.500 \\cdot 1,157625 = 1.736,44\\ €$. Por consiguiente, los intereses generados son $I = C_3 - C_0 = 1.736,44 - 1.500 = 236,44\\ €$.\n\n**Ejemplo práctico:** Mientras que a interés simple 1.500 € al 5% producirían 75 € cada año (total 225 €), a interés compuesto generan 236,44 € (11,44 € adicionales gracias a la capitalización).",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 6,
+      "pregunta": "Determinar el tanto de interés anual compuesto a que deben invertirse 10.000 € para que en 8 años se obtenga un montante de 13.685,69 €:",
+      "opciones": {
+        "a": "5%.",
+        "b": "4%.",
+        "c": "7%.",
+        "d": "9%."
+      },
+      "explicacion": "Partiendo de $C_n = C_0 \\cdot (1 + i)^n$, despejamos $i$: $(1 + i)^8 = 13.685,69 / 10.000 = 1,368569$. Tomando la raíz octava: $1 + i = (1,368569)^{1/8} = 1,04000$, lo que da $i = 0,04$ o 4% anual.\n\n**Ejemplo práctico:** Una inversión inicial de 10.000 € que crece hasta convertirse en 13.685,69 € en 8 años ha crecido a una tasa de rentabilidad anual compuesta exacta del 4%.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Un  capital  de  5.000  €  colocado  a  interés  compuesto  al  3%  anual asciende a 6.149,37 €. Determinar el tiempo que estuvo impuesto:",
+      "opciones": {
+        "a": "7 años.",
+        "b": "8 años.",
+        "c": "6,8 años.",
+        "d": "6,2 años."
+      },
+      "explicacion": "De la fórmula $C_n = C_0 \\cdot (1 + i)^n$: $6.149,37 / 5.000 = (1 + 0,03)^n \\Rightarrow 1,229874 = (1,03)^n$. Aplicando logaritmos: $n = \\ln(1,229874) / \\ln(1,03) = 0,206912 / 0,029559 = 7$ años exactos.\n\n**Ejemplo práctico:** Si una empresa coloca un fondo de reserva de 5.000 € en un depósito acumulativo al 3% anual, alcanzará los 6.149,37 € necesarios para renovar sus servidores informáticos al cabo de 7 años.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Cuándo la capitalización compuesta genera mayores intereses que la capitalización simple, manteniendo las demás variables iguales?",
+      "opciones": {
+        "a": "Nunca.",
+        "b": "Siempre.",
+        "c": "Cuando la inversión es inferior a dos años.",
+        "d": "Solo si la inversión es superior a un año."
+      },
+      "explicacion": "Para plazos inferiores a un año ($n < 1$), el interés simple produce un montante superior al compuesto; para exactamente un año ($n = 1$), ambos sistemas coinciden; y únicamente cuando el plazo es superior a un año ($n > 1$) la capitalización compuesta genera mayores intereses debido al efecto acumulativo de los intereses devengados.\n\n**Ejemplo práctico:** A 6 meses ($0,5$ años), 1.000 € al 10% dan 50 € en simple frente a 48,81 € en compuesta. En cambio, a 2 años, dan 200 € en simple frente a 210 € en compuesta.",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 9,
+      "pregunta": "El descuento bancario es una operación financiera que consiste en:",
+      "opciones": {
+        "a": "La venta de un título de crédito en una entidad financiera.",
+        "b": "El cobro de los intereses por anticipado.",
+        "c": "La presentación de un título de crédito en una entidad financiera para que ésta anticipe su importe y gestione su cobro.",
+        "d": "La compra de un título de crédito a una entidad financiera."
+      },
+      "explicacion": "El descuento bancario (o descuento de efectos) es la operación financiera por la cual una empresa acude al banco con un título de crédito con vencimiento futuro (letra de cambio, pagaré de clientes) para que la entidad le anticipe su importe en efectivo deduciendo comisiones e intereses, y se encargue del posterior cobro al deudor en la fecha estipulada.\n\n**Ejemplo práctico:** Una empresa constructora que recibe un pagaré de 50.000 € con vencimiento a 90 días no espera 3 meses para cobrar; lo descuenta en su banco para pagar las nóminas hoy, recibiendo el efectivo de forma inmediata menos los intereses bancarios.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 10,
+      "pregunta": "En una letra devuelta previamente descontada:",
+      "opciones": {
+        "a": "El banco se la cargará en cuenta del cliente, más intereses de demora y gastos.",
+        "b": "El banco se la cargará en cuenta del cliente, junto con los gastos originados por el impago",
+        "c": "El banco se la cargará en cuenta del cliente, sin gastos.",
+        "d": "El banco se la abonará en cuenta del cliente."
+      },
+      "explicacion": "En el descuento de efectos comerciales (salvo que sea la modalidad sin recurso), el banco actúa como mandatario de cobro. Si llegado el vencimiento el librado o deudor principal no atiende el pago de la letra, el banco adeuda inmediatamente el importe nominal íntegro en la cuenta de su cliente cedente, sumando los gastos y comisiones derivados del impago.\n\n**Ejemplo práctico:** Si un cliente te paga un encargo con un pagaré de 3.000 € que descuentas en tu banco y luego dicho cliente no tiene fondos en su cuenta, tu banco te retirará los 3.000 € de tu saldo más unos 90 € por comisiones de devolución de recibos.",
+      "respuesta_correcta": "b"
+    }
+  ]
+}

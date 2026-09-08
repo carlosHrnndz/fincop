@@ -1,0 +1,126 @@
+{
+  "unidad": 3,
+  "titulo": "Autoevaluación Unidad 3 - Matemática Financiera: Interés Simple",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "El interés es:",
+      "opciones": {
+        "a": "El coste de invertir.",
+        "b": "El precio por el alquiler o uso del dinero durante un período de tiempo.",
+        "c": "La capacidad de producción financiera.",
+        "d": "La rentabilidad de una inversión."
+      },
+      "explicacion": "En la teoría financiera, el interés es la retribución económica que se paga o se cobra por el uso de un capital prestado durante un plazo de tiempo determinado. Constituye formalmente el 'precio' del dinero en el tiempo.\n\n**Ejemplo práctico:** Si solicitas un préstamo de 5.000 € y al cabo de un año devuelves 5.300 €, los 300 € adicionales representan el interés: el precio que has abonado a la entidad por haber dispuesto de sus fondos durante 12 meses.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "La compensación económica se exige:",
+      "opciones": {
+        "a": "Por la temporalidad.",
+        "b": "Por el uso del dinero.",
+        "c": "Por la inversión.",
+        "d": "Por el riesgo que se asume."
+      },
+      "explicacion": "Quien cede fondos renuncia a su disponibilidad y a la certeza de su uso presente, corriendo el peligro de que el prestatario incumpla su obligación de pago o se deteriore su solvencia. Por este motivo, la compensación exigida (tipo de interés) incorpora fundamentalmente una prima por el riesgo asumido.\n\n**Ejemplo práctico:** Un banco cobra un tipo de interés mucho más bajo a una multinacional consolidada con máximas calificaciones crediticias que a un particular sin avales, porque en este último el riesgo de impago es sustancialmente mayor.",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 3,
+      "pregunta": "En toda operación financiera:",
+      "opciones": {
+        "a": "Las  cantidades  entregadas  y recibidas  por  cada  una  de  las  partes  no coinciden.",
+        "b": "La rentabilidad es mínima.",
+        "c": "Existen diferencias de criterios.",
+        "d": "Las cantidades entregadas y recibidas por cada una de las partes coinciden."
+      },
+      "explicacion": "En cualquier operación financiera, la cantidad entregada inicialmente difiere de la cantidad recibida en el futuro debido a la existencia del tipo de interés, que compensa el valor temporal del dinero, la inflación y el riesgo crediticio asumido por las partes.\n\n**Ejemplo práctico:** Si depositas 10.000 € en una imposición a plazo fijo, al vencimiento no retiras 10.000 €, sino 10.400 €. Las cuantías inicial y final nunca coinciden exactamente en una operación con tipo de interés positivo.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 4,
+      "pregunta": "El rédito es:",
+      "opciones": {
+        "a": "El beneficio obtenido y el capital necesario para obtenerlo.",
+        "b": "La relación existente entre el capital obtenido y la deuda necesaria para obtenerlo.",
+        "c": "El rendimiento generado por un capital.",
+        "d": "El coste del capital."
+      },
+      "explicacion": "El rédito es el rendimiento porcentual o relativo que genera un capital durante una operación financiera completa. Se calcula dividiendo los intereses brutos totales obtenidos entre el capital inicial invertido ($r = I / C_0$).\n\n**Ejemplo práctico:** Si depositas 20.000 € y la inversión te reporta 1.600 € de intereses al final de la operación, el rédito de dicha inversión ha sido del 8% ($1.600 / 20.000 = 0,08$).",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "En la capitalización simple:",
+      "opciones": {
+        "a": "La rentabilidad es mínima.",
+        "b": "Se dispone de los intereses antes del final de la operación.",
+        "c": "Es una teoría de inversiones.",
+        "d": "No se dispone de los intereses hasta el final de la operación."
+      },
+      "explicacion": "En el régimen de capitalización simple, los intereses devengados en cada periodo no se incorporan al capital para producir nuevos intereses (no se capitalizan) y, por tanto, la liquidación y disponibilidad efectiva del rendimiento acumulado tiene lugar al finalizar la operación financiera.\n\n**Ejemplo práctico:** Al contratar un pagaré o depósito a interés simple a 2 años, los intereses generados durante el primer año se liquidan conjuntamente con la devolución del principal al término del segundo año.",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 6,
+      "pregunta": "Si invertimos 1.000 € durante 2 años al 5% en capitalización simple, al final del período tendremos:",
+      "opciones": {
+        "a": "50 €.",
+        "b": "100 €.",
+        "c": "105 €.",
+        "d": "200 €."
+      },
+      "explicacion": "En capitalización simple, la fórmula del interés generado es $I = C_0 \\cdot i \\cdot n$. Aplicando los datos del enunciado: $I = 1.000 \\cdot 0,05 \\cdot 2 = 100\\ €$. Los intereses producidos al final del periodo son 100 €.\n\n**Ejemplo práctico:** Si abres una imposición de 1.000 € a 2 años con un interés anual simple del 5%, el primer año genera 50 € y el segundo año genera otros 50 €, acumulando 100 € de rendimiento por intereses al término de la operación.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 7,
+      "pregunta": "El tanto de interés anual al que deben invertirse 10.000 € para que en 4 años se obtenga un montante de 12.000 € a interés simple:",
+      "opciones": {
+        "a": "3%.",
+        "b": "2%.",
+        "c": "5%.",
+        "d": "4%."
+      },
+      "explicacion": "El interés total generado es $I = C_n - C_0 = 12.000 - 10.000 = 2.000\\ €$. En capitalización simple, $I = C_0 \\cdot i \\cdot n$. Despejando la tasa de interés anual $i$: $i = I / (C_0 \\cdot n) = 2.000 / (10.000 \\cdot 4) = 2.000 / 40.000 = 0,05$, es decir, un 5% anual.\n\n**Ejemplo práctico:** Para ganar 2.000 € en 4 años invirtiendo 10.000 € a interés simple, necesitas que cada año rinda 500 €, lo que representa un 5% anual sobre los 10.000 € originales.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 8,
+      "pregunta": "El tanto de interés mensual a que deben invertirse 1.000 € para que en 2 años se obtenga un montante de 1.240 € a interés simple:",
+      "opciones": {
+        "a": "3%.",
+        "b": "1%.",
+        "c": "5%.",
+        "d": "4%."
+      },
+      "explicacion": "Los intereses generados son $I = 1.240 - 1.000 = 240\\ €$. El plazo de 2 años equivale a $n = 24$ meses. La fórmula de interés simple mensual es $I = C_0 \\cdot i_m \\cdot n$. Despejando el tipo mensual: $i_m = 240 / (1.000 \\cdot 24) = 240 / 24.000 = 0,01$, es decir, el 1% mensual.\n\n**Ejemplo práctico:** Obtener 240 € en 24 meses significa percibir exactamente 10 € de interés cada mes. Sobre un capital de 1.000 €, 10 € representan un 1% mensual exacto.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Un capital de 5.000 € colocado a interés simple al 2% anual asciende a 5.300 €. Determinar el tiempo que estuvo impuesto:",
+      "opciones": {
+        "a": "3 años.",
+        "b": "4 años.",
+        "c": "5 años.",
+        "d": "1,5 años."
+      },
+      "explicacion": "El interés total producido es $I = 5.300 - 5.000 = 300\\ €$. Con un tipo anual del 2% ($i = 0,02$), el interés anual que produce el capital es $C_0 \\cdot i = 5.000 \\cdot 0,02 = 100\\ €$/año. Despejando el tiempo: $n = I / (C_0 \\cdot i) = 300 / 100 = 3$ años.\n\n**Ejemplo práctico:** Si una cuenta a interés simple produce 100 € al año limpios sobre 5.000 €, para acumular 300 € de intereses deben transcurrir forzosamente 3 años completos.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 10,
+      "pregunta": "Si  se  conocen  capital  inicial,  capital  final  y  duración,  la  variable desconocida es:",
+      "opciones": {
+        "a": "El beneficio.",
+        "b": "El tiempo.",
+        "c": "El interés.",
+        "d": "El plazo."
+      },
+      "explicacion": "La ecuación fundamental de capitalización relaciona cuatro magnitudes: Capital Inicial ($C_0$), Capital Final ($C_n$), Tiempo de duración ($n$) y Tipo de Interés ($i$). Si ya se conocen $C_0$, $C_n$ y $n$, la única variable financiera pendiente de determinación es el tipo de interés ($i = (C_n - C_0) / (C_0 \\cdot n)$).\n\n**Ejemplo práctico:** Si sabes que prestaste 1.000 €, que te devolvieron 1.150 € y que el préstamo duró 3 años, lo que tienes que calcular para comparar con otras ofertas del mercado es el tipo de interés anual que te han aplicado.",
+      "respuesta_correcta": "c"
+    }
+  ]
+}

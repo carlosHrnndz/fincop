@@ -1,0 +1,126 @@
+{
+  "unidad": 6,
+  "titulo": "Autoevaluación Unidad 6 - Rentas Financieras y Anualidades",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "La renta (o anualidad) se define como:",
+      "opciones": {
+        "a": "Una operación de inversión.",
+        "b": "Una operación inversa a la de capitalización.",
+        "c": "Un conjunto de capitales con vencimientos variables de tiempo.",
+        "d": "Un conjunto de capitales con vencimientos equidistantes de tiempo."
+      },
+      "explicacion": "En matemática financiera, una renta (o anualidad) se define formalmente como una sucesión o conjunto de capitales financieros asociados a vencimientos temporales equidistantes en el tiempo (por ejemplo, pagos mensuales, trimestrales o anuales regulares).\n\n**Ejemplo práctico:** El pago mensual del alquiler de una nave industrial o las cuotas mensuales de suscripción a un software empresarial constituyen una renta financiera, ya que son capitales periódicos que vencen con intervalos exactos de un mes.",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 2,
+      "pregunta": "Para que exista renta se tienen que dar como requisito:",
+      "opciones": {
+        "a": "Que varie el capital inicial.",
+        "b": "Periodicidad constante entre los capitales.",
+        "c": "Idéntico capital al inicio de cada período.",
+        "d": "Un tipo de interés alto."
+      },
+      "explicacion": "Para que una sucesión de cobros o pagos se considere rigurosamente una renta financiera en términos operativos y matemáticos, es imprescindible que exista una periodicidad constante e invariable entre los sucesivos vencimientos de los capitales.\n\n**Ejemplo práctico:** Pagar 500 € cada día 1 de mes es una renta financiera; en cambio, abonar 500 € en enero, luego 200 € a los 14 días y luego 800 € a los 7 meses es una serie irregular de pagos, no una renta periódica.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Cuál de los siguientes conceptos no se considera un elemento en los cálculos con rentas?",
+      "opciones": {
+        "a": "Origen.",
+        "b": "Duración.",
+        "c": "Período.",
+        "d": "Todos se consideran elementos en los cálculos de rentas."
+      },
+      "explicacion": "En la formulación analítica de las rentas financieras intervienen de forma necesaria los siguientes elementos: el origen (momento inicial de devengo), el final o vencimiento, la duración (número de periodos), el periodo (intervalo entre términos) y la cuantía o término de la renta. Por tanto, todos ellos forman parte indispensable del cálculo.\n\n**Ejemplo práctico:** Al calcular un plan de pensiones, necesitas conocer cuándo se empieza a aportar (origen), cuánto tiempo durarán las aportaciones (duración) y cada cuánto tiempo se ingresa el dinero (periodo mensual o anual).",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "pregunta": "Una renta constante implica:",
+      "opciones": {
+        "a": "Que todos los capitales son diferentes.",
+        "b": "Que todos los capitales son iguales.",
+        "c": "Que todos los capitales son variables.",
+        "d": "Que todos los capitales son crecientes."
+      },
+      "explicacion": "Una renta constante es aquella en la que todos los términos o cuantías monetarias a entregar o recibir a lo largo de toda la vida de la operación son exactamente idénticos ($C_1 = C_2 = ... = C_n = C$).\n\n**Ejemplo práctico:** Un contrato de renting de vehículos por el que se abona una cuota invariable de 450 € al mes durante 3 años es una renta constante.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 5,
+      "pregunta": "En una renta perpetua:",
+      "opciones": {
+        "a": "Existe un número grande de capitales.",
+        "b": "Existe un número definido de capitales.",
+        "c": "Existe un número infinito o demasiado grande de capitales.",
+        "d": "No existen rents perpetuas."
+      },
+      "explicacion": "Una renta perpetua (o indefinida) es aquella cuya duración temporal no tiene un límite prefijado en el tiempo ($n \\to \\infty$), considerándose que el número de términos o flujos a percibir es teóricamente infinito o indefinidamente prolongado.\n\n**Ejemplo práctico:** Los títulos de deuda pública histórica sin amortización (conocidos como 'consoles' o renta perpetua) o las acciones de empresas centenarias estables que pagan dividendos indefinidos se modelizan financieramente como rentas perpetuas.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "pregunta": "En las rentas pospagables:",
+      "opciones": {
+        "a": "Los capitales se encuentran al principio de cada período de tiempo.",
+        "b": "Los capitales se encuentran al final de cada período de tiempo.",
+        "c": "Los capitales se encuentran con posterioridad al final de cada período de  tiempo.",
+        "d": "Los capitales se encuentran en medio de cada período de tiempo."
+      },
+      "explicacion": "En las rentas pospagables (o vencidas), los términos o capitales dinerarios se hacen efectivos o vencen al finalizar cada uno de los periodos de tiempo correspondientes (por ejemplo, cobrar el sueldo al final del mes trabajado).\n\n**Ejemplo práctico:** La hipoteca bancaria estándar es pospagable: tras disfrutar del dinero prestado durante todo el mes, pagas la cuota correspondiente el último día del mes.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 7,
+      "pregunta": "En las rentas enteras:",
+      "opciones": {
+        "a": "El término de la renta viene expresado en la misma unidad de tiempo que el tanto de valoración.",
+        "b": "El término de la renta viene expresado en distinta unidad de tiempo que el tanto de valoración.",
+        "c": "El término de la renta viene expresado en la misma unidad monetaria que el  tanto de valoración.",
+        "d": "El término de la renta es variable."
+      },
+      "explicacion": "Se denomina renta entera a aquella en la que el periodo de vencimiento de los términos o capitales coincide exactamente con la unidad de tiempo en la que viene expresado el tipo de interés de valoración (por ejemplo, pagos anuales valorados con un tipo de interés efectivo anual).\n\n**Ejemplo práctico:** Si cobras una renta anual de 10.000 € y la descuentas utilizando un tipo de interés efectivo anual del 4%, estás trabajando con una renta entera.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Cuál  sería  el  valor  actual  de  una  renta  de  tres  términos  anuales vencidos de 1.000 € cada uno a un tanto de interés del 4% efectivo anual?",
+      "opciones": {
+        "a": "2.875,54 €.",
+        "b": "3.000,00 €.",
+        "c": "2.775,09 €.",
+        "d": "No es posible calcularlo."
+      },
+      "explicacion": "El valor actual de una renta constante, pospagable y temporal viene dado por $V_0 = C \\cdot a_{n\\urcorner i} = C \\cdot \\frac{1 - (1+i)^{-n}}{i}$. Con $C = 1.000$, $n = 3$ y $i = 0,04$: $V_0 = 1.000 \\cdot \\frac{1 - (1,04)^{-3}}{0,04} = 1.000 \\cdot \\frac{1 - 0,888996}{0,04} = 1.000 \\cdot 2,775091 = 2.775,09\\ €$.\n\n**Ejemplo práctico:** Si alguien te ofrece pagarte 1.000 € al final de cada uno de los próximos 3 años, renunciar a ellos hoy equivale a recibir de golpe 2.775,09 €, asumiendo un rendimiento del 4% anual.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Cuál es la imposición que tendremos que realizar en un banco que capitaliza  al 2% de interés efectivo  anual compuesto,  si queremos disponer de 15.000 € al final de cada uno de los próximos 5 años?",
+      "opciones": {
+        "a": "70.701,89 €.",
+        "b": "72.054,87 €.",
+        "c": "16.875,93 €.",
+        "d": "No es posible calcularlo con la información disponible."
+      },
+      "explicacion": "El importe a imponer hoy es el valor actual ($V_0$) de una renta de $C = 15.000\\ €$, durante $n = 5$ años, al tipo de interés anual $i = 0,02$. Aplicando la fórmula: $V_0 = 15.000 \\cdot \\frac{1 - (1,02)^{-5}}{0,02} = 15.000 \\cdot \\frac{1 - 0,905731}{0,02} = 15.000 \\cdot 4,71346 = 70.701,89\\ €$.\n\n**Ejemplo práctico:** Si una empresa desea garantizar el pago de una beca anual de 15.000 € a 5 investigadores durante los próximos 5 años, solo debe depositar hoy 70.701,89 € en una cuenta remunerada al 2% anual.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Cuál sería el importe acumulado en un banco al cabo de 7 años, si imponemos al final de cada uno de ellos 6.000 € siendo el tipo de interés de la cuenta el 2,5% efectivo anual?",
+      "opciones": {
+        "a": "41.522,33 €.",
+        "b": "42.031,74 €.",
+        "c": "45.284,58 €.",
+        "d": "No es posible calcularlo con la información disponible."
+      },
+      "explicacion": "El importe acumulado al final del plazo es el valor final ($V_n$) de una renta constante pospagable: $V_n = C \\cdot s_{n\\urcorner i} = C \\cdot \\frac{(1+i)^n - 1}{i}$. Con $C = 6.000$, $n = 7$ y $i = 0,025$: $V_7 = 6.000 \\cdot \\frac{(1,025)^7 - 1}{0,025} = 6.000 \\cdot \\frac{1,188686 - 1}{0,025} = 6.000 \\cdot 7,54743 = 45.284,58\\ €$.\n\n**Ejemplo práctico:** Si una empresa ahorra 6.000 € al final de cada año en un fondo al 2,5% para renovar su flota de transporte, al cabo de 7 años habrá acumulado 45.284,58 € (42.000 € de aportaciones más 3.284,58 € de intereses generados).",
+      "respuesta_correcta": "c"
+    }
+  ]
+}

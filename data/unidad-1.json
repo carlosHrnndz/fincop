@@ -1,0 +1,126 @@
+{
+  "unidad": 1,
+  "titulo": "Autoevaluación Unidad 1 - La Empresa, el Empresario y el Entorno Económico",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "La empresa es:",
+      "opciones": {
+        "a": "La planificación, ejecución, seguimiento y control de la actividad económica.",
+        "b": "Una unión de capital y trabajo.",
+        "c": "La producción de bienes sin ánimo de lucro.",
+        "d": "La gestión de personas."
+      },
+      "explicacion": "Desde la perspectiva económica y organizativa clásica, la empresa se define como una unidad económica de producción que coordina y combina factores productivos, principalmente capital (financiero y material) y trabajo (recursos humanos), con el fin de producir bienes y servicios para el mercado y obtener un beneficio o excedente económico.\n\n**Ejemplo práctico:** En un estudio de desarrollo de software o videojuegos, los puestos de trabajo, servidores y licencias representan el capital aportado, mientras que el equipo de programadores y diseñadores aporta el factor trabajo. La unión sinérgica de ambos elementos para comercializar un juego forma la empresa.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "Los elementos básicos de la empresa son:",
+      "opciones": {
+        "a": "Sus clientes y accionistas.",
+        "b": "Sus inmuebles.",
+        "c": "Su maquinaria.",
+        "d": "Su tesorería."
+      },
+      "explicacion": "Los clientes (quienes demandan los bienes o servicios y generan los flujos de ingresos) y los accionistas o propietarios (quienes aportan el capital inicial y asumen el riesgo de la actividad) son los dos pilares básicos y fundamentales de la empresa sin los cuales esta no puede existir ni sostenerse en el mercado.\n\n**Ejemplo práctico:** Una startup tecnológica puede tener una sede modesta o alquilada, pero sin inversores (accionistas) que aporten la financiación inicial y sin usuarios que adquieran su suscripción (clientes), el negocio se disuelve de inmediato.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "pregunta": "La empresa requiere de:",
+      "opciones": {
+        "a": "Una estructura organizativa.",
+        "b": "Una personalidad jurídica.",
+        "c": "Un objetivo.",
+        "d": "Un presidente."
+      },
+      "explicacion": "Para operar válidamente en el tráfico mercantil, contratar empleados, contraer obligaciones, adquirir activos y responder legalmente de sus actos, la empresa requiere de una personalidad jurídica propia (ya sea como sociedad mercantil —S.A., S.L.— o a través de la personalidad física de un empresario individual debidamente constituido).\n\n**Ejemplo práctico:** Cuando una productora audiovisual firma un contrato de distribución internacional o alquila un set de rodaje, el contrato no se suscribe de manera informal, sino bajo su personalidad jurídica (por ejemplo, 'Pixel Studio S.L.'), lo que le confiere plena validez jurídica e identificación fiscal.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 4,
+      "pregunta": "Crear una empresa es:",
+      "opciones": {
+        "a": "Contratar personal.",
+        "b": "Comprar bienes.",
+        "c": "Arriesgar el dinero con la esperanza de un beneficio.",
+        "d": "Invertir la tesorería."
+      },
+      "explicacion": "La esencia de la iniciativa emprendedora y de la creación de una empresa es la asunción deliberada del riesgo económico: el promotor aporta recursos financieros con la expectativa subjetiva de obtener un beneficio futuro, sin contar con la certeza absoluta del éxito del proyecto.\n\n**Ejemplo práctico:** Si decides invertir 30.000 € de tus ahorros en crear una agencia de diseño digital, estás arriesgando ese dinero en alquiler, licencias y marketing con la expectativa de que los clientes generen beneficios, asumiendo la posibilidad de perder el capital si el mercado no responde.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "Taylor introdujo:",
+      "opciones": {
+        "a": "Nuevos principios financieros.",
+        "b": "Una técnica de compras.",
+        "c": "Una teoría de inversiones.",
+        "d": "La filosofía de la organización científica del trabajo."
+      },
+      "explicacion": "Frederick Winslow Taylor es considerado el padre de la Organización Científica del Trabajo (taylorismo). Su aportación clave consistió en aplicar métodos científicos y sistemáticos al análisis de tareas fabriles, cronometrando tiempos, estandarizando movimientos y especializando al trabajador para maximizar la eficiencia industrial.\n\n**Ejemplo práctico:** Es el equivalente a optimizar una cadena de montaje de componentes de hardware, donde cada operario realiza una operación milimétricamente cronometrada para ensamblar placas base sin perder ni un segundo en movimientos innecesarios.",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 6,
+      "pregunta": "El papel del empresario tiene dos vertientes:",
+      "opciones": {
+        "a": "La gestión de recursos humanos y financieros.",
+        "b": "Horizontal y vertical.",
+        "c": "Endógena y exógena a la empresa.",
+        "d": "Comercial y técnica."
+      },
+      "explicacion": "El empresario desempeña un rol con dos dimensiones complementarias: una vertiente endógena (interna a la organización, coordinando recursos humanos, producción y estructura financiera) y una vertiente exógena (externa, captando señales del mercado, relacionándose con clientes, proveedores, competidores y administraciones públicas).\n\n**Ejemplo práctico:** El director general de una empresa tecnológica ejerce su rol endógeno cuando lidera la reorganización del equipo de desarrollo, y ejerce su rol exógeno cuando negocia una alianza estratégica con una multinacional de telecomunicaciones.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Un factor diferenciador del empresario es:",
+      "opciones": {
+        "a": "Su preparación académica.",
+        "b": "Que responde con su propio patrimonio del fin de las operaciones de la empresa.",
+        "c": "Sus conocimientos comerciales.",
+        "d": "Su mentalidad."
+      },
+      "explicacion": "A diferencia del directivo contratado, el empresario individual asume el riesgo patrimonial de la actividad económica, respondiendo ante las deudas y obligaciones de la empresa con todos sus bienes presentes y futuros (responsabilidad patrimonial universal), o arriesgando directamente el capital propio desembolsado en las participaciones sociales.\n\n**Ejemplo práctico:** Si una empresa individual de suministros quiebra con deudas millonarias con bancos y proveedores, el acreedor puede embargar los bienes personales del empresario (como sus cuentas o viviendas), cosa que no ocurre con el patrimonio personal de un gerente o directivo que trabaja por cuenta ajena.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Los directivos:",
+      "opciones": {
+        "a": "Suelen hablar idiomas.",
+        "b": "Están exentos de responsabilidad pecuniaria.",
+        "c": "Tienen una importante capacidad de integración.",
+        "d": "Son siempre temporales."
+      },
+      "explicacion": "Los directivos son trabajadores por cuenta ajena contratados para administrar y gestionar la empresa conforme a las directrices de los dueños. Salvo que incurran en dolo, negligencia grave o fraude de ley, actúan en representación de la persona jurídica y no responden con su patrimonio personal (responsabilidad pecuniaria) de las pérdidas o deudas comerciales ordinarias de la entidad.\n\n**Ejemplo práctico:** Si un director financiero toma una decisión operativa acertada dentro de la estrategia aprobada pero el mercado cae y la compañía sufre pérdidas operativas, el directivo no tiene que reponer de su propio bolsillo el dinero perdido por la empresa.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "pregunta": "La determinación exacta del beneficio en la empresa:",
+      "opciones": {
+        "a": "No puede fijarse de antemano.",
+        "b": "No puede efectuarse con criterios estáticos y restrictivos.",
+        "c": "No depende de sus trabajadores.",
+        "d": "No depende de sus productos."
+      },
+      "explicacion": "El beneficio empresarial no es una cifra rígida ni aislada que pueda evaluarse únicamente bajo una fotografía contable estática. Depende de la evolución temporal del mercado, la amortización de inversiones, el ciclo económico, los costes de oportunidad y las expectativas dinámicas del negocio.\n\n**Ejemplo práctico:** En una empresa biotecnológica, evaluar el beneficio de un trimestre ignorando los 5 años previos de investigación e inversiones dinámicas en I+D daría una imagen completamente distorsionada de la salud económica real de la compañía.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 10,
+      "pregunta": "La globalización supone:",
+      "opciones": {
+        "a": "Una ventaja siempre.",
+        "b": "Una aumento del riesgo empresarial.",
+        "c": "Un criterio de gestión práctico.",
+        "d": "Una amenaza a la identidad y los valores culturales de la sociedad y a los pequeños negocios y explotaciones."
+      },
+      "explicacion": "Aunque la globalización amplía los mercados potenciales para las grandes multinacionales y permite cadenas de suministro internacionales, genera como contrapartida y externalidad negativa la pérdida de diversidad cultural y una intensa presión competitiva que amenaza la viabilidad de los pequeños negocios locales, artesanos y explotaciones tradicionales que no pueden competir en economía de escala.\n\n**Ejemplo práctico:** La apertura global del comercio y las plataformas de entrega masiva provocan con frecuencia el cierre de librerías de barrio o explotaciones agrícolas familiares locales que no pueden rivalizar con los costes marginales de los gigantes logísticos globales.",
+      "respuesta_correcta": "d"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "unidad": 12,
+  "titulo": "Autoevaluación Unidad 12 - El Mercado de Renta Variable y Acciones",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "Fundamentalmente, el mercado de renta variable interviene en:",
+      "opciones": {
+        "a": "Títulos de propiedad de las sociedades admitidas a cotización.",
+        "b": "Títulos de propiedad de las sociedades limitadas.",
+        "c": "Títulos de propiedad de bienes inmuebles.",
+        "d": "Bonos del Tesoro."
+      },
+      "explicacion": "El mercado de renta variable (la Bolsa de Valores) interviene y negocia fundamentalmente títulos de propiedad representativos de partes alícuotas del capital social de las sociedades anónimas que han sido formalmente admitidas a cotización bursátil (es decir, acciones cotizadas).\n\n**Ejemplo práctico:** Al adquirir acciones de Repsol o Banco Santander en la Bolsa de Madrid, te conviertes en copropietario de una fracción del capital de dichas empresas, participando de sus beneficios futuros y del valor de su patrimonio.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "La Bolsa permite al inversor:",
+      "opciones": {
+        "a": "Canalizar sus ahorros hacia las actividades mínimamente productivas.",
+        "b": "Canalizar sus ahorros hacia las actividades más interesantes.",
+        "c": "Canalizar sus ahorros hacia las actividades más productivas.",
+        "d": "Invertir en cualquier instrumento financiero."
+      },
+      "explicacion": "La función macroeconómica primordial de las Bolsas de Valores es la asignación eficiente de los recursos financieros: canaliza los excedentes de ahorro de los ciudadanos e inversores institucionales hacia las empresas más competitivas, innovadoras y productivas que requieren capital para crecer.\n\n**Ejemplo práctico:** Si una empresa biotecnológica diseña tratamientos punteros pero necesita 100 millones de euros para ensayos clínicos, recurre a la Bolsa para captar ese capital ahorrado por inversores que confían en su alta productividad futura.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 3,
+      "pregunta": "Las funciones de la CNMV son genéricamente:",
+      "opciones": {
+        "a": "Ofrecer alternativas de inversión.",
+        "b": "La supervisión e inspección de los Mercados de Valores.",
+        "c": "La correcta investigación de las compañias cotizadas.",
+        "d": "Dar creditos a largo plazo."
+      },
+      "explicacion": "La Comisión Nacional del Mercado de Valores (CNMV) es el organismo regulador administrativo en España encargado de la supervisión, inspección y régimen sancionador de los Mercados de Valores, velando por la transparencia en la formación de precios, la difusión de información veraz y la protección efectiva de los inversores.\n\n**Ejemplo práctico:** Si una empresa cotizada oculta una caída drástica en sus ventas o un directivo realiza uso indebido de información privilegiada, la CNMV interviene de inmediato abriendo un expediente disciplinario y suspendiendo la cotización cautelarmente.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 4,
+      "pregunta": "Las Sociedades Rectoras de las Bolsas:",
+      "opciones": {
+        "a": "Son entidades gubernamentales.",
+        "b": "Dependen del Banco Central Europeo.",
+        "c": "Tienen  como  accionistas  exclusiva  y  obligatoriamente  a  Sociedades  y Agencias de Valores.",
+        "d": "Tienen como accionistas a bancos y cajas de ahorro."
+      },
+      "explicacion": "Históricamente y por mandato de la Ley del Mercado de Valores, cada una de las Bolsas oficiales españolas (Madrid, Barcelona, Bilbao y Valencia) está regida por una Sociedad Rectora, cuyas acciones debían pertenecer de forma exclusiva y preceptiva a las entidades autorizadas para operar en ellas, es decir, las Sociedades y Agencias de Valores miembros de la Bolsa.\n\n**Ejemplo práctico:** Los miembros que operan directamente comprando y vendiendo acciones en los corros o terminales bursátiles son los mismos accionistas que integran la Sociedad Rectora que administra el funcionamiento del parqué.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "Los intermediarios del mercado bursátil son:",
+      "opciones": {
+        "a": "Bancos de inversión.",
+        "b": "Entidades aseguradoras.",
+        "c": "Entidades bancarias.",
+        "d": "Sociedades y Agencias de Valores."
+      },
+      "explicacion": "Los únicos intermediarios legalmente autorizados en España para actuar como miembros de pleno derecho del mercado bursátil y canalizar órdenes de compra y venta de valores en la Bolsa son las Empresas de Servicios de Inversión (ESI), principalmente las Sociedades de Valores (que pueden operar por cuenta propia y ajena) y las Agencias de Valores (que solo operan por cuenta ajena).\n\n**Ejemplo práctico:** Cuando un particular da una orden de compra de acciones en la aplicación de su banco, este banco transmite la orden a través de su propia Sociedad de Valores miembro de la Bolsa para que se ejecute en el parqué.",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 6,
+      "pregunta": "La interconexión del SIBE:",
+      "opciones": {
+        "a": "Aumenta la liquidez y la profundidad del mercado.",
+        "b": "Es un sistema que no permite formación de precios.",
+        "c": "No funciona en tiempo real.",
+        "d": "Sólo es utilizada en ciertos momentos de contratación."
+      },
+      "explicacion": "El Sistema de Interconexión Bursátil Español (SIBE) conecta electrónicamente las cuatro bolsas tradicionales en una única pantalla y libro de órdenes continuo. Esta interconexión unificada incrementa de forma decisiva la profundidad de mercado, concentra la oferta y la demanda nacional e internacional y dota de una liquidez muy superior a las acciones cotizadas.\n\n**Ejemplo práctico:** Antes del SIBE, una acción podía cotizar a precios distintos en Madrid y en Barcelona. Con la interconexión electrónica, todas las órdenes de España confluyen en un único libro instantáneo en tiempo real.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Las ordenes de mercado:",
+      "opciones": {
+        "a": "Son órdenes en las que se especifica límite de precio.",
+        "b": "Son órdenes en las que no se especifica límite de tiempo.",
+        "c": "Son órdenes en las que no se especifica límite de precio.",
+        "d": "Son órdenes en las que no se especifica límite de acciones."
+      },
+      "explicacion": "Una orden de mercado (u orden por lo mejor) es aquella instrucción bursátil en la que el inversor ordena comprar o vender un determinado número de títulos al precio más ventajoso que ofrezca la contrapartida en ese instante, sin fijar ninguna restricción ni límite de precio, priorizando la inmediatez de la ejecución sobre el precio final.\n\n**Ejemplo práctico:** Si quieres vender inmediatamente 1.000 acciones porque necesitas liquidez ya, envías una orden de mercado y tus acciones se venderán al instante al precio que estén dispuestos a pagar los compradores en ese segundo.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Las órdenes limitadas:",
+      "opciones": {
+        "a": "Son órdenes en las que se especifica límite de precio.",
+        "b": "Son órdenes en las que no se especifica límite de tiempo.",
+        "c": "Son órdenes en las que no se especifica límite de precio.",
+        "d": "Son órdenes en las que no se especifica límite de acciones."
+      },
+      "explicacion": "Una orden limitada es aquella en la que el inversor establece expresamente un precio máximo al que está dispuesto a comprar o un precio mínimo al que está dispuesto a vender los títulos. La orden solo se ejecutará si el mercado alcanza o mejora dicho límite de precio prefijado.\n\n**Ejemplo práctico:** Si una acción cotiza a 10,20 € y emites una orden de compra limitada a 10,00 €, el sistema solo comprará tus títulos si la cotización baja hasta tocar o perforar los 10,00 €, protegiéndote de pagar de más.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 9,
+      "pregunta": "La ampliación de capital:",
+      "opciones": {
+        "a": "Consiste en disminuir los fondos propios de una sociedad.",
+        "b": "Consiste en aumentar el pasivo exigible de una sociedad.",
+        "c": "Consiste en aumentar los fondos propios de una sociedad.",
+        "d": "Consiste en aumentar la caja de una sociedad."
+      },
+      "explicacion": "Una ampliación de capital es una operación societaria y financiera por la cual una empresa incrementa su patrimonio neto y fondos propios, ya sea mediante la emisión de nuevas acciones suscritas con aportaciones dinerarias o no dinerarias, o mediante la capitalización de reservas acumuladas en balance.\n\n**Ejemplo práctico:** Una empresa tecnológica que desea financiar la apertura de filiales en América emite 2 millones de nuevas acciones a 5 € cada una; los inversores suscriben las acciones aportando 10 millones de euros en efectivo que pasan a engrosar los fondos propios de la compañía.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 10,
+      "pregunta": "La oferta pública de adquisición:",
+      "opciones": {
+        "a": "Ofrece a los accionistas de una empresa, cotizada en la Bolsa de Valores, la  adquisición de sus títulos a un determinado precio.",
+        "b": "Es siempre beneficiosa para los accionistas.",
+        "c": "Siempre tiene efectivo como contrapartida.",
+        "d": "Suelen carecer de transparencia."
+      },
+      "explicacion": "Una Oferta Pública de Adquisición (OPA) es una propuesta formal y pública mediante la cual una persona física o jurídica (el oferente) ofrece a todos los accionistas de una empresa cotizada adquirir la totalidad o una parte significativa de sus acciones a un precio determinado (generalmente con prima sobre la cotización) para tomar el control de la sociedad.\n\n**Ejemplo práctico:** Si una multinacional extranjera desea comprar una empresa cotizada cuyas acciones valen 20 € en Bolsa, lanza una OPA formal ofreciendo pagar 25 € en efectivo por cada acción a todos los accionistas que deseen vendérselas voluntariamente.",
+      "respuesta_correcta": "a"
+    }
+  ]
+}

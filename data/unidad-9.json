@@ -1,0 +1,126 @@
+{
+  "unidad": 9,
+  "titulo": "Autoevaluación Unidad 9 - Operaciones y Productos Bancarios (Activo y Pasivo)",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "Los productos de pasivo bancario representan:",
+      "opciones": {
+        "a": "Financiación para el banco.",
+        "b": "Inversión para el accionista.",
+        "c": "Financiación para el cliente.",
+        "d": "Inversión para el banco."
+      },
+      "explicacion": "Los productos de pasivo bancario (tales como cuentas corrientes, cuentas de ahorro o depósitos a plazo fijo) representan captación de fondos o financiación para la entidad bancaria, ya que constituyen deudas exigibles que el banco tiene contraídas con sus clientes depositantes.\n\n**Ejemplo práctico:** Cuando abres un depósito bancario de 10.000 €, para ti es un activo financiero (una inversión), pero en el balance del banco figura en el Pasivo, ya que es dinero ajeno que el banco te debe y que utiliza para prestarlo a terceros.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "La cuenta corriente se caracteriza:",
+      "opciones": {
+        "a": "Por su rentabilidad.",
+        "b": "Por su plazo.",
+        "c": "Al estar obligada la entidad a su devolución en cualquier momento en que lo solicite el cliente.",
+        "d": "Por su importe."
+      },
+      "explicacion": "La cuenta corriente es un depósito a la vista cuya característica definitoria primordial es su inmediata y total disponibilidad: la entidad bancaria está obligada por contrato a devolver los fondos depositados en cualquier momento y de manera instantánea a requerimiento del cliente.\n\n**Ejemplo práctico:** Cuando utilizas tu tarjeta de débito para pagar en el supermercado o sacas 50 € en un cajero, estás exigiendo la devolución instantánea de parte del saldo que tienes en tu cuenta corriente.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 3,
+      "pregunta": "La  diferencia  básica  entre  una  cuenta  corriente  y  una  libreta  de ahorros es:",
+      "opciones": {
+        "a": "El tipo de contrato.",
+        "b": "La permanencia del saldo.",
+        "c": "La rentabilidad para el banco.",
+        "d": "El volumen de depósitos."
+      },
+      "explicacion": "Históricamente y desde el punto de vista operativo, la cuenta corriente estaba diseñada para canalizar cobros, pagos y operativa transaccional diaria con máxima rotación, mientras que la libreta de ahorro perseguía la acumulación y permanencia estable de los saldos con una vocación conservadora de reserva de fondos.\n\n**Ejemplo práctico:** Una empresa utiliza su cuenta corriente para pagar a proveedores y recibir remesas de clientes varias veces al día, mientras que una persona guarda un remanente intocable en una cuenta o libreta de ahorro para emergencias futuras.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 4,
+      "pregunta": "En caso de que haya varios titulares de una única cuenta,   podrán optar  entre  disponer  de  los  fondos que  existan  en  ella de forma solidaria:",
+      "opciones": {
+        "a": "Firmando dos de los titulares.",
+        "b": "Firmando tres de los titulares.",
+        "c": "Firmando todos los titulares.",
+        "d": "Firmando cualquiera de los titulares."
+      },
+      "explicacion": "En una cuenta bancaria con varios titulares y régimen de disposición solidaria o indistinta, cualquiera de los cotitulares está facultado de manera individual para ordenar pagos, reintegros y transferencias de la totalidad del saldo sin necesidad de la autorización o firma de los demás.\n\n**Ejemplo práctico:** En una cuenta solidaria compartida por dos socios o cónyuges, cualquiera de los dos puede ir al banco y retirar 5.000 € con su sola firma y su tarjeta personal.",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 5,
+      "pregunta": "El depósito a plazo representa:",
+      "opciones": {
+        "a": "Mayor liquidez para el cliente.",
+        "b": "Menor disponibilidad para el banco.",
+        "c": "Más rentabilidad para el cliente.",
+        "d": "Menores costes para el banco."
+      },
+      "explicacion": "En una imposición o depósito a plazo fijo, el depositante renuncia a disponer libremente de sus fondos durante un periodo contractualmente pactado a cambio de recibir una rentabilidad o tipo de interés superior al ofrecido por las cuentas a la vista ordinarias.\n\n**Ejemplo práctico:** Mientras que una cuenta corriente estándar te remunera habitualmente al 0%, un depósito a plazo fijo a 12 meses puede ofrecerte un 3% anual garantizado a cambio de no tocar el dinero durante ese año.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "pregunta": "La   rentabilidad   que   el   cliente   puede   obtener   de   los   ahorros depositados en una entidad de crédito:",
+      "opciones": {
+        "a": "Depende principalmente del tiempo durante el cual se comprometa a no utilizarlos.",
+        "b": "Depende principalmente de su importe.",
+        "c": "Depende principalmente de la entidad.",
+        "d": "Es siempre variable."
+      },
+      "explicacion": "La rentabilidad de los depósitos bancarios está directamente vinculada al horizonte temporal: cuanto más prolongado sea el plazo durante el cual el cliente se compromete a no retirar sus fondos, mayor será el tipo de interés que el banco puede ofrecerle al disponer de fondos estables para su actividad crediticia.\n\n**Ejemplo práctico:** Un banco suele remunerar un depósito a 3 años a un tipo notablemente más atractivo que una imposición a 1 mes, ya que la estabilidad temporal del dinero le permite rentabilizarlo en préstamos a largo plazo.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Un método de liquidación de cuentas es:",
+      "opciones": {
+        "a": "El hamburgués.",
+        "b": "El francés.",
+        "c": "El inglés.",
+        "d": "El sencillo."
+      },
+      "explicacion": "El método hamburgués (o método de saldos) es el procedimiento bancario estándar para la liquidación periódica de intereses en cuentas corrientes. Consiste en calcular los saldos resultantes tras cada operación, multiplicarlos por los días que permanecen invariables para obtener los números comerciales y aplicar el tipo de interés correspondiente.\n\n**Ejemplo práctico:** Cada vez que el banco te cobra o abona intereses trimestrales en tu cuenta corriente empresarial, genera un extracto donde figuran los días de valoración y los números comerciales calculados según el método hamburgués.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 8,
+      "pregunta": "En la remuneración de una cuenta en especie:",
+      "opciones": {
+        "a": "El banco debe pagar también un tipo de interés.",
+        "b": "El cliente debe realizar una retención.",
+        "c": "El banco debe realizar una retención sobre la remuneración. .",
+        "d": "El banco no tiene ninguna obligación al respecto."
+      },
+      "explicacion": "Cuando una entidad financiera remunera a un cliente mediante la entrega de un bien en especie (como un televisor, una vajilla o un dispositivo electrónico), la legislación tributaria lo califica como rendimiento del capital mobiliario, obligando legalmente al banco a practicar la preceptiva retención fiscal a cuenta del IRPF sobre el valor de mercado del obsequio.\n\n**Ejemplo práctico:** Si un banco te regala un ordenador valorado en 500 € por domiciliar tu nómina o abrir un depósito, el banco te aplicará un cargo en cuenta o ingreso a cuenta por el 19% de retención fiscal (unos 95 €) para ingresarlo en Hacienda.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Los depósitos estructurados:",
+      "opciones": {
+        "a": "Suelen ser a medio y largo plazo.",
+        "b": "Son más rentables que una cuenta corriente.",
+        "c": "Están ligados a una remuneración fija.",
+        "d": "La rentabilidad está vinculada a la evolución de un índice o valor."
+      },
+      "explicacion": "Los depósitos estructurados son productos bancarios complejos cuya rentabilidad final no es fija, sino que queda total o parcialmente condicionada a la evolución o comportamiento futuro de un activo subyacente (como el índice IBEX-35, el Eurostoxx 50 o una cesta de acciones cotizadas).\n\n**Ejemplo práctico:** Contratas un depósito estructurado a 3 años que te garantiza el 100% de tu capital y te promete pagar un 5% extra si las acciones de Inditex e Iberdrola no caen de precio en dicho trienio.",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "pregunta": "Las operaciones de repos o cesiones temporales de activos:",
+      "opciones": {
+        "a": "No son una inversión interesante.",
+        "b": "Implican  que  la  entidad  se  comprometa  a  recomprar  los  valores  con posterioridad a un precio superior.",
+        "c": "Implican  que  la  entidad  se  comprometa  a  vender  los  valores  con   posterioridad a un precio superior",
+        "d": "La rentabilidad suele estar ligada a la renta variable."
+      },
+      "explicacion": "En una operación de cesión temporal de activos (o repo), una entidad financiera vende un activo (típicamente deuda pública de su cartera) a un inversor pactando simultáneamente la obligación irrevocable de recomprarlo en una fecha futura a un precio pactado superior, constituyendo la diferencia el rendimiento del cliente.\n\n**Ejemplo práctico:** Compras deuda pública a tu banco por 9.950 € con el compromiso formal de que el banco te la recomprará 1 mes después por 10.000 € justos, obteniendo una ganancia segura de 50 €.",
+      "respuesta_correcta": "b"
+    }
+  ]
+}

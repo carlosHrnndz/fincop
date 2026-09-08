@@ -1,0 +1,126 @@
+{
+  "unidad": 15,
+  "titulo": "Autoevaluación Unidad 15 - Decisiones de Inversión en la Empresa",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "Una inversión típica para una empresa manufacturera consistiría en:",
+      "opciones": {
+        "a": "Adquisición de maquinaria.",
+        "b": "Compra de bonos del Tesoro.",
+        "c": "Un contrato de productos derivados.",
+        "d": "Compra de pagarés bancarios."
+      },
+      "explicacion": "Para una empresa manufacturera o fabril, cuya actividad central es la producción física y transformación de materias primas en productos terminados, la inversión típica en activo fijo productivo consiste en la adquisición y renovación de maquinaria, líneas de envasado, naves e instalaciones industriales.\n\n**Ejemplo práctico:** Una fábrica de embotellado de bebidas invierte 2 millones de euros en una nueva línea de envasado robotizada para multiplicar por tres su capacidad diaria de producción.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "La valoración de un proyecto implica:",
+      "opciones": {
+        "a": "Determinar la financiación del mismo.",
+        "b": "Evaluar la gestión.",
+        "c": "El cálculo de los flujos de caja que puede generar.",
+        "d": "Todas las respuestas son correctas."
+      },
+      "explicacion": "En las finanzas corporativas y el análisis de proyectos, valorar una inversión exige estimar con precisión el calendario de flujos de caja netos futuros (cobros menos pagos operativos y tributarios) que dicho proyecto será capaz de generar a lo largo de toda su vida útil.\n\n**Ejemplo práctico:** Antes de construir un parque solar, la empresa proyecta año a año los ingresos por venta de electricidad a la red menos los costes de mantenimiento e impuestos durante 25 años para evaluar su viabilidad.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 3,
+      "pregunta": "El cash flow se define como:",
+      "opciones": {
+        "a": "Beneficios netos + amortizaciones.",
+        "b": "Beneficios netos + provisiones.",
+        "c": "El patrimonio neto + beneficios netos + amortizaciones + provisiones.",
+        "d": "Beneficios netos + amortizaciones + provisiones."
+      },
+      "explicacion": "En el análisis financiero y presupuestario tradicional, una aproximación común para calcular el flujo de caja bruto generado por la explotación (Cash Flow) consiste en sumar al beneficio neto contable las amortizaciones y las dotaciones a provisiones del ejercicio ($BN + Amortizaciones + Provisiones$), dado que estas representan gastos contables que no suponen una salida real de tesorería.\n\n**Ejemplo práctico:** Si una empresa reporta 100.000 € de beneficio neto tras restar 30.000 € de amortización de maquinaria y 10.000 € de provisiones, su capacidad de generación de liquidez operativa real asciende a 140.000 €.",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "pregunta": "La base para calcular el cash flow:",
+      "opciones": {
+        "a": "Son los beneficios antes de impuestos.",
+        "b": "Son los cobros y pagos generados por la inversión realizada.",
+        "c": "Son los ingresos y gastos generados por la inversión realizada.",
+        "d": "Es el patrimonio."
+      },
+      "explicacion": "A diferencia del beneficio contable (que se rige por el principio de devengo con independencia de cuándo se cobre o pague), la base matemática para evaluar la rentabilidad financiera de un proyecto de inversión descansa estrictamente sobre la corriente monetaria real de cobros (entradas de dinero) y pagos (salidas de dinero) atribuibles al proyecto.\n\n**Ejemplo práctico:** Una venta de 100.000 € que se cobrará dentro de 2 años no aporta tesorería hoy. Para evaluar la inversión solo cuenta el momento exacto en que los billetes entran o salen de la cuenta bancaria de la empresa.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 5,
+      "pregunta": "El período de recuperación es:",
+      "opciones": {
+        "a": "El tiempo que necesita el proyecto para obtener el punto de equilibrio.",
+        "b": "El tiempo que necesita el proyecto para dar beneficios.",
+        "c": "El tiempo que necesita el proyecto para recuperar la inversión inicial.",
+        "d": "El tiempo que necesita el proyecto para recuperar la inversión total."
+      },
+      "explicacion": "El periodo de recuperación de una inversión (o Payback) es un criterio estático de valoración que mide el tiempo o número de periodos (años, meses) que tarda un proyecto en generar flujos netos de caja acumulados suficientes para amortizar y recuperar íntegramente el desembolso o inversión inicial ($A$).\n\n**Ejemplo práctico:** Si compras un camión de reparto por 40.000 € que genera un ahorro neto de combustible de 10.000 € al año, el plazo de recuperación de la inversión inicial es exactamente de 4 años.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "pregunta": "Por riesgo de un proyecto de inversión entendemos:",
+      "opciones": {
+        "a": "La posibilidad respecto a la generación de beneficios.",
+        "b": "La posibilidad derivada de la incertidumbre respecto a la generación de las rentas.",
+        "c": "La incertidumbre general de la economía.",
+        "d": "La generación de las rentas."
+      },
+      "explicacion": "En finanzas de empresa, el riesgo de un proyecto de inversión se define como la variabilidad o incertidumbre inherente a las rentas, flujos de caja y rendimientos futuros esperados en comparación con las estimaciones iniciales previstas.\n\n**Ejemplo práctico:** Invertir en una autopista de peaje consolidada tiene un riesgo bajo (el tráfico es predecible), mientras que invertir en desarrollar una aplicación móvil pionera presenta un alto riesgo, pues los flujos de cobro pueden superar las previsiones o resultar nulos.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 7,
+      "pregunta": "El riesgo de un proyecto nos afectará:",
+      "opciones": {
+        "a": "En sus cálculos de rentabilidad.",
+        "b": "En su tasa de descuento.",
+        "c": "En su liquidez.",
+        "d": "Todas las respuestas son correctas."
+      },
+      "explicacion": "El nivel de riesgo que presenta un proyecto condiciona todas las dimensiones de la decisión financiera: exige una tasa de descuento más elevada para actualizar sus flujos, reduce la rentabilidad ajustada al riesgo esperada por los inversores y compromete la liquidez corporativa si los flujos no se materializan en plazo.\n\n**Ejemplo práctico:** Si una compañía decide construir un hotel en un país con alta inestabilidad política, sus analistas le exigirán una tasa de descuento del 15% en vez del 8% habitual, penalizando su rentabilidad calculada y vigilando estrechamente los ratios de liquidez.",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "pregunta": "El coste de oportunidad representa:",
+      "opciones": {
+        "a": "Las posibles alternativas de inversión existentes.",
+        "b": "El coste de otras inversiones.",
+        "c": "La inversión en renta variable.",
+        "d": "Otras oportunidades."
+      },
+      "explicacion": "El coste de oportunidad del capital representa el rendimiento o rentabilidad a la que se renuncia por no destinar los recursos financieros a la mejor inversión alternativa disponible en el mercado que presente un nivel de riesgo equiparable.\n\n**Ejemplo práctico:** Si una empresa utiliza 500.000 € de su tesorería para reformar sus oficinas en vez de invertirlos en bonos corporativos solventes que rendían un 5% anual garantizado, el 5% al que renuncia es su coste de oportunidad.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Uno de los problemas más complejos en el análisis de inversiones es:",
+      "opciones": {
+        "a": "El plazo.",
+        "b": "El tipo de inversión.",
+        "c": "El calculo de los flujos de caja futuros.",
+        "d": "El tipo de interés."
+      },
+      "explicacion": "La mayor dificultad y fuente de incertidumbre en el análisis de presupuesto de capital radica en prever y estimar con exactitud los flujos de caja que el proyecto producirá dentro de 3, 5 o 10 años, pues dependen de variables exógenas incontrolables como la demanda de los clientes, la reacción de la competencia, la inflación y los costes futuros.\n\n**Ejemplo práctico:** Calcular la rentabilidad de un parque eólico sobre el papel es sencillo mediante fórmulas matemáticas; lo verdaderamente complejo y crítico es estimar el viento real que habrá en 2035 y el precio al que cotizará el megavatio/hora.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 10,
+      "pregunta": "Según el criterio del período de recuperación:",
+      "opciones": {
+        "a": "Son preferibles aquellos proyectos en los cuales se recuperen antes los desembolsos iniciales.",
+        "b": "Son preferibles aquellos proyectos en los cuales se tarden más en recuperar los desembolsos iniciales.",
+        "c": "Son  preferibles  aquellos  proyectos  en  los  cuales  no  se  recuperen  los desembolsos iniciales.",
+        "d": "Ninguna respuesta es correcta."
+      },
+      "explicacion": "Bajo la lógica del criterio del periodo de recuperación (Payback), se consideran preferibles y prioritarios aquellos proyectos de inversión que devuelven antes la inversión monetaria inicial, minimizando el tiempo de exposición al riesgo de mercado y mejorando la liquidez inmediata de la empresa.\n\n**Ejemplo práctico:** Si una empresa con problemas de liquidez debe elegir entre una máquina A que se amortiza en 2 años y una máquina B que se amortiza en 6 años (aunque sea más moderna), elegirá la máquina A para recuperar sus fondos con máxima rapidez.",
+      "respuesta_correcta": "a"
+    }
+  ]
+}

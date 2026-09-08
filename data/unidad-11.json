@@ -1,0 +1,126 @@
+{
+  "unidad": 11,
+  "titulo": "Autoevaluación Unidad 11 - El Mercado Monetario y la Deuda Pública",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "Uno de los grandes bloques del mercado monetario sería:",
+      "opciones": {
+        "a": "El mercado de divisas.",
+        "b": "El Mercado de Valores.",
+        "c": "El mercado de derivados.",
+        "d": "El mercado interbancario."
+      },
+      "explicacion": "El mercado monetario engloba aquellos segmentos donde se negocian activos a muy corto plazo con máxima liquidez y bajo riesgo. Entre sus grandes bloques fundamentales destaca de forma primordial el mercado interbancario (donde los bancos negocian préstamos y depósitos a corto plazo), junto con los pagarés de empresa y los títulos de deuda pública a corto plazo.\n\n**Ejemplo práctico:** Cuando los bancos centrales ajustan la política monetaria, actúan sobre los tipos de interés que se negocian a diario en el mercado interbancario de depósitos a muy corto plazo.",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Cuál  de  las  siguientes  no  es  una  característica  del  mercado monetario?",
+      "opciones": {
+        "a": "Son mercados al por mayor.",
+        "b": "Los activos son muy líquidos.",
+        "c": "Los activos tienen un alto riesgo.",
+        "d": "Presentan una gran flexibilidad y capacidad de innovación."
+      },
+      "explicacion": "Los activos del mercado monetario se definen precisamente por ser a muy corto plazo (vencimiento habitualmente no superior a 18 meses), contar con una altísima liquidez y presentar un riesgo crediticio mínimo o muy reducido. Por tanto, afirmar que tienen un alto riesgo es falso y contrario a su naturaleza.\n\n**Ejemplo práctico:** Las Letras del Tesoro a 3 o 6 meses son el activo refugio por excelencia para empresas que quieren rentabilizar su tesorería sin asumir riesgo de pérdida de capital.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 3,
+      "pregunta": "Un repo puede considerarse:",
+      "opciones": {
+        "a": "Un simple préstamo de efectivo respaldado por  valores  que  actúan  de garantía.",
+        "b": "Un préstamo de valores respaldado por efectivo que actúa de garantía.",
+        "c": "Un simple préstamo de efectivo sin garantía.",
+        "d": "Un crédito a largo plazo."
+      },
+      "explicacion": "Una operación de repo (acuerdo de recompra o cesión temporal) es económicamente un préstamo de efectivo a muy corto plazo garantizado con colateral: una parte entrega dinero en efectivo a cambio de recibir unos títulos (generalmente deuda pública) que sirven de garantía real durante la vida del préstamo.\n\n**Ejemplo práctico:** Si un banco necesita 50 millones de liquidez por 48 horas, acude al mercado de repos, recibe los 50 millones y deposita como garantía bonos del Estado por valor equivalente; a las 48 horas devuelve el dinero con intereses y recupera sus bonos.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 4,
+      "pregunta": "Las Letras del Tesoro:",
+      "opciones": {
+        "a": "Son siempre emitidas a largo plazo.",
+        "b": "Se emiten mediante subasta y al descuento.",
+        "c": "Las emite el Banco Central Europeo.",
+        "d": "Llevan un pago de cupón."
+      },
+      "explicacion": "En España, las Letras del Tesoro son títulos de deuda pública a corto plazo (3, 6, 9 y 12 meses) emitidos por el Tesoro Público mediante un procedimiento competitivo de subasta y bajo la modalidad de descuento (cupón cero), de modo que el comprador las adquiere por un precio inferior a su valor nominal de 1.000 € y al vencimiento recibe los 1.000 € íntegros.\n\n**Ejemplo práctico:** Compras en una subasta del Tesoro una Letra a 12 meses por 965 €; no recibes cupones periódicos, pero exactamente a los 12 meses el Estado te ingresa los 1.000 € de su valor nominal, obteniendo 35 € de rentabilidad.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 5,
+      "pregunta": "La financiación en divisas por parte del Estado:",
+      "opciones": {
+        "a": "Tiene un papel complementario a la financiación en euros.",
+        "b": "Tiene un papel principal sobre la financiación en euros.",
+        "c": "Está prohibida.",
+        "d": "No juega un papel directo en la financiacion de España."
+      },
+      "explicacion": "Aunque la inmensa mayoría de las emisiones de deuda soberana de España se denominan en euros (su moneda oficial), el Estado mantiene programas de emisión en divisas extranjeras (como dólares estadounidenses) con carácter estrictamente secundario y complementario para diversificar su base de inversores globales.\n\n**Ejemplo práctico:** Para acceder a fondos de inversión soberanos asiáticos o fondos de pensiones norteamericanos que solo operan en USD, el Tesoro español realiza ocasionalmente emisiones complementarias denominadas en dólares.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "La negociación de  la  Deuda Pública  en el  mercado  secundario  se puede realizar a través de:",
+      "opciones": {
+        "a": "Clientes particulares.",
+        "b": "Brokers ciegos.",
+        "c": "Cualquier entidad financiera.",
+        "d": "Compañias de seguros."
+      },
+      "explicacion": "En el mercado secundario mayorista de Deuda Pública en Anotaciones, la negociación entre entidades financieras puede realizarse de forma bilateral o a través de intermediarios especializados conocidos como 'brokers ciegos' (blind brokers), los cuales casan órdenes de compra y venta entre entidades sin desvelar la identidad de las partes hasta que se cierra el cruce.\n\n**Ejemplo práctico:** Si el Banco A desea vender 20 millones en bonos soberanos sin revelar al resto de competidores su necesidad de liquidez, introduce su orden a través de un broker ciego, quien encuentra un comprador anónimo al mejor precio del mercado.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 7,
+      "pregunta": "La finalidad de los creadores de mercado es:",
+      "opciones": {
+        "a": "Ofrecer pasivo a las entidades financieras.",
+        "b": "Proporcionar liquidez a las entidades financieras.",
+        "c": "Favorecer la liquidez del mercado secundario de Deuda Pública anotada.",
+        "d": "Mejorar la economia en general."
+      },
+      "explicacion": "Los Creadores de Mercado (Market Makers) son entidades financieras autorizadas por el Tesoro Público que se comprometen a cotizar continuamente precios de compra y venta en el mercado secundario de Deuda Pública, garantizando así la liquidez continua, la formación transparente de precios y la profundidad del mercado de deuda estatal.\n\n**Ejemplo práctico:** Gracias a los creadores de mercado, cualquier inversor o fondo que quiera desprenderse de 10 millones de euros en bonos del Estado encuentra siempre una contrapartida inmediata a un precio de mercado justo sin tener que esperar días.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 8,
+      "pregunta": "El mercado de títulos hipotecarios:",
+      "opciones": {
+        "a": "Negocia hipotecas.",
+        "b": "Negocia títulos de naturaleza hipotecaria.",
+        "c": "Negocia títulos de inmobiliarias.",
+        "d": "Es muy reducido."
+      },
+      "explicacion": "El mercado de títulos hipotecarios no comercializa préstamos hipotecarios individuales entre particulares, sino que negocia valores financieros negociables emitidos por los bancos que tienen como respaldo su cartera hipotecaria, tales como cédulas hipotecarias, bonos hipotecarios y participaciones hipotecarias.\n\n**Ejemplo práctico:** Una entidad bancaria agrupa miles de hipotecas concedidas para compra de viviendas y emite 'cédulas hipotecarias' que vende a grandes fondos de pensiones para obtener nueva liquidez y seguir prestando.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Los pagarés bancarios:",
+      "opciones": {
+        "a": "Son títulos similares a los pagarés de empresas, pero emitidos para pagar a los bancos.",
+        "b": "Son títulos similares a los pagarés del Tesoro  empresas, pero emitidos por empresas.",
+        "c": "No se negocian.",
+        "d": "Son títulos similares a los pagarés de empresas, pero emitidos por bancos o cajas de ahorro."
+      },
+      "explicacion": "Los pagarés bancarios son instrumentos de captación de pasivo a corto plazo emitidos específicamente por entidades de crédito (bancos o cajas de ahorro). Su funcionamiento técnico es análogo al de los pagarés de empresa corporativos, pero cuentan con el respaldo de solvencia de la entidad financiera emisora.\n\n**Ejemplo práctico:** Un banco emite pagarés bancarios a 6 meses con un nominal de 1.000 € al 3% para captar liquidez directa de clientes corporativos y particulares con condiciones flexibles.",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "pregunta": "Las operaciones del mercado de divisas:",
+      "opciones": {
+        "a": "Pueden ser operaciones sobre acciones.",
+        "b": "Pueden ser operaciones al contado y a plazo.",
+        "c": "Pueden ser operaciones sin contrapartida.",
+        "d": "Sólo existen en mercados fuera de España."
+      },
+      "explicacion": "En el mercado de divisas (Forex), las transacciones se dividen técnicamente en dos grandes modalidades según el momento de liquidación: operaciones al contado (spot, donde la liquidación de las divisas se produce de forma inmediata o habitualmente a dos días hábiles) y operaciones a plazo (forward, donde el precio se fija hoy pero la entrega de las divisas se difiere a una fecha futura pactada).\n\n**Ejemplo práctico:** Una empresa importadora española que compra maquinaria en Japón dentro de 6 meses por 10 millones de yenes contrata un forward a plazo con su banco para fijar hoy el tipo de cambio EUR/JPY y eliminar el riesgo de divisa.",
+      "respuesta_correcta": "b"
+    }
+  ]
+}

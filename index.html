@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Test Interactivo - Finanzas Corporativas</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- KaTeX for Mathematical Finance Formulas -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- PWA Support -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0b0f19">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="FinanzasQuiz">
+</head>
+
+<body>
+    <!-- ============ SPLASH SCREEN ============ -->
+    <div id="splash-screen" class="splash-screen">
+        <div class="splash-content">
+            <header class="splash-header">
+                <div class="splash-logo">
+                    <svg width="300" height="66" viewBox="0 0 340 80" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;">
+                        <defs>
+                            <filter id="glowFin">
+                                <feGaussianBlur stdDeviation="3" result="blur" />
+                                <feMerge>
+                                    <feMergeNode in="blur" />
+                                    <feMergeNode in="SourceGraphic" />
+                                </feMerge>
+                            </filter>
+                            <linearGradient id="finGrad" x1="0" y1="0" x2="1" y2="0">
+                                <stop offset="0%" stop-color="#10B981" />
+                                <stop offset="100%" stop-color="#38BDF8" />
+                            </linearGradient>
+                            <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+                                <stop offset="0%" stop-color="#10B981" stop-opacity="0.9" />
+                                <stop offset="70%" stop-color="#10B981" stop-opacity="0.3" />
+                                <stop offset="100%" stop-color="#10B981" stop-opacity="0" />
+                            </linearGradient>
+                            <linearGradient id="borderGrad" x1="0" y1="0" x2="1" y2="1">
+                                <stop offset="0%" stop-color="#10B981" stop-opacity="0.5" />
+                                <stop offset="50%" stop-color="#10B981" stop-opacity="0.1" />
+                                <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.4" />
+                            </linearGradient>
+                            <radialGradient id="glowBg" cx="50%" cy="50%" r="50%">
+                                <stop offset="0%" stop-color="#10B981" stop-opacity="0.12" />
+                                <stop offset="100%" stop-color="#10B981" stop-opacity="0" />
+                            </radialGradient>
+                        </defs>
+                        <rect width="340" height="80" rx="16" fill="#131b2e" />
+                        <ellipse cx="105" cy="40" rx="90" ry="32" fill="url(#glowBg)" />
+                        <rect x="0.75" y="0.75" width="338.5" height="78.5" rx="15.25" stroke="url(#borderGrad)" stroke-width="1.5" />
+                        <circle cx="24" cy="40" r="4" fill="#10B981" filter="url(#glowFin)" />
+                        <circle cx="24" cy="40" r="2" fill="#fff" />
+                        <text x="42" y="55" font-family="Outfit,Arial,sans-serif" font-weight="800" font-size="36" fill="url(#finGrad)" filter="url(#glowFin)" letter-spacing="-1">ADE</text>
+                        <rect x="142" y="18" width="1.5" height="44" rx="0.75" fill="#10B981" opacity="0.3" />
+                        <text x="156" y="34" font-family="Outfit,Arial,sans-serif" font-weight="300" font-size="11" fill="#94A3B8" letter-spacing="4">TECNOLÓGICO</text>
+                        <rect x="156" y="40" width="160" height="1" rx="0.5" fill="url(#lineGrad)" />
+                        <text x="156" y="60" font-family="Outfit,Arial,sans-serif" font-weight="600" font-size="14.5" fill="#F1F5F9" letter-spacing="0.3">Finanzas Corporativas</text>
+                    </svg>
+                </div>
+
+                <h1 class="splash-title">Finanzas Quiz</h1>
+                <p class="splash-subtitle" id="subject-questions-summary">Cargando 20 unidades...</p>
+            </header>
+
+            <!-- Landscape 2-Column Desktop Grid -->
+            <div class="splash-grid">
+                <!-- Left Column -->
+                <div class="splash-col-left">
+                    <!-- Mode Selection -->
+                    <div class="splash-section">
+                        <h3>Modo de Estudio</h3>
+                        <div class="mode-grid">
+                            <button id="mode-quiz" class="mode-btn active" data-mode="quiz">
+                                🎓 Quiz
+                            </button>
+                            <button id="mode-exam" class="mode-btn" data-mode="exam">
+                                ⏱️ Examen
+                            </button>
+                            <button id="mode-smart" class="mode-btn" data-mode="smart">
+                                🧠 Repaso SRS
+                            </button>
+                            <button id="mode-study" class="mode-btn" data-mode="study">
+                                📖 Estudio
+                            </button>
+                            <button id="mode-marked" class="mode-btn" data-mode="marked" style="grid-column: 1 / -1;">
+                                📌 Repasar Marcadas
+                            </button>
+                        </div>
+                        <p class="mode-desc" id="mode-description">Responde preguntas con corrección inmediata y fórmulas KaTeX.</p>
+                        
+                        <!-- Primary Action Start Button -->
+                        <div style="margin-top: 14px;">
+                            <button id="btn-start" class="start-btn">🚀 Comenzar Test</button>
+                            <p id="selected-count" class="selected-count" style="margin-top: 6px;">Preguntas seleccionadas: 0</p>
+                        </div>
+                    </div>
+
+                    <!-- Session & Stats Card -->
+                    <div class="splash-section">
+                        <h3>Tu Sesión y Progreso</h3>
+                        <div class="session-input-wrap">
+                            <input type="text" id="session-code" class="session-input" placeholder="Tu código de sesión..." maxlength="20">
+                            <button id="btn-load-session" class="session-btn" title="Cargar sesión">📥</button>
+                        </div>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 10px;">
+                            <button id="btn-stats" class="nav-btn secondary">📊 Progreso</button>
+                            <button id="btn-ranking" class="nav-btn secondary">🏆 Ranking</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Unidades del Temario -->
+                <div class="splash-col-right">
+                    <div class="splash-section units-section">
+                        <div class="units-header-row">
+                            <h3>Unidades del Temario</h3>
+                            <span id="units-selected-badge" class="badge">0 seleccionadas</span>
+                        </div>
+                        
+                        <!-- Quick Filter Pills -->
+                        <div class="unit-filter-pills">
+                            <button class="filter-pill" id="filter-all">Todas (20)</button>
+                            <button class="filter-pill" id="filter-none">Ninguna</button>
+                            <button class="filter-pill" id="filter-math">Mat. Financiera (U3-U6)</button>
+                            <button class="filter-pill" id="filter-loans">Préstamos (U7-U8)</button>
+                            <button class="filter-pill" id="filter-markets">Mercados (U9-U14)</button>
+                            <button class="filter-pill" id="filter-invest">Inversión y DCF (U15-U20)</button>
+                        </div>
+
+                        <div id="unit-grid" class="unit-grid">
+                            <!-- Cards injected by JS -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer style="margin-top: 16px; color: var(--text-muted); font-size: 0.85rem; text-align: center;">
+                Finanzas Corporativas Quiz v2.0 · ADE Tecnológico
+            </footer>
+        </div>
+    </div>
+
+    <!-- ============ QUIZ APP ============ -->
+    <div id="quiz-app" class="app-container hidden">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-left">
+                <button id="btn-home" class="icon-btn" title="Menú Principal (Esc)">🏠</button>
+                <button id="btn-theme" class="icon-btn" title="Cambiar Tema">🌙</button>
+                <button id="btn-search" class="icon-btn" title="Buscar Pregunta (F)">🔍</button>
+                <button id="btn-calc" class="icon-btn" title="Calculadora Financiera (C)">🧮</button>
+                <button id="btn-tts" class="icon-btn" title="Lectura por voz">🔊</button>
+                <span id="question-counter">-- / --</span>
+                <span id="unit-badge" class="badge">Unidad --</span>
+            </div>
+            <div class="header-right">
+                <div class="score-pill">
+                    <span>Aciertos</span>
+                    <span id="score-val">0</span>
+                </div>
+                <button id="btn-mode-toggle" class="icon-btn" title="Cambiar Modo">🎓</button>
+                <button id="btn-new-exam" class="icon-btn" title="Nuevo Examen" style="display:none;">🆕</button>
+            </div>
+        </header>
+
+        <!-- Main Question Area with Desktop Split Layout -->
+        <main class="question-area">
+            <div class="progress-bar-container">
+                <div id="progress-fill" class="progress-fill"></div>
+            </div>
+
+            <div class="quiz-content-layout">
+                <!-- Left Panel: Question & Options -->
+                <div class="quiz-left-panel">
+                    <div id="question-text" class="question-text">
+                        Cargando preguntas...
+                    </div>
+
+                    <div id="options-container" class="options-container">
+                        <!-- Options injected by JS -->
+                    </div>
+                </div>
+
+                <!-- Right Panel: Explanation & Practical Example / Hints -->
+                <div class="quiz-right-panel">
+                    <div id="feedback-area" class="feedback-area hidden">
+                        <div id="feedback-status" class="feedback-status"></div>
+                        <div id="explanation-container" class="explanation-container">
+                            <div id="explanation-text" class="explanation-text"></div>
+                        </div>
+                    </div>
+
+                    <div id="study-placeholder" class="study-placeholder">
+                        <div class="placeholder-icon">💡</div>
+                        <div class="placeholder-title">Zona de Justificación y Ejemplos</div>
+                        <p class="placeholder-text">Selecciona una respuesta o utiliza el modo Estudio para consultar la justificación conceptual y el caso práctico aplicado con fórmulas KaTeX.</p>
+                        
+                        <div class="keyboard-hints">
+                            <div class="hint-title">Atajos de Teclado</div>
+                            <div class="hint-item"><span class="kbd">A</span> <span class="kbd">B</span> <span class="kbd">C</span> <span class="kbd">D</span> o <span class="kbd">1</span>-<span class="kbd">4</span> Seleccionar opción</div>
+                            <div class="hint-item"><span class="kbd">→</span> Siguiente &nbsp;|&nbsp; <span class="kbd">←</span> Anterior</div>
+                            <div class="hint-item"><span class="kbd">C</span> Calculadora &nbsp;|&nbsp; <span class="kbd">M</span> Marcar con 📌</div>
+                            <div class="hint-item"><span class="kbd">F</span> Buscar pregunta &nbsp;|&nbsp; <span class="kbd">Esc</span> Menú</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer / Navigation -->
+        <footer class="app-footer">
+            <button id="btn-prev" class="nav-btn secondary" title="Anterior (←)">
+                <span>❮ Anterior</span>
+            </button>
+
+            <button id="btn-wrong" class="nav-btn wrong-btn" title="Ver preguntas falladas">
+                ❌ <span class="btn-count" id="wrong-count">0</span>
+            </button>
+
+            <button id="btn-mark" class="nav-btn secondary" title="Marcar pregunta (M)">
+                📌
+            </button>
+
+            <button id="btn-list-marked" class="nav-btn secondary" title="Ver preguntas marcadas">
+                📝 <span class="btn-count" id="pending-count">0</span>
+            </button>
+
+            <button id="btn-next" class="nav-btn primary" title="Siguiente (→)">
+                <span>Siguiente ❯</span>
+            </button>
+        </footer>
+    </div>
+
+    <!-- ============ CALCULATOR MODAL ============ -->
+    <div id="modal-calculator" class="modal hidden">
+        <div class="modal-content calculator-modal">
+            <div class="modal-header">
+                <h3>🧮 Calculadora Financiera</h3>
+                <button id="btn-close-calc" class="close-modal-btn">&times;</button>
+            </div>
+            <div class="calc-screen">
+                <div id="calc-history" class="calc-history"></div>
+                <div id="calc-display" class="calc-display">0</div>
+            </div>
+            <div class="calc-grid">
+                <button class="calc-btn clear" data-action="clear">C</button>
+                <button class="calc-btn op" data-action="backspace">⌫</button>
+                <button class="calc-btn op" data-val="^">^</button>
+                <button class="calc-btn op" data-val="/">÷</button>
+
+                <button class="calc-btn" data-val="7">7</button>
+                <button class="calc-btn" data-val="8">8</button>
+                <button class="calc-btn" data-val="9">9</button>
+                <button class="calc-btn op" data-val="*">×</button>
+
+                <button class="calc-btn" data-val="4">4</button>
+                <button class="calc-btn" data-val="5">5</button>
+                <button class="calc-btn" data-val="6">6</button>
+                <button class="calc-btn op" data-val="-">−</button>
+
+                <button class="calc-btn" data-val="1">1</button>
+                <button class="calc-btn" data-val="2">2</button>
+                <button class="calc-btn" data-val="3">3</button>
+                <button class="calc-btn op" data-val="+">+</button>
+
+                <button class="calc-btn" data-val="(">(</button>
+                <button class="calc-btn" data-val="0">0</button>
+                <button class="calc-btn" data-val=")">)</button>
+                <button class="calc-btn" data-val=".">.</button>
+
+                <button class="calc-btn equals" data-action="calculate">=</button>
+                <button class="calc-btn op" data-val="%">%</button>
+                <button class="calc-btn op" data-action="ans">Ans</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============ SEARCH MODAL ============ -->
+    <div id="modal-search" class="modal hidden">
+        <div class="modal-content search-modal">
+            <div class="modal-header">
+                <h3>🔍 Buscar en las 20 Unidades</h3>
+                <button id="btn-close-search" class="close-modal-btn">&times;</button>
+            </div>
+            <input type="text" id="search-input" class="search-input" placeholder="Escribe para buscar términos o conceptos...">
+            <div id="search-results" class="search-results-list">
+                <div class="empty-state">Escribe al menos 3 caracteres...</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============ STATS MODAL ============ -->
+    <div id="modal-stats" class="modal hidden">
+        <div class="modal-content stats-modal">
+            <div class="modal-header">
+                <h3>📊 Estadísticas de Estudio</h3>
+                <button id="btn-close-stats" class="close-modal-btn">&times;</button>
+            </div>
+            <div class="stats-overview">
+                <div class="stat-card">
+                    <span class="stat-num" id="global-accuracy">0%</span>
+                    <span class="stat-lbl">Precisión Global</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-num" id="total-answered">0</span>
+                    <span class="stat-lbl">Respondidas</span>
+                </div>
+            </div>
+            <h4 style="margin-bottom: 8px;">Unidades a Reforzar</h4>
+            <div id="weak-units-list" class="weak-list">
+                <div class="empty-state">No hay suficientes respuestas aún.</div>
+            </div>
+            <button id="btn-reset-progress" class="nav-btn full-width" style="margin-top: 15px; background: rgba(244, 63, 94, 0.2); color: var(--incorrect-color); border: 1px solid var(--incorrect-color);">🗑️ Resetear Todo el Progreso</button>
+        </div>
+    </div>
+
+    <!-- ============ MARKED QUESTIONS MODAL ============ -->
+    <div id="modal-pending" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>📌 Preguntas Marcadas</h3>
+                <button id="btn-close-pending" class="close-modal-btn">&times;</button>
+            </div>
+            <div id="pending-list" class="pending-list">
+                <!-- Items injected by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- ============ WRONG ANSWERS MODAL ============ -->
+    <div id="modal-wrong" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>❌ Preguntas Falladas</h3>
+                <button id="btn-close-wrong" class="close-modal-btn">&times;</button>
+            </div>
+            <div id="wrong-list" class="pending-list">
+                <!-- Items injected by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- ============ RESULTS MODAL ============ -->
+    <div id="modal-results" class="modal hidden">
+        <div class="modal-content results-modal">
+            <h2 id="results-title">¡Test Completado!</h2>
+            <div class="results-icon" id="results-icon">🏆</div>
+            <div class="stats-overview" style="margin: 10px 0;">
+                <div class="stat-card">
+                    <span class="stat-num" id="stat-correct" style="color: var(--correct-color);">0</span>
+                    <span class="stat-lbl">Aciertos</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-num" id="stat-wrong" style="color: var(--incorrect-color);">0</span>
+                    <span class="stat-lbl">Fallos</span>
+                </div>
+            </div>
+            <div class="score-display" id="stat-score">0%</div>
+            <div style="display: flex; flex-direction: column; gap: 8px; margin-top: 15px;">
+                <button id="btn-review-wrong" class="nav-btn wrong-btn full-width" style="display: none;">❌ Repasar Falladas</button>
+                <button id="btn-restart-results" class="nav-btn primary full-width">Volver al Inicio</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============ LEADERBOARD MODAL ============ -->
+    <div id="modal-leaderboard" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>🏆 Tabla de Clasificación</h3>
+                <button id="btn-close-leaderboard" class="close-modal-btn">&times;</button>
+            </div>
+            <div id="leaderboard-list" class="pending-list">
+                <div class="empty-state">Cargando clasificación...</div>
+            </div>
+            <div style="margin-top: 15px; display: flex; flex-direction: column; gap: 8px;">
+                <input type="text" id="username-input" class="session-input" placeholder="Tu nombre o alias..." maxlength="15">
+                <button id="btn-submit-score" class="nav-btn primary full-width">Enviar Mi Puntuación</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Third-party Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+
+    <!-- App Logic -->
+    <script src="js/app.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js').catch(err => console.log('SW registration failed:', err));
+            });
+        }
+    </script>
+</body>
+</html>

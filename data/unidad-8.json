@@ -1,0 +1,126 @@
+{
+  "unidad": 8,
+  "titulo": "Autoevaluación Unidad 8 - Sistemas de Amortización y Empréstitos",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "En la cuota de amortización constante por método lineal:",
+      "opciones": {
+        "a": "No hay amortizaciones.",
+        "b": "El  prestatario  se  compromete  a  devolver  todos  los  períodos  la  misma cantidad de capital.",
+        "c": "El prestatario no se compromete a devolver todos los períodos la misma cantidad de capital.",
+        "d": "El  prestatario  se  compromete  a  devolver  todos  los  períodos    distintos importes de capital."
+      },
+      "explicacion": "En el método de amortización lineal (o de cuota de amortización constante), el prestatario se compromete a devolver exactamente la misma cuantía de capital o principal en cada uno de los periodos ($A = C_0 / n$). Dado que el capital vivo decrece uniformemente, los intereses disminuyen y, por tanto, la cuota total a pagar va decreciendo con el tiempo.\n\n**Ejemplo práctico:** Si pides 12.000 € a devolver en 12 meses con amortización lineal, cada mes devuelves obligatoriamente 1.000 € de capital más los intereses sobre el saldo que quede pendiente en cada momento.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "Los bonos surgen cuando:",
+      "opciones": {
+        "a": "No hay capital inicial.",
+        "b": "Las necesidades de financiación son reducidas.",
+        "c": "Las necesidades de financiación son muy elevadas.",
+        "d": "Las necesidades de financiación son a corto plazo."
+      },
+      "explicacion": "Los bonos u obligaciones (empréstitos) surgen cuando el volumen de financiación que necesita captar una empresa o Estado es tan elevado que resulta inviable o excesivamente arriesgado que sea asumido por un único banco o entidad prestamista, fragmentando la deuda en miles de títulos negociables colocados entre inversores.\n\n**Ejemplo práctico:** Si una empresa constructora necesita 500 millones de euros para construir una red ferroviaria, en lugar de solicitar un crédito colosal a un solo banco, emite 500.000 bonos de 1.000 € para que los compren miles de inversores y fondos internacionales.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 3,
+      "pregunta": "Los títulos en los que se materializa un empréstito:",
+      "opciones": {
+        "a": "Incorporan un derecho de cobro de intereses y recuperación del nominal para el titular o poseedor del título.",
+        "b": "Incorporan un derecho de cobro de intereses y recuperación del nominal  para el deudor.",
+        "c": "Incorporan un derecho de cobro de intereses exclusivamente.",
+        "d": "Incorporan un derecho de cobro recuperación del nominal exclusivamente."
+      },
+      "explicacion": "Un título de empréstito (bono u obligación) confiere a su titular o poseedor (inversor) dos derechos económicos básicos: percibir periódicamente una remuneración en concepto de intereses (cobro del cupón) y recibir la devolución del valor nominal del título al llegar la fecha de su amortización o reembolso.\n\n**Ejemplo práctico:** Si compras un bono del Estado de 1.000 € al 3% a 5 años, tienes derecho legal a cobrar 30 € cada año en tu cuenta bancaria y a que el Estado te devuelva los 1.000 € íntegros al cumplirse los 5 años.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 4,
+      "pregunta": "El prestatario es:",
+      "opciones": {
+        "a": "La  entidad  o  sociedad   que  otorga  dinero  en  préstamo  comprando obligaciones.",
+        "b": "El banco.",
+        "c": "La   entidad   o   sociedad   que   solicita   dinero   en   préstamo   emitiendo obligaciones.",
+        "d": "No existe esta figura en los emprestitos."
+      },
+      "explicacion": "En una emisión de empréstitos de renta fija, el prestatario (o emisor) es la entidad, corporación o sociedad mercantil que solicita financiación en el mercado de capitales emitiendo y vendiendo títulos de deuda (obligaciones) a los inversores (obligacionistas).\n\n**Ejemplo práctico:** Cuando Telefónica emite bonos corporativos por valor de 1.000 millones de euros, Telefónica es el prestatario (deudor) y los inversores que compran esos bonos son los prestamistas.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "En una emisión bajo par:",
+      "opciones": {
+        "a": "El valor nominal de un título es mayor que su precio de emisión.",
+        "b": "El valor de emisión de un título es menor que su precio de emisión.",
+        "c": "El valor de emisión de un título es mayor que su precio de emisión.",
+        "d": "El valor nominal de un título es menor que su precio de emisión."
+      },
+      "explicacion": "Se dice que una emisión de títulos se realiza 'bajo par' cuando el precio de emisión que paga el suscriptor por adquirir el título es inferior a su valor nominal ($P_{emision} < Nominal$). La diferencia constituye una prima de emisión implícita que incentiva la adquisición del título.\n\n**Ejemplo práctico:** Si un bono tiene un valor nominal de 1.000 € pero el inversor solo paga 980 € al comprarlo en la emisión (bajo par), ya obtiene una ganancia segura de 20 € adicional a los intereses periódicos cuando el bono se reembolse por su nominal de 1.000 €.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "Un derecho de las obligacionistas es:",
+      "opciones": {
+        "a": "El voto en la junta de accionistas.",
+        "b": "El dividendo.",
+        "c": "El cobro de intereses.",
+        "d": "Todas las respuestas son correctas."
+      },
+      "explicacion": "A diferencia de los accionistas (que son propietarios de la empresa y tienen derechos políticos de voto y derechos económicos variables a dividendos), los obligacionistas son simples acreedores de la entidad y su derecho esencial consiste en percibir el pago puntual de los intereses contractuales convenidos (cupones).\n\n**Ejemplo práctico:** Si posees bonos emitidos por Iberdrola, no puedes votar para elegir al consejo de administración en la Junta General, pero la compañía tiene la obligación legal ineludible de pagarte tus intereses anuales, con independencia de que haya tenido un año excelente o malo de beneficios.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Los gastos de emisión iniciales:",
+      "opciones": {
+        "a": "Suelen ser gastos inherentes a la emisión.",
+        "b": "Suelen ser gastos de administración.",
+        "c": "Son gastos fijos.",
+        "d": "Son periódicos."
+      },
+      "explicacion": "Los gastos iniciales de una emisión de títulos (como comisiones bancarias de colocación y aseguramiento, folletos registrados en la CNMV, gastos legales, notariales y de auditoría) son costes inherentes e imprescindibles para estructurar y lanzar al mercado el empréstito.\n\n**Ejemplo práctico:** Al estructurar una emisión de deuda de 50 millones de euros, la empresa debe desembolsar al inicio cerca de 1 millón de euros en comisiones para los bancos directores de la colocación y despachos legales encargados del folleto de emisión.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 8,
+      "pregunta": "El cupón periódico vencido implica:",
+      "opciones": {
+        "a": "Su pago al final del período.",
+        "b": "Su pago al principio del período.",
+        "c": "Su pago al final de la vida del empréstito.",
+        "d": "Su pago al principio de la vida del empréstito."
+      },
+      "explicacion": "El cupón periódico vencido hace referencia al cobro o pago de los intereses devengados al término de cada intervalo temporal estipulado en las condiciones del título (por ejemplo, al finalizar cada semestre o año natural).\n\n**Ejemplo práctico:** Un bono con cupón anual vencido del 4% que se emite el 1 de enero liquidará y abonará los 40 € de intereses el 31 de diciembre de ese año.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 9,
+      "pregunta": "En el cupón acumulado simple:",
+      "opciones": {
+        "a": "Se emplea para la acumulación el régimen de capitalización compuesta de intereses.",
+        "b": "Se emplea para la acumulación el régimen de capitalización simple de intereses.",
+        "c": "Se emplea para la acumulación el régimen de capitalización normal de intereses.",
+        "d": "No es aplicable a los bonos."
+      },
+      "explicacion": "En los instrumentos financieros que incorporan cupón acumulado simple, la liquidación de los intereses que se van devengando a lo largo de la vida del título se acumula sin capitalización hasta el reembolso, utilizando para el cálculo de dicho interés acumulado las fórmulas de capitalización simple.\n\n**Ejemplo práctico:** Ciertos pagarés y pagarés de empresa calculan los intereses generados a vencimiento aplicando estrictamente el régimen de interés simple sobre el nominal desde la fecha de emisión.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 10,
+      "pregunta": "En el término amortizativo normal:",
+      "opciones": {
+        "a": "El  término  amortizativo  se  destina  exclusivamente  al  reembolso  de  los  títulos amortizados por el nominal.",
+        "b": "El término amortizativo se destina exclusivamente al pago de cupones.",
+        "c": "El término amortizativo se destina exclusivamente al pago de cupones y  reembolso de los títulos amortizados por el nominal.",
+        "d": "El termino amortizativo no tiene destino asignado."
+      },
+      "explicacion": "En un empréstito tradicional, el término amortizativo global de cada periodo es la cantidad total de dinero que el emisor debe destinar a atender la deuda: una parte se dedica a pagar los cupones de todos los títulos en circulación y otra parte se destina al reembolso del nominal de los títulos amortizados en ese sorteo o vencimiento.\n\n**Ejemplo práctico:** Si una empresa emitió 10.000 bonos de 1.000 € y este año amortiza 1.000 bonos al 5%, su término amortizativo de este año es la suma de los 500.000 € de intereses globales más 1.000.000 € para devolver su dinero a los dueños de los 1.000 títulos sorteados.",
+      "respuesta_correcta": "c"
+    }
+  ]
+}

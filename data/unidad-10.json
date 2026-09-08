@@ -1,0 +1,126 @@
+{
+  "unidad": 10,
+  "titulo": "Autoevaluación Unidad 10 - El Sistema Financiero y los Mercados Financieros",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "Un mercado financiero es:",
+      "opciones": {
+        "a": "Un conjunto de mercados en los que los agentes deficitarios de fondos los obtienen de los agentes con superávit.",
+        "b": "Un conjunto de mercados en los que los agentes con superávit de fondos los obtienen de los agentes deficitarios.",
+        "c": "Un conjunto de mercados con agentes deficitarios de fondos.",
+        "d": "Un sistema financiero."
+      },
+      "explicacion": "Un mercado financiero es el mecanismo o espacio institucional a través del cual los agentes económicos que tienen excedentes de liquidez (ahorradores o agentes con superávit) canalizan sus recursos hacia aquellos agentes que necesitan fondos para financiar sus actividades de consumo o inversión productiva (agentes deficitarios).\n\n**Ejemplo práctico:** Una familia que no gasta todos sus ingresos y contrata un fondo de inversión está canalizando su superávit hacia una empresa manufacturera que necesita 2 millones de euros para ampliar su fábrica.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "En los mercados financieros la competencia perfecta se conseguirá:",
+      "opciones": {
+        "a": "Sin transparencia.",
+        "b": "Con libertad de concurrencia.",
+        "c": "Sin precios desiguales.",
+        "d": "Si mantienen un tamaño pequeño."
+      },
+      "explicacion": "En la teoría económica de los mercados financieros, la competencia perfecta se alcanza cuando impera la plena libertad de concurrencia y acceso al mercado, garantizando que tanto oferentes como demandantes puedan participar libremente sin barreras de entrada ni monopolios que distorsionen los precios de equilibrio.\n\n**Ejemplo práctico:** En un mercado con libertad de concurrencia, cualquier inversor institucional o minorista puede emitir órdenes de compraventa al instante, evitando que un único operador domine o manipule artificialmente las cotizaciones.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 3,
+      "pregunta": "Según su grado de concentración, los mercados pueden ser:",
+      "opciones": {
+        "a": "Libres o regulados.",
+        "b": "Organizados u oficiales.",
+        "c": "Centralizados o no centralizados.",
+        "d": "Abiertos o cerrados."
+      },
+      "explicacion": "Atendiendo al grado de concentración espacial o física de las operaciones, los mercados financieros se clasifican en centralizados (aquellos con una sede, plataforma u organismo rector único donde convergen todas las órdenes, como las Bolsas oficiales) y no centralizados o descentralizados (mercados OTC o bilaterales negociados por teléfono o pantallas dispersas).\n\n**Ejemplo práctico:** La Bolsa de Madrid opera mediante una plataforma centralizada (el SIBE), mientras que el mercado interbancario de divisas opera de forma descentralizada a través de redes globales de terminales entre bancos de todo el mundo.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 4,
+      "pregunta": "Según la interrelación de los agentes, los mercados pueden ser:",
+      "opciones": {
+        "a": "Organizados u oficiales.",
+        "b": "Centralizados o no centralizados.",
+        "c": "Abiertos o cerrados.",
+        "d": "Directos o intermediados."
+      },
+      "explicacion": "Según la forma en que entran en contacto los agentes económicos, los mercados se clasifican en mercados directos (los demandantes y oferentes negocian e intercambian los activos directamente entre sí, sin que el mediador asuma la posición) y mercados intermediados (donde una entidad financiera o intermediario actúa interponiéndose y transformando los activos).\n\n**Ejemplo práctico:** La compraventa de pagarés entre dos empresas a través de sus directores financieros es una operación de mercado directo, mientras que solicitar un crédito en una sucursal bancaria es una operación en un mercado plenamente intermediado.",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 5,
+      "pregunta": "En el Mercado de Deuda Anotada:",
+      "opciones": {
+        "a": "Intervienen el Tesoro y los miembros del Mercado.",
+        "b": "Intervienen los bancos y las cajas de ahorro.",
+        "c": "Interviene la Comision Nacional del Mercado de Valores.",
+        "d": "Intervienen las Sociedades y Agencias de Valores."
+      },
+      "explicacion": "El Mercado de Deuda Pública Anotada en España es un mercado organizado especializado donde intervienen fundamentalmente el Tesoro Público (como organismo emisor del Estado) y los miembros del mercado debidamente autorizados (titulares de cuenta y creadores de mercado), con supervisión del Banco de España.\n\n**Ejemplo práctico:** Cuando el Estado necesita fondos para construir infraestructuras, el Tesoro organiza una subasta en el Mercado de Deuda Anotada donde acuden los grandes bancos miembros del mercado a adquirir miles de millones en Bonos y Obligaciones del Estado.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "Los mercados interbancarios:",
+      "opciones": {
+        "a": "Negocian depósitos de los clientes.",
+        "b": "Negocian valores de las entidades financieras.",
+        "c": "Negocian bonos de las entidades financieras.",
+        "d": "Negocian depósitos de las entidades financieras."
+      },
+      "explicacion": "El mercado interbancario es un mercado mayorista y altamente especializado donde las entidades financieras de crédito se prestan y toman prestados depósitos y excesos de liquidez a muy corto plazo (desde 1 día —overnight— hasta varios meses), fijando tipos de referencia clave como el Euríbor o el €STR.\n\n**Ejemplo práctico:** Si al final de la jornada Santander tiene un superávit puntual de liquidez de 200 millones de euros y BBVA tiene un déficit temporal para cuadrar su coeficiente de reservas, Santander le transfiere ese depósito a BBVA en el mercado interbancario a un plazo de 24 horas.",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Una de las funciones principales de los mercados financieros es:",
+      "opciones": {
+        "a": "Ofrecer pasivo a las entidades financieras.",
+        "b": "Generar inversión en activos físicos.",
+        "c": "Proporcionar liquidez adecuada a los activos previamente emitidos.",
+        "d": "Mejorar la economía en general."
+      },
+      "explicacion": "Una de las funciones indispensables de los mercados financieros organizados es dotar de liquidez a los activos financieros ya emitidos (mercado secundario), permitiendo a los inversores transformar rápidamente sus títulos en dinero en efectivo antes de su vencimiento sin sufrir penalizaciones excesivas en el precio.\n\n**Ejemplo práctico:** Si compraste un bono a 10 años pero a los 6 meses necesitas el dinero para una urgencia, gracias a la liquidez del mercado secundario puedes vender tu bono en cuestión de segundos y recuperar tu efectivo.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Un mercado es eficiente a la hora de fijar los precios:",
+      "opciones": {
+        "a": "Cuando es directo.",
+        "b": "Cuando  recoge  toda  la  información  disponible  que  pueda  afectar  a  la valoración de un activo.",
+        "c": "Cuando no tiene contrapartida.",
+        "d": "Si se puede alterar."
+      },
+      "explicacion": "De acuerdo con la hipótesis de eficiencia de los mercados financieros formulada por Eugene Fama, un mercado es eficiente cuando los precios de los activos reflejan de forma instantánea y completa toda la información disponible (pública y relevante) que pueda influir en su valoración intrínseca.\n\n**Ejemplo práctico:** En un mercado eficiente, en cuanto una compañía farmacéutica anuncia públicamente el éxito clínico de una nueva vacuna, el precio de su acción sube al instante para incorporar ese mayor beneficio esperado en su cotización.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "pregunta": "La regulación es necesaria:",
+      "opciones": {
+        "a": "Para mejorar el sistema financiero.",
+        "b": "Para mejorar la recaudación fiscal.",
+        "c": "Para la protección de los consumidores.",
+        "d": "Para el buen desarrollo del equipo profesional."
+      },
+      "explicacion": "La regulación financiera y la supervisión pública por parte de organismos oficiales (como la CNMV o el Banco de España) son imperativas para garantizar la transparencia informativa, mitigar el riesgo sistémico y proteger de forma efectiva a los consumidores e inversores minoristas frente a asimetrías de información o prácticas abusivas.\n\n**Ejemplo práctico:** Las normativas europeas (como MiFID II) obligan a los bancos a evaluar mediante cuestionarios de idoneidad si un cliente minorista comprende el riesgo de un producto financiero antes de permitírselo contratar, protegiendo así al consumidor no experto.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 10,
+      "pregunta": "Las agencias de calificación crediticia:",
+      "opciones": {
+        "a": "Califican el riesgo crediticio de las acciones.",
+        "b": "Califican el riesgo crediticio de los clientes.",
+        "c": "Califican el riesgo crediticio de los activos del inmovilizado de una empresa.",
+        "d": "Califican  el  riesgo  crediticio  de  los  emisores  de  valores  y  de  sus obligaciones financieras."
+      },
+      "explicacion": "Las agencias de calificación de riesgos o agencias de rating (como Moody's, S&P o Fitch) tienen como función fundamental emitir notas y opiniones independientes sobre la solvencia crediticia y probabilidad de impago de los emisores de valores (empresas, bancos y gobiernos) y de sus instrumentos de deuda específicos.\n\n**Ejemplo práctico:** Si una agencia otorga a los bonos de una empresa una calificación 'AAA', indica a los inversores internacionales que esa empresa tiene una solvencia máxima y que el riesgo de que no pague sus deudas es prácticamente nulo.",
+      "respuesta_correcta": "d"
+    }
+  ]
+}

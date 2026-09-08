@@ -1,0 +1,126 @@
+{
+  "unidad": 20,
+  "titulo": "Autoevaluación Unidad 20 - Valoración por Descuento de Flujos de Fondos (DCF)",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "Los  métodos  de  valoración  basados  en  el  descuento  de  flujos  de fondos:",
+      "opciones": {
+        "a": "Tratan de determinar el valor de la empresa a través de la estimación de los flujos de caja que generará en el futuro, para luego descontarlos a una tasa apropiada según el riesgo de dichos flujos.",
+        "b": "Tratan de determinar el valor de la empresa a través de la estimación del beneficio.",
+        "c": "Tratan de determinar el valor de la empresa a través de la estimación de los flujos de caja pasados, para luego descontarlos a una tasa apropiada según el riesgo de dichos flujos.",
+        "d": "Tratan de determinar el valor de la empresa a través de la estimación de los flujos de caja que generará en el futuro, sin actualizarlos a su valor actual."
+      },
+      "explicacion": "Los métodos de valoración por descuento de flujos de fondos (DCF) determinan el valor económico de una empresa proyectando de forma rigurosa los flujos de caja netos futuros que el negocio generará en el horizonte temporal previsto, y actualizándolos al momento actual mediante una tasa de descuento que remunera y pondera el riesgo financiero y operativo de dichos flujos.\n\n**Ejemplo práctico:** Valorar una cadena de restaurantes mediante DCF consiste en estimar cuánta caja neta libre dejarán las comidas servidas en los próximos 10 años y descontar ese dinero a una tasa acorde al riesgo del sector de la restauración para saber cuánto vale la empresa hoy.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "El flujo de fondos para la deuda:",
+      "opciones": {
+        "a": "Es la suma de los intereses que corresponde pagar por la deuda.",
+        "b": "Es la devolución del importe principal.",
+        "c": "Es la suma de los intereses que corresponde pagar por la deuda más las devoluciones de principal.",
+        "d": "Es el descuento de los intereses que corresponde pagar por la deuda más el principal."
+      },
+      "explicacion": "El flujo de fondos para la deuda (Debt Cash Flow) es la corriente de efectivo total que la empresa destina al servicio de su deuda financiera en cada periodo, y comprende de forma indisociable la suma del pago de los intereses devengados más las devoluciones o reembolsos de las cuotas de principal amortizadas.\n\n**Ejemplo práctico:** Si durante el año una empresa abona al banco 15.000 € de intereses y amortiza 35.000 € del saldo de su préstamo hipotecario, el flujo de fondos total destinado a la deuda ha sido de 50.000 €.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 3,
+      "pregunta": "El flujo de fondos libre:",
+      "opciones": {
+        "a": "Es el flujo de fondos generado por las operaciones, después de impuestos.",
+        "b": "Es el flujo de fondos generado por las operaciones, sin tener en cuenta el endeudamiento, antes de impuestos.",
+        "c": "Es el flujo de fondos generado por las operaciones, sin tener en cuenta el  endeudamiento, después de impuestos.",
+        "d": "Todas las respuestas son correctas."
+      },
+      "explicacion": "El Flujo de Fondos Libre (Free Cash Flow o FCF) es el flujo de caja operativo que genera el negocio con total independencia de cómo esté financiado (es decir, considerando a la empresa como si no tuviese deuda), después de descontar los impuestos operativos teóricos y tras cubrir las necesidades netas de reinversión en circulante (NOF) y en inmovilizado productivo (CapEx).\n\n**Ejemplo práctico:** El Free Cash Flow es la 'caja limpia' que queda sobre la mesa tras pagar sueldos, suministros, impuestos de la actividad e inversiones en maquinaria nueva, disponible para ser repartida entre bancos y accionistas.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 4,
+      "pregunta": "La suma del cash flow para los poseedores de deuda más el cash flow para las acciones se denomina:",
+      "opciones": {
+        "a": "Cash flow.",
+        "b": "Flujo de caja de la deuda.",
+        "c": "Capital cash flow.",
+        "d": "Free cash flow."
+      },
+      "explicacion": "El Capital Cash Flow (CCF) es una magnitud financiera que representa la corriente total de caja que la empresa transfiere conjuntamente a todos sus proveedores de capital; se calcula exactamente como la suma del flujo de caja disponible para los accionistas (Equity Cash Flow) más el flujo de caja destinado a los acreedores financieros (Debt Cash Flow): $CCF = ECF + DCF$.\n\n**Ejemplo práctico:** Si la empresa genera 100.000 € que se quedan los socios vía dividendos y caja retenida, y además transfiere 60.000 € a los bancos en concepto de cuotas de préstamos, el Capital Cash Flow generado en el ejercicio es de 160.000 €.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "Descontando el cash flow disponible para las acciones a la tasa de rentabilidad exigida por los accionistas a la empresa, obtenemos:",
+      "opciones": {
+        "a": "El valor de la deuda de la empresa.",
+        "b": "El valor de mercado de las acciones de la empresa.",
+        "c": "El valor total de la empresa.",
+        "d": "Todas las respuestas son incorrectas."
+      },
+      "explicacion": "Cuando se descuentan los flujos de fondos disponibles para las acciones (Equity Cash Flow) utilizando como tasa de actualización la rentabilidad exigida por los accionistas al capital propio ($K_e$), el resultado obtenido es de forma directa el valor de mercado de los fondos propios o de las acciones de la empresa (Equity Value).\n\n**Ejemplo práctico:** Si descuentas la caja neta que queda exclusivamente para los dueños tras pagar a los bancos, obtienes exactamente el valor en euros por el que los accionistas deberían estar dispuestos a vender sus acciones.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 6,
+      "pregunta": "La ponderación del riesgo del negocio:",
+      "opciones": {
+        "a": "Es una parte del análisis estratégico y competitivo.",
+        "b": "No se emplea en la valoración de empresas.",
+        "c": "Es una parte del análisis financiero.",
+        "d": "Es un sistema de gestión."
+      },
+      "explicacion": "Evaluar y cuantificar el riesgo del negocio es un paso imprescindible e indisociable del análisis financiero en una valoración, ya que dicho riesgo determina directamente la tasa de descuento ($k_e$ y WACC) que se empleará en el modelo; a mayor riesgo del modelo operativo, mayor tasa de rentabilidad exigida y menor valor actual de los flujos.\n\n**Ejemplo práctico:** Una empresa de software con contratos públicos blindados a 10 años tiene un riesgo de negocio mínimo y descuenta al 6%, mientras que un estudio de videojuegos que depende de un solo lanzamiento comercial tiene un riesgo elevado y se le aplica una tasa del 16% en el análisis financiero.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 7,
+      "pregunta": "El método más apropiado para valorar una empresa es:",
+      "opciones": {
+        "a": "Multiplicar las ventas anuales por un coeficiente.",
+        "b": "Descontar los flujos de fondos futuros esperados.",
+        "c": "Multiplicar el beneficio operativo anual por un coeficiente.",
+        "d": "Todas las respuestas son incorrectas."
+      },
+      "explicacion": "Frente a métodos basados en múltiplos o balances estáticos, la doctrina financiera unánime considera que el método conceptualmente más sólido, completo y riguroso para valorar una empresa en funcionamiento es el descuento de los flujos de fondos futuros esperados (DCF), pues el valor de cualquier activo económico equivale a su capacidad para generar liquidez futura.\n\n**Ejemplo práctico:** Al comprar un apartamento para alquilarlo, lo que verdaderamente compras es la serie de rentas mensuales que vas a cobrar en los próximos años; con las empresas ocurre exactamente igual: su valor real es la caja futura descontada a valor de hoy.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Crecimiento, rentabilidad, riesgo y tipos de interés:",
+      "opciones": {
+        "a": "Depende del tipo de empresa.",
+        "b": "No influyen en una valoración.",
+        "c": "Son factores clave que afectan al valor.",
+        "d": "Todas las respuestas son correctas."
+      },
+      "explicacion": "El valor de una empresa se fundamenta de manera determinante en cuatro motores macroeconómicos y corporativos interconectados: el crecimiento de los ingresos (crecimiento), el margen sobre el capital invertido (rentabilidad), la volatilidad del negocio (riesgo) y el precio del dinero en la economía fijado por los bancos centrales (tipos de interés). Por tanto, todos ellos son determinantes críticos del valor.\n\n**Ejemplo práctico:** Si una empresa crece al 20% anual y tiene un alto margen pero los tipos de interés de la economía suben drásticamente al 5%, su valoración por descuento de flujos bajará de forma automática porque el dinero futuro pierde valor actual.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Para ganar dinero en la Bolsa:",
+      "opciones": {
+        "a": "Hay que valorar bien las empresas.",
+        "b": "Hay que invertir mucho.",
+        "c": "Es importante prever qué van a hacer las cotizaciones.",
+        "d": "Hay que tener en cuenta el plazo."
+      },
+      "explicacion": "En la operativa bursátil real a corto y medio plazo, el valor intrínseco de una acción no basta por sí solo para obtener beneficios inmediatos; es indispensable anticiparse y prever hacia dónde se moverá la psicología del mercado y la tendencia de las cotizaciones de la masa inversora.\n\n**Ejemplo práctico:** Como decía John Maynard Keynes, la Bolsa es como un concurso de belleza donde no gana quien tú consideras más atractiva, sino quien acierta qué candidata elegirá la mayoría de los demás votantes.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 10,
+      "pregunta": "Los dividendos:",
+      "opciones": {
+        "a": "Se pagan con los beneficios.",
+        "b": "Se pagan con la caja de la empresa.",
+        "c": "Se pagan con deuda.",
+        "d": "Incrementan los fondos propios de la empresa."
+      },
+      "explicacion": "Aunque el reparto de dividendos exige la existencia de beneficios contables o reservas voluntarias legales disponibles, el pago material del dividendo se realiza necesariamente con la liquidez y caja efectiva disponible en la cuenta corriente de la empresa; una empresa con grandes beneficios sobre el papel pero sin dinero en efectivo no puede abonar dividendos.\n\n**Ejemplo práctico:** Si una promotora inmobiliaria reporta 5 millones de euros de beneficio neto contable porque ha vendido pisos sobre plano pero aún no ha cobrado los pagarés, no podrá pagar ni un euro de dividendo a sus socios hasta que la tesorería real no esté en su cuenta bancaria.",
+      "respuesta_correcta": "b"
+    }
+  ]
+}

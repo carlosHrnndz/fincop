@@ -1,0 +1,126 @@
+{
+  "unidad": 19,
+  "titulo": "Autoevaluación Unidad 19 - Métodos de Valoración de Empresas (Patrimoniales y Múltiplos)",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "La valoración de empresas es fundamentalmente:",
+      "opciones": {
+        "a": "Un proceso creativo.",
+        "b": "Un análisis técnico pero racional y realista.",
+        "c": "Un análisis matemático.",
+        "d": "Una ciencia."
+      },
+      "explicacion": "Valorar una empresa no es un mero ejercicio de creatividad subjetiva ni una ciencia exacta e infalible; es un riguroso análisis técnico fundamentado en modelos económico-financieros sólidos, pero que exige criterios racionales, realistas y consistentes con la dinámica competitiva del mercado.\n\n**Ejemplo práctico:** Un buen informe de valoración de una pyme no se limita a inventar cifras de crecimiento optimistas, sino que analiza detalladamente sus cuentas históricas auditadas, su cuota de mercado y la viabilidad de sus márgenes futuros.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "Los métodos más empleados están basados en:",
+      "opciones": {
+        "a": "El descuento de flujos de fondos.",
+        "b": "El descuento de beneficios.",
+        "c": "El precio de las acciones.",
+        "d": "Todas las respuestas son correctas."
+      },
+      "explicacion": "En la práctica financiera profesional e internacional de banca de inversión y M&A (fusiones y adquisiciones), los métodos de valoración más ampliamente reconocidos, aplicados y fundamentados son los métodos dinámicos basados en el Descuento de Flujos de Fondos o Caja (Discounted Cash Flow - DCF), ya que valoran a la empresa como un ente generador de liquidez futura.\n\n**Ejemplo práctico:** Cuando una gran firma de capital riesgo presenta una oferta vinculante para adquirir una compañía logística, el precio ofrecido se fundamenta en un modelo financiero de descuento de flujos de caja a 10 años.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "pregunta": "Una valoración sirve para:",
+      "opciones": {
+        "a": "Salidas a Bolsa.",
+        "b": "Sistemas de remuneración basados en creación de valor.",
+        "c": "Decisiones estratégicas sobre la continuidad de la empresa.",
+        "d": "Todas las respuestas son correctas."
+      },
+      "explicacion": "La valoración de una empresa es una herramienta estratégica imprescindible en múltiples circunstancias corporativas: fijar el precio de salida a Bolsa (OPV), estructurar fusiones y adquisiciones, liquidar a socios salientes, diseñar planes de remuneración en acciones ligados a la creación de valor para directivos o evaluar la viabilidad de la continuidad del negocio.\n\n**Ejemplo práctico:** Antes de dar el toque de campana para cotizar en el parqué bursátil, los bancos colocadores realizan una valoración exhaustiva para determinar a qué precio inicial por acción saldrá la empresa al mercado.",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "pregunta": "Los métodos basados en el balance:",
+      "opciones": {
+        "a": "Sólo se emplean los beneficios.",
+        "b": "No tiene en cuenta la valoración de activos.",
+        "c": "No tiene en cuenta la posible futura evolución de la empresa.",
+        "d": "Se emplean para calcular el precio de mercado de la empresa."
+      },
+      "explicacion": "Los métodos estáticos de balance (como el valor contable, valor contable ajustado o valor sustancial) valoran la empresa analizando el patrimonio neto que figura en sus libros en un momento estático pasado, adoleciendo del grave inconveniente de ignorar por completo la capacidad futura del negocio para generar beneficios y flujos de caja.\n\n**Ejemplo práctico:** Una empresa tecnológica de inteligencia artificial con pocos activos físicos en balance puede tener un valor contable de solo 200.000 €, pero valer cientos de millones en el mercado gracias a su enorme potencial de beneficios futuros, algo que el balance no refleja.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "El valor de liquidación de una empresa es:",
+      "opciones": {
+        "a": "El valor de una empresa en el caso de que se proceda a la venta de sus  activos y se cancelen sus deudas.",
+        "b": "El valor de una empresa en el caso de que cierre.",
+        "c": "El valor de una empresa en el mercado de crisis.",
+        "d": "Todas las respuestas son incorrectas."
+      },
+      "explicacion": "El valor de liquidación representa el importe neto monetario residual que se obtendría si la empresa cesase definitivamente sus operaciones comerciales, vendiese todos sus activos individuales de forma apresurada en el mercado y cancelase todas las deudas pendientes con sus acreedores.\n\n**Ejemplo práctico:** Si una fábrica textil cierra definitivamente, se subastan sus telares y furgonetas, se pagan las indemnizaciones de los trabajadores y los créditos bancarios; el dinero sobrante que llega a los accionistas es el valor de liquidación.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "Los métodos basados en la cuenta de resultados:",
+      "opciones": {
+        "a": "Son fijos y estables.",
+        "b": "Tratan de determinar el valor de la empresa a través de la magnitud del balance.",
+        "c": "Tratan de determinar el valor de la empresa a través de la magnitud de los beneficios, de las ventas o de otro indicador al cual se aplica un múltiplo.",
+        "d": "Sólo se emplean para valorar empresas rentables."
+      },
+      "explicacion": "Los métodos de valoración basados en la cuenta de resultados (múltiplos comparables de cotización o transacciones) estiman el valor del negocio multiplicando magnitudes operativas clave de la cuenta de pérdidas y ganancias (tales como ventas, EBITDA, EBIT o beneficio neto) por un múltiplo de mercado derivado de empresas comparables del sector.\n\n**Ejemplo práctico:** Si en el sector de clínicas dentales las empresas se venden habitualmente a un múltiplo de 6 veces su EBITDA y tu clínica genera 300.000 € de EBITDA al año, su valor estimado por múltiplos es de aproximadamente 1,8 millones de euros (300.000 * 6).",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 7,
+      "pregunta": "El método de valoración de acciones mediante PER implica:",
+      "opciones": {
+        "a": "Multiplicar las ventas anuales por un coeficiente.",
+        "b": "Multiplicar el beneficio bruto anual por un coeficiente.",
+        "c": "Multiplicar el beneficio operativo anual por un coeficiente.",
+        "d": "Multiplicar el beneficio neto anual por un coeficiente."
+      },
+      "explicacion": "El PER (Price-to-Earnings Ratio o relación Precio/Beneficio) relaciona la capitalización bursátil de la empresa con su beneficio neto anual después de impuestos (o el precio por acción entre el BPA). Valorar por PER implica multiplicar el beneficio neto anual de la sociedad por el ratio PER de referencia del sector.\n\n**Ejemplo práctico:** Si una empresa cotizada obtiene 10 millones de euros de beneficio neto anual y las empresas de su sector cotizan con un PER medio de 15, su valoración bursátil estimada se sitúa en torno a los 150 millones de euros (10 * 15).",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "pregunta": "La valoración según los dividendos de la empresa:",
+      "opciones": {
+        "a": "Depende del crecimiento de los dividendos.",
+        "b": "Depende del plazo.",
+        "c": "Depende del coste.",
+        "d": "Todas las respuestas son correctas."
+      },
+      "explicacion": "En los modelos de valoración por descuento de dividendos (como el célebre modelo de Gordon-Shapiro: $P_0 = D_1 / (k_e - g)$), el valor de la acción depende de manera determinante de la tasa de crecimiento esperada de los dividendos futuros ($g$). Cuanto mayor y más sostenible sea este crecimiento, mayor será el valor intrínseco de la acción hoy.\n\n**Ejemplo práctico:** Si una empresa de telecomunicaciones se compromete a incrementar su dividendo un 4% cada año de forma ininterrumpida, sus títulos alcanzarán una cotización significativamente superior a la de otra empresa idéntica que mantenga sus dividendos congelados.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 9,
+      "pregunta": "La evidencia empírica ha mostrado que:",
+      "opciones": {
+        "a": "Las empresas que pagan como dividendo un porcentaje menor de sus  beneficios no obtienen como consecuencia de ello un crecimiento en la cotización de sus acciones.",
+        "b": "Las empresas que pagan como dividendo un porcentaje mayor de sus beneficios no obtienen como consecuencia de ello un crecimiento en la  cotización de sus acciones.",
+        "c": "Las empresas que no pagan dividendos son más rentables.",
+        "d": "Las rentabilidades dependen del dividendo."
+      },
+      "explicacion": "Múltiples estudios empíricos en finanzas demuestran que pagar un 'pay-out' muy alto (repartir casi la totalidad del beneficio como dividendo) no garantiza que la cotización de las acciones suba más que la de aquellas empresas que retienen beneficios para reinvertirlos en proyectos con alta rentabilidad, desmitificando que un dividendo mayor eleve automáticamente el precio de la acción en el mercado.\n\n**Ejemplo práctico:** Empresas punteras como Google, Apple o Amazon prefirieron durante años no pagar dividendos para reinvertir toda su caja en innovación tecnológica, experimentando subidas bursátiles colosales muy superiores a las de compañías maduras con altos dividendos estancados.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 10,
+      "pregunta": "El fondo de comercio pretende:",
+      "opciones": {
+        "a": "Representar el valor de la deuda de la empresa, que muchas veces no aparece reflejado en el balance.",
+        "b": "Representar el valor de los elementos inmateriales de la empresa, que muchas veces no aparece reflejado en el balance.",
+        "c": "Representar el valor de la tesorería de la empresa.",
+        "d": "Representar el valor de los activos a largo plazo de la empresa."
+      },
+      "explicacion": "El fondo de comercio (o goodwill) cuantifica el valor económico de los activos intangibles de una empresa que no están explícitamente contabilizados en el balance tradicional (como el prestigio de la marca, la cartera de clientes fidelizados, las patentes, el capital humano y el know-how organizativo), justificando que se pague por ella un precio superior a su valor contable neto.\n\n**Ejemplo práctico:** Al comprar una prestigiosa firma de moda, el comprador no solo paga por los vestidos y las estanterías de las tiendas, sino que paga una prima millonaria por el fondo de comercio que representa el renombre mundial y el prestigio de su marca comercial.",
+      "respuesta_correcta": "b"
+    }
+  ]
+}

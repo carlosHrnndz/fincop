@@ -1,0 +1,126 @@
+{
+  "unidad": 18,
+  "titulo": "Autoevaluación Unidad 18 - Coste de Capital y Modelo CAPM",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "El CAPM se emplea para:",
+      "opciones": {
+        "a": "Determinar el coste de la deuda.",
+        "b": "Determinar el coste de los activos.",
+        "c": "Determinar la tasa de retorno requerida para las acciones.",
+        "d": "Calcular el riesgo."
+      },
+      "explicacion": "El Capital Asset Pricing Model (CAPM), formulado por William Sharpe, se emplea en finanzas para determinar la tasa de rentabilidad mínima exigida (tasa de retorno requerida o coste de oportunidad) para las acciones o recursos propios de una empresa ($K_e$), en función del riesgo sistemático que asume el inversor frente al mercado global: $K_e = R_f + \\beta \\cdot (R_m - R_f)$.\n\n**Ejemplo práctico:** Un inversor utiliza el CAPM para calcular si una acción que cotiza en Bolsa le ofrece suficiente rentabilidad esperada dado su nivel de riesgo antes de incluirla en su cartera.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 2,
+      "pregunta": "La rentabilidad adicional obtenida por el mercado a causa del riesgo adicional asumido por invertir en un portfolio o cartera de acciones en vez de en Bonos del Tesoro es:",
+      "opciones": {
+        "a": "El coste de la deuda.",
+        "b": "La prima de riesgo del mercado.",
+        "c": "El riesgo del mercado.",
+        "d": "Todas las respuestas son correctas."
+      },
+      "explicacion": "La prima de riesgo de mercado ($R_m - R_f$) es el rendimiento o rentabilidad adicional por encima del activo libre de riesgo (como el bono del Estado) que los inversores exigen por invertir en una cartera diversificada de renta variable, compensando la mayor volatilidad y riesgo asumidos al invertir en acciones.\n\n**Ejemplo práctico:** Si la deuda pública libre de riesgo rinde un 3% y la rentabilidad esperada de la Bolsa es del 8%, la prima de riesgo del mercado es del 5% (8% - 3%).",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 3,
+      "pregunta": "Las acciones que se mueven proporcionalmente más que el mercado tendrán una beta:",
+      "opciones": {
+        "a": "Superior a 1.",
+        "b": "Inferior a 1.",
+        "c": "Igual a 1.",
+        "d": "No se puede calcular."
+      },
+      "explicacion": "El coeficiente Beta ($\\beta$) mide la sensibilidad o volatilidad sistemática de un título respecto a los movimientos del mercado en su conjunto. Si una acción tiene una beta superior a 1 ($\\beta > 1$), significa que sus movimientos son proporcionalmente más amplios y volátiles que los del índice general (acción agresiva).\n\n**Ejemplo práctico:** Si una empresa tecnológica tiene una beta de 1,4, cuando el índice general del mercado sube un 10%, la acción tiende a subir un 14%; y si el mercado cae un 10%, la acción tiende a caer un 14%.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 4,
+      "pregunta": "El coste de capital promedio ponderado:",
+      "opciones": {
+        "a": "Sólo se emplea en el cálculo de la deuda.",
+        "b": "Calcula el coste de los activos.",
+        "c": "Se emplea para calcular el coste total del capital empleado por la empresa.",
+        "d": "Determina el coste de los fondos propios."
+      },
+      "explicacion": "El Coste Medio Ponderado del Capital (WACC o CMPC) es una ratio fundamental que calcula el coste medio global que le supone a la empresa financiar sus activos, ponderando el coste de cada una de sus fuentes de financiación (deuda neta de impuestos y fondos propios) de acuerdo con su peso relativo en la estructura financiera total.\n\n**Ejemplo práctico:** Si una empresa se financia un 50% con deuda al 4% (después de impuestos) y un 50% con recursos propios al 10%, su coste medio ponderado de capital (WACC) es del 7% (0,5*4% + 0,5*10%).",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "Una aproximación para determinar el coste de los fondos propios en compañías no cotizadas es:",
+      "opciones": {
+        "a": "Determinar el ROA medio de las compañías que cotizan en la Bolsa.",
+        "b": "Determinar el ROE promedio de las compañías que cotizan en la Bolsa.",
+        "c": "Determinar el coste medio de la deuda de las compañías que cotizan en la Bolsa.",
+        "d": "Determinar el capital medio de las compañías que cotizan en la Bolsa."
+      },
+      "explicacion": "Dado que las empresas familiares o pymes que no cotizan en Bolsa carecen de precios diarios de mercado y de beta observable, una metodología empírica habitual en valoración corporativa para aproximar el coste de sus recursos propios consiste en analizar y tomar como referencia el ROE (Return on Equity o rentabilidad sobre fondos propios) promedio obtenido por compañías comparables del mismo sector que sí cotizan en mercados oficiales.\n\n**Ejemplo práctico:** Para estimar el coste del capital de una cadena de panaderías local no cotizada, se analiza el ROE medio que obtienen las empresas del sector de alimentación que cotizan en la Bolsa española.",
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 6,
+      "pregunta": "En general, el coste de los recursos propios es:",
+      "opciones": {
+        "a": "Variable según momento y zona geográfica.",
+        "b": "Fijo y estable.",
+        "c": "Menor que el coste de la deuda.",
+        "d": "Bajo."
+      },
+      "explicacion": "El coste de los recursos propios ($K_e$) no es una constante inmutable ni universal; oscila continuamente a lo largo del tiempo y varía sustancialmente según la zona geográfica, ya que incorpora el tipo de interés del banco central emisor, la inflación local, la prima de riesgo soberana y el entorno macroeconómico de cada país.\n\n**Ejemplo práctico:** El coste de capital exigido a una empresa radicada en Suiza o Alemania es históricamente mucho menor que el exigido a una empresa idéntica que opera en un mercado emergente con alta volatilidad económica.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Los intereses de los accionistas:",
+      "opciones": {
+        "a": "Suelen estar enfocados en la rentabilidad económica.",
+        "b": "Suelen estar enfocados en la estabilidad.",
+        "c": "Suelen  ser  variados  y  no  necesariamente  enfocados  en  la  rentabilidad económica.",
+        "d": "Todas las respuestas son incorrectas."
+      },
+      "explicacion": "Los accionistas de una empresa no forman un colectivo homogéneo guiado exclusivamente por la maximización financiera a corto plazo. Sus objetivos e intereses pueden ser extraordinariamente diversos: preservar el patrimonio y control en empresas familiares, prestigio y reputación corporativa, sostenibilidad medioambiental, estabilidad a largo plazo o intereses políticos y estratégicos.\n\n**Ejemplo práctico:** En una bodega tradicional con más de cien años de historia, los fundadores familiares pueden priorizar la excelencia artesanal y mantener la propiedad familiar dentro de la dinastía, incluso si eso implica rechazar oportunidades que hubiesen maximizado el beneficio trimestral.",
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Uno de los criterios a la hora de elegir entre deuda y capital para financiarse es:",
+      "opciones": {
+        "a": "Flexibilidad.",
+        "b": "Riesgo.",
+        "c": "Coste.",
+        "d": "Todas las respuestas son correctas."
+      },
+      "explicacion": "A la hora de estructurar el balance corporativo eligiendo entre recurrir a préstamos bancarios/bonos (deuda) o ampliar capital emitiendo acciones (recursos propios), la dirección financiera debe ponderar simultáneamente tres factores críticos: el coste de cada fuente, el nivel de riesgo financiero de quiebra que añade la deuda y la flexibilidad operativa futura que conserva la organización.\n\n**Ejemplo práctico:** La deuda es más barata pero menos flexible (obliga a pagar cuotas fijas); el capital propio no exige pagos forzosos pero es más caro y diluye el control político de los socios fundadores.",
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Un problema de la financiación adicional con la emisión de nuevas acciones es:",
+      "opciones": {
+        "a": "La pérdida del control de la empresa.",
+        "b": "La pérdida del beneficio de la empresa.",
+        "c": "El mayor control de la empresa.",
+        "d": "La pérdida de rentabilidad."
+      },
+      "explicacion": "Uno de los inconvenientes más críticos al financiar nuevos proyectos mediante la emisión de nuevas acciones y la entrada de nuevos inversores es el efecto de dilución y la pérdida de control político y de voto de los accionistas originales, quienes pueden ver mermada su capacidad de decisión en la Junta General.\n\n**Ejemplo práctico:** Si los fundadores de una startup poseen el 60% de la compañía y emiten un gran paquete de nuevas acciones para captar 5 millones de euros de un fondo de capital riesgo, su participación puede descender al 35%, perdiendo la mayoría absoluta y el control del consejo.",
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 10,
+      "pregunta": "La condición necesaria para que la deuda aumente el ROE es:",
+      "opciones": {
+        "a": "Que la diferencia entre intereses e impuestos sea cero.",
+        "b": "Que la rentabilidad de los activos sea mayor que el coste de la deuda",
+        "c": "Que  la  proporción  de  deuda  sobre  fondos  propios  en  el  balance  sea negativa",
+        "d": "Que se calcule siempre después de impuestos."
+      },
+      "explicacion": "Para que el endeudamiento financiero genere un efecto apalancamiento positivo y logre incrementar la rentabilidad sobre los fondos propios (ROE) de los accionistas, es condición matemática indispensable que la rentabilidad económica generada por los activos operativos (ROI o ROA) sea estrictamente superior al coste financiero de la deuda ($K_d$). De lo contrario, el apalancamiento se vuelve negativo y destruye el patrimonio neto.\n\n**Ejemplo práctico:** Si tu negocio gana un 10% por cada euro invertido en activos y pagas al banco un 4% por el dinero prestado, la deuda multiplica la rentabilidad del socio; pero si el negocio rinde un 3% y el banco te cobra el 5%, la deuda devora el beneficio y hunde el ROE.",
+      "respuesta_correcta": "b"
+    }
+  ]
+}
