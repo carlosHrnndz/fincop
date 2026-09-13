@@ -31,12 +31,12 @@
       "pregunta": "El descuento comercial significa que:",
       "opciones": {
         "a": "Se considera generador de los intereses de un período el capital al principio de dicho período .",
-        "b": "Se considera generador de los intereses de un período el capital al final de dicho período.",
+        "b": "Se considera generador de los intereses de un período el capital al final de dicho período.",
         "c": "Se consideran sólo los intereses de un período para el capital final.",
         "d": "Se consideran sólo los intereses de un período para el capital inicial."
       },
-      "explicacion": "En el régimen de descuento comercial o bancario, los intereses de la operación se calculan directamente sobre el valor nominal o capital al final del periodo ($C_n$). Esta práctica financiera beneficia a la entidad prestamista, ya que aplica el tipo de descuento sobre el importe mayor futuro en lugar del importe efectivo menor adelantado.\n\n**Ejemplo práctico:** Si descuentas un pagaré con un valor nominal futuro de 10.000 € al 5%, el banco calcula el 5% sobre los 10.000 € completos (500 € de descuento), en lugar de aplicarlo sobre el dinero neto que realmente te transfiere.",
-      "respuesta_correcta": "b"
+      "explicacion": "En el régimen de descuento comercial (o bancario), la base de cálculo sobre la que se determinan los intereses de la operación es exclusivamente el capital final (el valor nominal a vencer $C_n$). De este modo, se consideran solo los intereses de un período calculados directamente para dicho capital final, a diferencia del descuento racional donde la base es el capital inicial o efectivo.\n\n**Ejemplo práctico:** Si una empresa descuenta una letra con un capital final (nominal) de 10.000 € a 6 meses al 5% de descuento comercial anual ($d = 0,05$): $$D_c = C_n \\cdot d \\cdot t = 10.000 \\cdot 0,05 \\cdot \\frac{6}{12} = 250\\text{ €}$$ El descuento se aplica íntegramente sobre el capital final de 10.000 €, recibiendo la empresa un efectivo líquido de $C_0 = 10.000 - 250 = 9.750\\text{ €}$.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 4,
