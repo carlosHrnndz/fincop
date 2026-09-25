@@ -20,6 +20,7 @@ class FinanzasQuizApp {
         this.allQuestions = [];
         this.questions = [];
         this.mode = 'quiz';
+        this.previousMode = 'quiz';
         this.selectedUnits = new Set();
         this.unitQuestionCounts = {};
         this.unitTitles = {};
@@ -162,6 +163,7 @@ class FinanzasQuizApp {
         this.setupSpeechTTS();
         this.bindEvents();
         this.setupSwipe();
+        this.updateModeToggleBtn();
     }
 
     // ===============================================
@@ -446,6 +448,7 @@ class FinanzasQuizApp {
                 if (this.synth) this.synth.cancel();
                 this.ui.quizApp.classList.add('hidden');
                 this.ui.splashScreen.classList.remove('hidden');
+                this.updateSelectedCount();
             });
         }
     }
@@ -497,9 +500,39 @@ class FinanzasQuizApp {
         if (this.ui.unitsSelectedBadge) {
             this.ui.unitsSelectedBadge.textContent = `${this.selectedUnits.size} de 20 seleccionadas`;
         }
+
+        if (this.ui.btnStart) {
+            if (this.mode === 'marked') {
+                const pCount = (this.modeData.quiz?.pendingQuestions || []).length;
+                this.ui.btnStart.textContent = pCount > 0 ? `📌 Repasar Marcadas (${pCount})` : '📌 Repasar Marcadas';
+            } else if (this.mode === 'exam') {
+                this.ui.btnStart.textContent = '⏱️ Comenzar Examen';
+            } else {
+                const answers = this.modeData.quiz?.userAnswers || {};
+                let answeredCount = 0;
+                let totalSelected = 0;
+                this.allQuestions.forEach(q => {
+                    if (this.selectedUnits.has(q.unidad)) {
+                        totalSelected++;
+                        if (answers[q.id]) answeredCount++;
+                    }
+                });
+
+                if (answeredCount > 0 && answeredCount < totalSelected) {
+                    this.ui.btnStart.textContent = `▶️ Continuar Test (${answeredCount}/${totalSelected} respondidas)`;
+                } else if (answeredCount > 0 && answeredCount === totalSelected && totalSelected > 0) {
+                    this.ui.btnStart.textContent = `🔄 Repasar Test (${totalSelected} completadas)`;
+                } else {
+                    this.ui.btnStart.textContent = '🚀 Comenzar Test';
+                }
+            }
+        }
     }
 
     setMode(mode) {
+        if (mode !== 'study') {
+            this.previousMode = mode;
+        }
         this.mode = mode;
         const descs = {
             quiz: 'Responde preguntas con corrección inmediata, explicaciones completas y fórmulas KaTeX.',
@@ -510,6 +543,53 @@ class FinanzasQuizApp {
         };
         if (this.ui.modeDescription) {
             this.ui.modeDescription.textContent = descs[mode] || '';
+        }
+        this.updateModeToggleBtn();
+        this.updateSelectedCount();
+    }
+
+    toggleStudyQuizMode() {
+        if (this.mode === 'study') {
+            this.mode = this.previousMode || 'quiz';
+        } else {
+            this.previousMode = this.mode;
+            this.mode = 'study';
+        }
+
+        // Keep mode buttons on splash in sync if present
+        if (this.ui.modeBtns) {
+            this.ui.modeBtns.forEach(b => {
+                b.classList.toggle('active', b.dataset.mode === this.mode);
+            });
+        }
+
+        const descs = {
+            quiz: 'Responde preguntas con corrección inmediata, explicaciones completas y fórmulas KaTeX.',
+            exam: 'Simulación de examen cronometrado con evaluación final acumulada.',
+            smart: 'Repaso inteligente (SRS): prioriza automáticamente las preguntas falladas y tus unidades más débiles.',
+            study: 'Modo lectura sin presión: visualiza las soluciones correctas y los ejemplos prácticos de inmediato.',
+            marked: 'Repasa exclusivamente las preguntas que has marcado con el pin 📌.'
+        };
+        if (this.ui.modeDescription) {
+            this.ui.modeDescription.textContent = descs[this.mode] || '';
+        }
+
+        this.updateModeToggleBtn();
+        this.renderQuestion();
+    }
+
+    updateModeToggleBtn() {
+        if (!this.ui.btnModeToggle) return;
+        if (this.mode === 'study') {
+            this.ui.btnModeToggle.textContent = '🎓';
+            this.ui.btnModeToggle.title = 'Modo Estudio activo (Clic para volver a Modo Quiz)';
+            this.ui.btnModeToggle.setAttribute('aria-label', 'Volver a Modo Quiz');
+            this.ui.btnModeToggle.classList.add('study-active');
+        } else {
+            this.ui.btnModeToggle.textContent = '📖';
+            this.ui.btnModeToggle.title = 'Modo Quiz activo (Clic para cambiar a Modo Estudio)';
+            this.ui.btnModeToggle.setAttribute('aria-label', 'Cambiar a Modo Estudio');
+            this.ui.btnModeToggle.classList.remove('study-active');
         }
     }
 
@@ -550,7 +630,23 @@ class FinanzasQuizApp {
         }
 
         this.questions = activeList;
-        this.currentQuestionIndex = 0;
+
+        // Resume at next unanswered question
+        if (this.mode === 'exam') {
+            this.currentQuestionIndex = 0;
+        } else {
+            const mData = this.modeData[this.mode] || this.modeData.quiz;
+            const answers = (mData.userAnswers && Object.keys(mData.userAnswers).length > 0)
+                ? mData.userAnswers
+                : (this.modeData.quiz?.userAnswers || {});
+            const firstUnanswered = this.questions.findIndex(q => !answers[q.id]);
+            this.currentQuestionIndex = (firstUnanswered !== -1) ? firstUnanswered : 0;
+        }
+
+        if (this.ui.btnNewExam) {
+            this.ui.btnNewExam.style.display = (this.mode === 'exam') ? 'inline-flex' : 'none';
+        }
+        this.updateModeToggleBtn();
 
         // Switch to Quiz App screen
         this.ui.splashScreen.classList.add('hidden');
@@ -572,10 +668,13 @@ class FinanzasQuizApp {
             this.ui.questionCounter.textContent = `${this.currentQuestionIndex + 1} / ${this.questions.length}`;
         }
         if (this.ui.unitBadge) {
-            this.ui.unitBadge.textContent = `Unidad ${q.unidad}`;
+            this.ui.unitBadge.textContent = this.mode === 'study' ? `Unidad ${q.unidad} · Estudio` : `Unidad ${q.unidad}`;
         }
         if (this.ui.scoreVal) {
-            this.ui.scoreVal.textContent = mData.score || 0;
+            const score = (typeof mData.score === 'number')
+                ? mData.score
+                : (this.modeData.quiz?.score || 0);
+            this.ui.scoreVal.textContent = score;
         }
 
         // Progress bar
@@ -584,9 +683,10 @@ class FinanzasQuizApp {
             this.ui.progressBar.style.width = `${pct}%`;
         }
 
-        // Reset scroll position
+        // Reset scroll position to top on question change
         const layout = document.querySelector('.quiz-content-layout');
         if (layout) layout.scrollTop = 0;
+        window.scrollTo(0, 0);
 
         // Question text
         if (this.ui.questionText) {
@@ -607,7 +707,7 @@ class FinanzasQuizApp {
         if (this.ui.optionsContainer) {
             this.ui.optionsContainer.innerHTML = '';
             const opts = q.opciones || {};
-            const savedAns = (mData.userAnswers && mData.userAnswers[q.id]) || null;
+            const savedAns = (mData.userAnswers && mData.userAnswers[q.id]) || (this.modeData.quiz?.userAnswers && this.modeData.quiz.userAnswers[q.id]) || null;
             const isStudy = (this.mode === 'study');
 
             ['a', 'b', 'c', 'd'].forEach(optKey => {
@@ -624,6 +724,7 @@ class FinanzasQuizApp {
                 // If already answered or in study mode
                 if (isStudy) {
                     if (optKey === q.respuesta_correcta) btn.classList.add('correct');
+                    else if (savedAns && optKey === savedAns) btn.classList.add('wrong');
                     btn.classList.add('disabled');
                 } else if (savedAns) {
                     btn.classList.add('disabled');
@@ -641,12 +742,12 @@ class FinanzasQuizApp {
             });
         }
 
-        // Feedback & explanation
-        const savedAnswer = (mData.userAnswers && mData.userAnswers[q.id]) || null;
+        // Feedback & explanation (autoScroll is false on question change/load)
+        const savedAnswer = (mData.userAnswers && mData.userAnswers[q.id]) || (this.modeData.quiz?.userAnswers && this.modeData.quiz.userAnswers[q.id]) || null;
         const placeholder = document.getElementById('study-placeholder');
         if (this.mode === 'study' || savedAnswer) {
             if (placeholder) placeholder.classList.add('hidden');
-            this.showFeedback(savedAnswer === q.respuesta_correcta, q);
+            this.showFeedback(savedAnswer === q.respuesta_correcta, q, false);
         } else {
             if (this.ui.feedbackArea) this.ui.feedbackArea.classList.add('hidden');
             if (placeholder) placeholder.classList.remove('hidden');
@@ -687,7 +788,7 @@ class FinanzasQuizApp {
             if (navigator.vibrate) navigator.vibrate([60, 40, 60]);
         }
 
-        this.showFeedback(isCorrect, q);
+        this.showFeedback(isCorrect, q, true);
         this.saveProgress();
         this.updateCounters();
 
@@ -706,7 +807,7 @@ class FinanzasQuizApp {
         }
     }
 
-    showFeedback(isCorrect, q) {
+    showFeedback(isCorrect, q, autoScroll = false) {
         const placeholder = document.getElementById('study-placeholder');
         if (placeholder) placeholder.classList.add('hidden');
         if (!this.ui.feedbackArea) return;
@@ -732,8 +833,8 @@ class FinanzasQuizApp {
         this.ui.explanationText.innerHTML = expText;
         this.renderMath(this.ui.explanationText);
 
-        // Auto-scroll to feedback on mobile / small screens
-        if (window.innerWidth <= 1024 && this.ui.feedbackArea) {
+        // Auto-scroll to feedback on mobile / small screens ONLY when answering
+        if (autoScroll && window.innerWidth <= 1024 && this.ui.feedbackArea) {
             setTimeout(() => {
                 this.ui.feedbackArea.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
             }, 120);
@@ -935,6 +1036,12 @@ class FinanzasQuizApp {
                 // M: mark
                 if (key === 'm') {
                     this.toggleMarkCurrent();
+                    return;
+                }
+
+                // E: toggle Modo Estudio / Modo Quiz
+                if (key === 'e') {
+                    this.toggleStudyQuizMode();
                     return;
                 }
             }
@@ -1154,6 +1261,14 @@ class FinanzasQuizApp {
         if (this.ui.btnNext) this.ui.btnNext.addEventListener('click', () => this.nextQuestion());
         if (this.ui.btnPrev) this.ui.btnPrev.addEventListener('click', () => this.prevQuestion());
         if (this.ui.btnMark) this.ui.btnMark.addEventListener('click', () => this.toggleMarkCurrent());
+        if (this.ui.btnModeToggle) this.ui.btnModeToggle.addEventListener('click', () => this.toggleStudyQuizMode());
+        if (this.ui.btnNewExam) {
+            this.ui.btnNewExam.addEventListener('click', () => {
+                if (confirm('¿Deseas reiniciar este examen con nuevas preguntas aleatorias?')) {
+                    this.startQuiz();
+                }
+            });
+        }
 
         // Marked modal
         if (this.ui.btnListMarked) {

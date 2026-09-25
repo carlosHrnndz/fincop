@@ -1,4 +1,4 @@
-const CACHE_NAME = 'finanzas-quiz-v4';
+const CACHE_NAME = 'finanzas-quiz-v5';
 const ASSETS = [
     './',
     './index.html',

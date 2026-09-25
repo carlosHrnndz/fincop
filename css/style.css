@@ -482,6 +482,22 @@ body {
     color: #ffffff;
 }
 
+.icon-btn.study-active,
+#btn-mode-toggle.study-active {
+    background: rgba(14, 165, 233, 0.22);
+    border-color: #0ea5e9;
+    color: #38bdf8;
+    box-shadow: 0 0 10px rgba(14, 165, 233, 0.45);
+}
+
+[data-theme="light"] .icon-btn.study-active,
+[data-theme="light"] #btn-mode-toggle.study-active {
+    background: rgba(2, 132, 199, 0.15);
+    border-color: #0284c7;
+    color: #0284c7;
+    box-shadow: 0 0 10px rgba(2, 132, 199, 0.35);
+}
+
 /* Quiz Meta Bar */
 .quiz-meta-bar {
     display: flex;
