@@ -29,13 +29,7 @@ class FinanzasQuizApp {
         this.currentQuestionIndex = 0;
 
         // Per-mode data
-        this.modeData = {
-            quiz: { userAnswers: {}, score: 0, currentQuestionIndex: 0, pendingQuestions: [], globalStats: { totalAttempts: 0, totalCorrect: 0, unitStats: {}, questionHistory: {} } },
-            exam: { userAnswers: {}, score: 0, currentQuestionIndex: 0, pendingQuestions: [] },
-            smart: { userAnswers: {}, score: 0, currentQuestionIndex: 0, pendingQuestions: [] },
-            study: { currentQuestionIndex: 0 },
-            marked: { currentQuestionIndex: 0 }
-        };
+        this.modeData = this.getDefaultModeData();
 
         // Calculator state
         this.calcExpression = '';
@@ -244,6 +238,93 @@ class FinanzasQuizApp {
         }
     }
 
+    getDefaultModeData() {
+        return {
+            quiz: {
+                userAnswers: {},
+                score: 0,
+                currentQuestionIndex: 0,
+                pendingQuestions: [],
+                globalStats: {
+                    totalAttempts: 0,
+                    totalCorrect: 0,
+                    unitStats: {},
+                    questionHistory: {}
+                }
+            },
+            exam: {
+                userAnswers: {},
+                score: 0,
+                currentQuestionIndex: 0,
+                pendingQuestions: []
+            },
+            smart: {
+                userAnswers: {},
+                score: 0,
+                currentQuestionIndex: 0,
+                pendingQuestions: []
+            },
+            study: {
+                currentQuestionIndex: 0
+            },
+            marked: {
+                currentQuestionIndex: 0
+            }
+        };
+    }
+
+    sanitizeModeData(dataModeData) {
+        const def = this.getDefaultModeData();
+        if (!dataModeData || typeof dataModeData !== 'object') return def;
+
+        const result = { ...def };
+        for (const modeKey of ['quiz', 'exam', 'smart', 'study', 'marked']) {
+            if (dataModeData[modeKey] && typeof dataModeData[modeKey] === 'object') {
+                result[modeKey] = {
+                    ...def[modeKey],
+                    ...dataModeData[modeKey]
+                };
+                result[modeKey].userAnswers = (dataModeData[modeKey].userAnswers && typeof dataModeData[modeKey].userAnswers === 'object')
+                    ? { ...dataModeData[modeKey].userAnswers }
+                    : {};
+                result[modeKey].pendingQuestions = Array.isArray(dataModeData[modeKey].pendingQuestions)
+                    ? [...dataModeData[modeKey].pendingQuestions]
+                    : [];
+                if (typeof dataModeData[modeKey].score === 'number') {
+                    result[modeKey].score = dataModeData[modeKey].score;
+                }
+            }
+        }
+
+        // Guarantee quiz.globalStats and its sub-objects
+        const qStats = (dataModeData.quiz && dataModeData.quiz.globalStats && typeof dataModeData.quiz.globalStats === 'object')
+            ? dataModeData.quiz.globalStats
+            : {};
+        result.quiz.globalStats = {
+            totalAttempts: Number(qStats.totalAttempts) || 0,
+            totalCorrect: Number(qStats.totalCorrect) || 0,
+            unitStats: (qStats.unitStats && typeof qStats.unitStats === 'object') ? { ...qStats.unitStats } : {},
+            questionHistory: (qStats.questionHistory && typeof qStats.questionHistory === 'object') ? { ...qStats.questionHistory } : {}
+        };
+
+        return result;
+    }
+
+    recalculateScore(mode = 'quiz') {
+        const mData = this.modeData[mode] || this.modeData.quiz;
+        if (!mData || !mData.userAnswers) return 0;
+        let correctCount = 0;
+        const questionsById = {};
+        this.allQuestions.forEach(q => { questionsById[q.id] = q; });
+        Object.entries(mData.userAnswers).forEach(([qid, ans]) => {
+            if (questionsById[qid] && questionsById[qid].respuesta_correcta === ans) {
+                correctCount++;
+            }
+        });
+        mData.score = correctCount;
+        return correctCount;
+    }
+
     loadStoredSessionCode() {
         const stored = localStorage.getItem('finanzas_session_code') || '';
         if (stored) {
@@ -281,19 +362,15 @@ class FinanzasQuizApp {
 
     async loadProgress() {
         let loaded = false;
+        let remoteData = null;
+
         // 1. Try Firebase if configured
         if (this.firebaseInitialized && this.sessionCode) {
             try {
                 const snap = await this.db.ref(`finanzas_sessions/${this.sessionCode}`).once('value');
                 if (snap.exists()) {
-                    const data = snap.val();
-                    if (data && data.modeData) {
-                        this.modeData = { ...this.modeData, ...data.modeData };
-                        if (data.selectedUnits && Array.isArray(data.selectedUnits)) {
-                            this.selectedUnits = new Set(data.selectedUnits);
-                        }
-                        loaded = true;
-                    }
+                    remoteData = snap.val();
+                    loaded = true;
                 }
             } catch (err) {
                 console.warn('Firebase load error:', err);
@@ -305,17 +382,28 @@ class FinanzasQuizApp {
             const local = localStorage.getItem(`finanzas_progress_${this.sessionCode || 'guest'}`);
             if (local) {
                 try {
-                    const data = JSON.parse(local);
-                    if (data && data.modeData) {
-                        this.modeData = { ...this.modeData, ...data.modeData };
-                        if (data.selectedUnits && Array.isArray(data.selectedUnits)) {
-                            this.selectedUnits = new Set(data.selectedUnits);
-                        }
-                        loaded = true;
-                    }
+                    remoteData = JSON.parse(local);
+                    if (remoteData) loaded = true;
                 } catch (e) {}
             }
         }
+
+        if (loaded && remoteData) {
+            this.modeData = this.sanitizeModeData(remoteData.modeData);
+            if (remoteData.selectedUnits && Array.isArray(remoteData.selectedUnits) && remoteData.selectedUnits.length > 0) {
+                this.selectedUnits = new Set(remoteData.selectedUnits.map(Number));
+            } else {
+                this.selectedUnits = new Set(Object.keys(this.unitQuestionCounts).map(Number));
+            }
+        } else {
+            // New user / empty session: clean slate!
+            this.modeData = this.getDefaultModeData();
+            this.selectedUnits = new Set(Object.keys(this.unitQuestionCounts).map(Number));
+            await this.saveProgress();
+        }
+
+        // Guarantee score is 100% synchronized with userAnswers
+        this.recalculateScore('quiz');
 
         this.renderUnitGrid();
         this.updateSelectedCount();
@@ -324,18 +412,13 @@ class FinanzasQuizApp {
     }
 
     resetProgress() {
-        if (!confirm('¿Seguro que deseas resetear todo el progreso guardado?')) return;
-        this.modeData = {
-            quiz: { userAnswers: {}, score: 0, currentQuestionIndex: 0, pendingQuestions: [], globalStats: { totalAttempts: 0, totalCorrect: 0, unitStats: {}, questionHistory: {} } },
-            exam: { userAnswers: {}, score: 0, currentQuestionIndex: 0, pendingQuestions: [] },
-            smart: { userAnswers: {}, score: 0, currentQuestionIndex: 0, pendingQuestions: [] },
-            study: { currentQuestionIndex: 0 },
-            marked: { currentQuestionIndex: 0 }
-        };
+        if (!confirm(`¿Seguro que deseas reiniciar todo el progreso guardado para "${this.sessionCode || 'invitado'}"?`)) return;
+        this.modeData = this.getDefaultModeData();
         this.saveProgress();
         this.updateCounters();
+        this.updateSelectedCount();
         if (this.ui.modalStats) this.ui.modalStats.classList.add('hidden');
-        alert('Progreso reseteado correctamente.');
+        alert('Progreso reiniciado correctamente.');
     }
 
     // ===============================================
@@ -400,7 +483,18 @@ class FinanzasQuizApp {
             this.ui.btnLoadSession.addEventListener('click', async () => {
                 this.saveSessionCode();
                 const ok = await this.loadProgress();
-                alert(ok ? '✅ Sesión cargada con éxito' : 'No se encontraron datos previos para este código.');
+                alert(ok ? `✅ Sesión cargada con éxito para "${this.sessionCode}"` : `🆕 Nueva sesión iniciada para "${this.sessionCode}"`);
+            });
+        }
+
+        if (this.ui.sessionCodeInput) {
+            this.ui.sessionCodeInput.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
+                    if (this.ui.btnLoadSession) this.ui.btnLoadSession.click();
+                }
+            });
+            this.ui.sessionCodeInput.addEventListener('change', () => {
+                if (this.ui.btnLoadSession) this.ui.btnLoadSession.click();
             });
         }
 
@@ -631,6 +725,15 @@ class FinanzasQuizApp {
 
         this.questions = activeList;
 
+        if (this.ui.sessionCodeInput) {
+            const currentInput = this.ui.sessionCodeInput.value.trim().toLowerCase();
+            if (currentInput && currentInput !== this.sessionCode) {
+                this.sessionCode = currentInput;
+                localStorage.setItem('finanzas_session_code', currentInput);
+            }
+        }
+        this.recalculateScore(this.mode);
+
         // Resume at next unanswered question
         if (this.mode === 'exam') {
             this.currentQuestionIndex = 0;
@@ -769,23 +872,34 @@ class FinanzasQuizApp {
         const isCorrect = (selectedKey === q.respuesta_correcta);
         mData.userAnswers[q.id] = selectedKey;
 
-        // Update stats
+        // Defensive stats handling: guarantee globalStats, questionHistory, unitStats exist
+        if (!this.modeData.quiz) this.modeData.quiz = this.getDefaultModeData().quiz;
+        if (!this.modeData.quiz.globalStats) {
+            this.modeData.quiz.globalStats = { totalAttempts: 0, totalCorrect: 0, unitStats: {}, questionHistory: {} };
+        }
         const gStats = this.modeData.quiz.globalStats;
-        gStats.totalAttempts++;
-        if (!gStats.questionHistory[q.id]) gStats.questionHistory[q.id] = { correct: 0, wrong: 0 };
+        if (!gStats.questionHistory || typeof gStats.questionHistory !== 'object') gStats.questionHistory = {};
+        if (!gStats.unitStats || typeof gStats.unitStats !== 'object') gStats.unitStats = {};
 
+        gStats.totalAttempts = (gStats.totalAttempts || 0) + 1;
+        if (!gStats.questionHistory[q.id]) gStats.questionHistory[q.id] = { correct: 0, wrong: 0 };
         if (!gStats.unitStats[q.unidad]) gStats.unitStats[q.unidad] = { total: 0, correct: 0 };
-        gStats.unitStats[q.unidad].total++;
+        gStats.unitStats[q.unidad].total = (gStats.unitStats[q.unidad].total || 0) + 1;
 
         if (isCorrect) {
             mData.score = (mData.score || 0) + 1;
-            gStats.totalCorrect++;
-            gStats.questionHistory[q.id].correct++;
-            gStats.unitStats[q.unidad].correct++;
+            gStats.totalCorrect = (gStats.totalCorrect || 0) + 1;
+            gStats.questionHistory[q.id].correct = (gStats.questionHistory[q.id].correct || 0) + 1;
+            gStats.unitStats[q.unidad].correct = (gStats.unitStats[q.unidad].correct || 0) + 1;
             if (navigator.vibrate) navigator.vibrate(40);
         } else {
-            gStats.questionHistory[q.id].wrong++;
+            gStats.questionHistory[q.id].wrong = (gStats.questionHistory[q.id].wrong || 0) + 1;
             if (navigator.vibrate) navigator.vibrate([60, 40, 60]);
+        }
+
+        // Update score in header IMMEDIATELY
+        if (this.ui.scoreVal) {
+            this.ui.scoreVal.textContent = mData.score || 0;
         }
 
         this.showFeedback(isCorrect, q, true);
@@ -1164,7 +1278,7 @@ class FinanzasQuizApp {
     // STATS & LEADERBOARD
     // ===============================================
     showStats() {
-        const stats = this.modeData.quiz.globalStats;
+        const stats = (this.modeData.quiz && this.modeData.quiz.globalStats) || { totalAttempts: 0, totalCorrect: 0, unitStats: {}, questionHistory: {} };
         const acc = stats.totalAttempts > 0 ? Math.round((stats.totalCorrect / stats.totalAttempts) * 100) : 0;
         if (this.ui.statGlobalAccuracy) this.ui.statGlobalAccuracy.textContent = `${acc}%`;
         if (this.ui.statTotalAnswered) this.ui.statTotalAnswered.textContent = stats.totalAttempts;
